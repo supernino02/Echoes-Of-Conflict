@@ -17,15 +17,25 @@ The interface features an interactive 3D globe that offers different visual pers
 By clicking on specific category instances—either directly on the globe or within the auxiliary plots below it—users can open a detailed, data-driven modal containing in-depth explanations and specialized charts for that specific entity.
 
 ### Interface Overview
-
-**1. Base Navigation and Timeline**
-![Main Globe Interface](./readme_images/base_globe_interface.png)
-
-**2. Visualizing Specific Categories (e.g., Terrorist Groups)**
-![Groups Distribution View](./readme_images/groups_distribution_view.png)
-
-**3. Tracking Trends Over Time (e.g., Attack Types)**
-![Attacks Choropleth View](./readme_images/attacks_choropleth_view.png)
-
-**4. In-Depth Detailed Explanations**
-![Detailed In-Depth Modal](./readme_images/detailed_explanation_modal.png)
+<table align="center">
+  <tr>
+    <td align="center"><b>1. Base Navigation and Timeline</b></td>
+    <td align="center"><b>2. Visualizing Terrorist Groups</b></td>
+    <td align="center"><b>3. Tracking Attack Trends</b></td>
+    <td align="center"><b>4. In-Depth Details</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./readme_images/base_globe_interface.png" alt="Main Globe Interface" width="100%">
+    </td>
+    <td align="center">
+      <img src="./readme_images/groups_distribution_view.png" alt="Groups Distribution View" width="100%">
+    </td>
+    <td align="center">
+      <img src="./readme_images/attacks_choropleth_view.png" alt="Attacks Choropleth View" width="100%">
+    </td>
+    <td align="center">
+      <img src="./readme_images/detailed_explanation_modal.png" alt="Detailed In-Depth Modal" width="100%">
+    </td>
+  </tr>
+</table>
