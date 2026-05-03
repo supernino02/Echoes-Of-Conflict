@@ -1,0 +1,7806 @@
+{
+    "1974": [
+        {
+            "Algeria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Andorra": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 83,
+                "target": "business"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Botswana": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Brunei": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "East Germany (GDR)": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "France": {
+                "attacks": 17,
+                "target": "business"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 13,
+                "target": "business"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 10,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 13,
+                "target": "business"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 13,
+                "target": "business"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "North Yemen": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "People's Republic of the Congo": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 10,
+                "target": "military_police"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Singapore": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 29,
+                "target": "business"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 22,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 326,
+                "target": "military_police"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 273,
+                "target": "business"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 17,
+                "target": "business"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 8,
+                "target": "business"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Germany (FRG)": {
+                "attacks": 34,
+                "target": "business"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 2,
+                "target": "government"
+            }
+        }
+    ],
+    "1979": [
+        {
+            "Afghanistan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 52,
+                "target": "business"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 23,
+                "target": "business"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 117,
+                "target": "business"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "East Germany (GDR)": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 11,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 139,
+                "target": "government"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "France": {
+                "attacks": 146,
+                "target": "business"
+            }
+        },
+        {
+            "Gabon": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 50,
+                "target": "business"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 27,
+                "target": "government"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "India": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 35,
+                "target": "government"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 56,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 306,
+                "target": "business"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 23,
+                "target": "military_police"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 27,
+                "target": "government"
+            }
+        },
+        {
+            "Lesotho": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mauritania": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 49,
+                "target": "business"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 17,
+                "target": "military_police"
+            }
+        },
+        {
+            "Namibia": {
+                "attacks": 11,
+                "target": "citizens"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 96,
+                "target": "business"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "North Yemen": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "People's Republic of the Congo": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 20,
+                "target": "military_police"
+            }
+        },
+        {
+            "Poland": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 20,
+                "target": "government"
+            }
+        },
+        {
+            "Rhodesia": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 21,
+                "target": "military_police"
+            }
+        },
+        {
+            "Soviet Union": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 259,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 13,
+                "target": "military_police"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 9,
+                "target": "military_police"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 138,
+                "target": "government"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "United Arab Emirates": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 276,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 193,
+                "target": "business"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 11,
+                "target": "government"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "West Germany (FRG)": {
+                "attacks": 39,
+                "target": "military_police"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 3,
+                "target": "transportations"
+            }
+        }
+    ],
+    "1984": [
+        {
+            "Albania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 24,
+                "target": "citizens"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Bahamas": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 14,
+                "target": "government"
+            }
+        },
+        {
+            "Belize": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 27,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 13,
+                "target": "government"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Burkina Faso": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 146,
+                "target": "business"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 291,
+                "target": "military_police"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Dominica": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "East Germany (GDR)": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 15,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 891,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "France": {
+                "attacks": 147,
+                "target": "business"
+            }
+        },
+        {
+            "French Guiana": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 32,
+                "target": "business"
+            }
+        },
+        {
+            "Grenada": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Guadeloupe": {
+                "attacks": 13,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 424,
+                "target": "military_police"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 28,
+                "target": "government"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Iceland": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "India": {
+                "attacks": 63,
+                "target": "transportations"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 59,
+                "target": "government"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 68,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 58,
+                "target": "government"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 9,
+                "target": "military_police"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 260,
+                "target": "military_police"
+            }
+        },
+        {
+            "Lesotho": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Luxembourg": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Martinique": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 11,
+                "target": "transportations"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Namibia": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "New Caledonia": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 506,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "North Yemen": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 11,
+                "target": "business"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "People's Republic of the Congo": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 376,
+                "target": "citizens"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 48,
+                "target": "business"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Rhodesia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Romania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 59,
+                "target": "government"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 235,
+                "target": "business"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 39,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Suriname": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 38,
+                "target": "military_police"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 36,
+                "target": "business"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 12,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Arab Emirates": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 310,
+                "target": "military_police"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 84,
+                "target": "business"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 70,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Germany (FRG)": {
+                "attacks": 33,
+                "target": "military_police"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        }
+    ],
+    "1989": [
+        {
+            "Afghanistan": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 83,
+                "target": "government"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 42,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 14,
+                "target": "business"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 41,
+                "target": "government"
+            }
+        },
+        {
+            "Botswana": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 202,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 599,
+                "target": "military_police"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Czechoslovakia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "East Germany (GDR)": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 15,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 530,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Fiji": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "France": {
+                "attacks": 105,
+                "target": "government"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 62,
+                "target": "government"
+            }
+        },
+        {
+            "Guadeloupe": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 117,
+                "target": "military_police"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 23,
+                "target": "military_police"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Iceland": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "India": {
+                "attacks": 338,
+                "target": "citizens"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 20,
+                "target": "business"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 77,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 22,
+                "target": "business"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 15,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 2,
+                "target": "transportations"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 6,
+                "target": "business"
+            }
+        },
+        {
+            "Laos": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 176,
+                "target": "military_police"
+            }
+        },
+        {
+            "Luxembourg": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 7,
+                "target": "transportations"
+            }
+        },
+        {
+            "Maldives": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Martinique": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Mauritius": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 34,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 15,
+                "target": "citizens"
+            }
+        },
+        {
+            "Namibia": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 9,
+                "target": "business"
+            }
+        },
+        {
+            "New Caledonia": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 436,
+                "target": "military_police"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "North Yemen": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 55,
+                "target": "citizens"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 546,
+                "target": "government"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 276,
+                "target": "military_police"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Romania": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Singapore": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 299,
+                "target": "military_police"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Soviet Union": {
+                "attacks": 3,
+                "target": "transportations"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 237,
+                "target": "business"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 472,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Suriname": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Togo": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 73,
+                "target": "citizens"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 11,
+                "target": "government"
+            }
+        },
+        {
+            "United Arab Emirates": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 273,
+                "target": "military_police"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 53,
+                "target": "business"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 14,
+                "target": "military_police"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 86,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Germany (FRG)": {
+                "attacks": 50,
+                "target": "business"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 10,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        }
+    ],
+    "1994": [
+        {
+            "Afghanistan": {
+                "attacks": 24,
+                "target": "government"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 214,
+                "target": "military_police"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 33,
+                "target": "citizens"
+            }
+        },
+        {
+            "Antigua and Barbuda": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 39,
+                "target": "business"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 63,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belize": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Benin": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 20,
+                "target": "government"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 16,
+                "target": "government"
+            }
+        },
+        {
+            "Botswana": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 21,
+                "target": "business"
+            }
+        },
+        {
+            "Brunei": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Burkina Faso": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 34,
+                "target": "government"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 82,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 8,
+                "target": "transportations"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 425,
+                "target": "military_police"
+            }
+        },
+        {
+            "Comoros": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 16,
+                "target": "military_police"
+            }
+        },
+        {
+            "Cuba": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 10,
+                "target": "business"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Czechoslovakia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 11,
+                "target": "citizens"
+            }
+        },
+        {
+            "East Germany (GDR)": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 28,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 142,
+                "target": "military_police"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 320,
+                "target": "military_police"
+            }
+        },
+        {
+            "Equatorial Guinea": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Estonia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Fiji": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Finland": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "France": {
+                "attacks": 156,
+                "target": "business"
+            }
+        },
+        {
+            "Gambia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 18,
+                "target": "military_police"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 127,
+                "target": "business"
+            }
+        },
+        {
+            "Ghana": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 53,
+                "target": "business"
+            }
+        },
+        {
+            "Guadeloupe": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 71,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 29,
+                "target": "citizens"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 17,
+                "target": "government"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "India": {
+                "attacks": 325,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 9,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 26,
+                "target": "government"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 23,
+                "target": "government"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 22,
+                "target": "business"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 104,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 29,
+                "target": "business"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 41,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 7,
+                "target": "business"
+            }
+        },
+        {
+            "Laos": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Latvia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 72,
+                "target": "military_police"
+            }
+        },
+        {
+            "Lesotho": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Liberia": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Lithuania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Luxembourg": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Malawi": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 15,
+                "target": "business"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 27,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 17,
+                "target": "citizens"
+            }
+        },
+        {
+            "Namibia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 13,
+                "target": "government"
+            }
+        },
+        {
+            "New Caledonia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 52,
+                "target": "government"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "North Korea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 162,
+                "target": "citizens"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 21,
+                "target": "government"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 13,
+                "target": "military_police"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 383,
+                "target": "business"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 235,
+                "target": "military_police"
+            }
+        },
+        {
+            "Poland": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Republic of the Congo": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Romania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 17,
+                "target": "government"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 19,
+                "target": "government"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Sierra Leone": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "Singapore": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Slovak Republic": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 45,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 278,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Soviet Union": {
+                "attacks": 19,
+                "target": "military_police"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 118,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 217,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Suriname": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 10,
+                "target": "citizens"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 11,
+                "target": "transportations"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 17,
+                "target": "military_police"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 17,
+                "target": "government"
+            }
+        },
+        {
+            "Togo": {
+                "attacks": 22,
+                "target": "government"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 539,
+                "target": "military_police"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "United Arab Emirates": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 301,
+                "target": "business"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 28,
+                "target": "business"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Uzbekistan": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Vietnam": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Wallis and Futuna": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 231,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Germany (FRG)": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Western Sahara": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 26,
+                "target": "government"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 12,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 2,
+                "target": "government"
+            }
+        }
+    ],
+    "1999": [
+        {
+            "Afghanistan": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 20,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 455,
+                "target": "citizens"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 38,
+                "target": "citizens"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 18,
+                "target": "government"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Bahamas": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 24,
+                "target": "business"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 101,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Benin": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 24,
+                "target": "government"
+            }
+        },
+        {
+            "Botswana": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 26,
+                "target": "business"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 98,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 44,
+                "target": "transportations"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "China": {
+                "attacks": 58,
+                "target": "transportations"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 318,
+                "target": "citizens"
+            }
+        },
+        {
+            "Comoros": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Cuba": {
+                "attacks": 11,
+                "target": "business"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 6,
+                "target": "business"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Dominica": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 102,
+                "target": "military_police"
+            }
+        },
+        {
+            "El Salvador": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "Eritrea": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Estonia": {
+                "attacks": 2,
+                "target": "transportations"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 7,
+                "target": "business"
+            }
+        },
+        {
+            "Fiji": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Finland": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "France": {
+                "attacks": 201,
+                "target": "government"
+            }
+        },
+        {
+            "French Guiana": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "French Polynesia": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Gabon": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Gambia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 18,
+                "target": "government"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 131,
+                "target": "business"
+            }
+        },
+        {
+            "Ghana": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 46,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 51,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 27,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 19,
+                "target": "government"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 21,
+                "target": "business"
+            }
+        },
+        {
+            "India": {
+                "attacks": 218,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 45,
+                "target": "citizens"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 25,
+                "target": "government"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 26,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kyrgyzstan": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Laos": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Latvia": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 72,
+                "target": "military_police"
+            }
+        },
+        {
+            "Liberia": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Lithuania": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Macau": {
+                "attacks": 14,
+                "target": "business"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 80,
+                "target": "citizens"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 9,
+                "target": "military_police"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 7,
+                "target": "business"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 19,
+                "target": "government"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 13,
+                "target": "business"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 465,
+                "target": "citizens"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 13,
+                "target": "transportations"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 45,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 64,
+                "target": "citizens"
+            }
+        },
+        {
+            "Poland": {
+                "attacks": 6,
+                "target": "business"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Republic of the Congo": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Romania": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 63,
+                "target": "government"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 35,
+                "target": "citizens"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 12,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sierra Leone": {
+                "attacks": 12,
+                "target": "citizens"
+            }
+        },
+        {
+            "Slovak Republic": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Slovenia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Solomon Islands": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 16,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 52,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 72,
+                "target": "business"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 222,
+                "target": "military_police"
+            }
+        },
+        {
+            "St. Kitts and Nevis": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Suriname": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 50,
+                "target": "military_police"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 18,
+                "target": "citizens"
+            }
+        },
+        {
+            "Togo": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 79,
+                "target": "business"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 46,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 106,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 51,
+                "target": "business"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Uzbekistan": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Vanuatu": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 18,
+                "target": "transportations"
+            }
+        },
+        {
+            "Vietnam": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 52,
+                "target": "military_police"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 20,
+                "target": "government"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 60,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zaire": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 2,
+                "target": "government"
+            }
+        }
+    ],
+    "2004": [
+        {
+            "Afghanistan": {
+                "attacks": 76,
+                "target": "military_police"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 237,
+                "target": "citizens"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 43,
+                "target": "citizens"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 17,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Belize": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 45,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 198,
+                "target": "citizens"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "East Timor": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 2,
+                "target": "transportations"
+            }
+        },
+        {
+            "Fiji": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "France": {
+                "attacks": 42,
+                "target": "business"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 10,
+                "target": "government"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 30,
+                "target": "business"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guinea-Bissau": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 11,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "India": {
+                "attacks": 301,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 71,
+                "target": "citizens"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 161,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 92,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 14,
+                "target": "government"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 46,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kyrgyzstan": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Laos": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Latvia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Liberia": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 43,
+                "target": "military_police"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mauritania": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Montenegro": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 1,
+                "target": "transportations"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Namibia": {
+                "attacks": 21,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 61,
+                "target": "government"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 9,
+                "target": "business"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 55,
+                "target": "citizens"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 113,
+                "target": "citizens"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Republic of the Congo": {
+                "attacks": 3,
+                "target": "transportations"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 214,
+                "target": "military_police"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 13,
+                "target": "business"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Serbia-Montenegro": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sierra Leone": {
+                "attacks": 11,
+                "target": "government"
+            }
+        },
+        {
+            "Slovak Republic": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Slovenia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Solomon Islands": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 7,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 8,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 88,
+                "target": "business"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 47,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 17,
+                "target": "citizens"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 30,
+                "target": "military_police"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 27,
+                "target": "business"
+            }
+        },
+        {
+            "Turkmenistan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 62,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 93,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 70,
+                "target": "business"
+            }
+        },
+        {
+            "Uzbekistan": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 184,
+                "target": "citizens"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Yugoslavia": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        }
+    ],
+    "2009": [
+        {
+            "Afghanistan": {
+                "attacks": 478,
+                "target": "military_police"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 350,
+                "target": "military_police"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 28,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Benin": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bhutan": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 8,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 15,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 11,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 98,
+                "target": "citizens"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 68,
+                "target": "citizens"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "East Timor": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Equatorial Guinea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Eritrea": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 10,
+                "target": "business"
+            }
+        },
+        {
+            "Finland": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "France": {
+                "attacks": 30,
+                "target": "citizens"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 25,
+                "target": "military_police"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 96,
+                "target": "business"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Guinea-Bissau": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Hong Kong": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "India": {
+                "attacks": 544,
+                "target": "citizens"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 17,
+                "target": "citizens"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 1802,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 255,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 14,
+                "target": "government"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Kyrgyzstan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Latvia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 36,
+                "target": "citizens"
+            }
+        },
+        {
+            "Lesotho": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Liberia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Maldives": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 14,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mauritania": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 10,
+                "target": "military_police"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 15,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 136,
+                "target": "citizens"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 78,
+                "target": "business"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 517,
+                "target": "citizens"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 8,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 185,
+                "target": "citizens"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Romania": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 176,
+                "target": "military_police"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Serbia": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Serbia-Montenegro": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 156,
+                "target": "government"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 36,
+                "target": "business"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 203,
+                "target": "military_police"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 52,
+                "target": "citizens"
+            }
+        },
+        {
+            "Swaziland": {
+                "attacks": 2,
+                "target": "transportations"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 500,
+                "target": "citizens"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 45,
+                "target": "military_police"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 15,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 33,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Uzbekistan": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 98,
+                "target": "citizens"
+            }
+        },
+        {
+            "Western Sahara": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 16,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        }
+    ],
+    "2014": [
+        {
+            "Afghanistan": {
+                "attacks": 2826,
+                "target": "military_police"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 111,
+                "target": "military_police"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 5,
+                "target": "government"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 51,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 102,
+                "target": "government"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belize": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Bhutan": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Burkina Faso": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 15,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 39,
+                "target": "citizens"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 65,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 14,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 21,
+                "target": "military_police"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 238,
+                "target": "military_police"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 2,
+                "target": "transportations"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 103,
+                "target": "citizens"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Dominican Republic": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 453,
+                "target": "military_police"
+            }
+        },
+        {
+            "Eritrea": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Estonia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "France": {
+                "attacks": 68,
+                "target": "citizens"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 8,
+                "target": "government"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 75,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Guinea-Bissau": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Iceland": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "India": {
+                "attacks": 896,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 53,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 33,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 3730,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 51,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 249,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 15,
+                "target": "government"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Jamaica": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 6,
+                "target": "government"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 113,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 8,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kyrgyzstan": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 124,
+                "target": "citizens"
+            }
+        },
+        {
+            "Liberia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 402,
+                "target": "military_police"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Maldives": {
+                "attacks": 8,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 44,
+                "target": "government"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mauritania": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 8,
+                "target": "business"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 18,
+                "target": "military_police"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 16,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 48,
+                "target": "government"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 9,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 709,
+                "target": "citizens"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 2111,
+                "target": "military_police"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 11,
+                "target": "business"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 17,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 614,
+                "target": "military_police"
+            }
+        },
+        {
+            "Poland": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Republic of the Congo": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 316,
+                "target": "military_police"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 13,
+                "target": "citizens"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 21,
+                "target": "military_police"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 14,
+                "target": "military_police"
+            }
+        },
+        {
+            "Serbia": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 891,
+                "target": "military_police"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 16,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Sudan": {
+                "attacks": 20,
+                "target": "citizens"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 9,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 147,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 266,
+                "target": "citizens"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 556,
+                "target": "military_police"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 40,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 158,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkmenistan": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 3,
+                "target": "business"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 538,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Arab Emirates": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 166,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 19,
+                "target": "citizens"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 83,
+                "target": "citizens"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 799,
+                "target": "military_police"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        }
+    ],
+    "2019": [
+        {
+            "Afghanistan": {
+                "attacks": 4373,
+                "target": "military_police"
+            }
+        },
+        {
+            "Albania": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 23,
+                "target": "military_police"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Armenia": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Azerbaijan": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Bahrain": {
+                "attacks": 27,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 134,
+                "target": "citizens"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 5,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bosnia-Herzegovina": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Burkina Faso": {
+                "attacks": 126,
+                "target": "military_police"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 76,
+                "target": "military_police"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 242,
+                "target": "citizens"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 10,
+                "target": "citizens"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 97,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 31,
+                "target": "citizens"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 45,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 294,
+                "target": "military_police"
+            }
+        },
+        {
+            "Comoros": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Costa Rica": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Czech Republic": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 462,
+                "target": "citizens"
+            }
+        },
+        {
+            "Denmark": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Djibouti": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 10,
+                "target": "military_police"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 760,
+                "target": "military_police"
+            }
+        },
+        {
+            "Estonia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 34,
+                "target": "citizens"
+            }
+        },
+        {
+            "Finland": {
+                "attacks": 13,
+                "target": "citizens"
+            }
+        },
+        {
+            "France": {
+                "attacks": 37,
+                "target": "business"
+            }
+        },
+        {
+            "Gabon": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 106,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ghana": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 54,
+                "target": "government"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Guinea": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Hungary": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "India": {
+                "attacks": 1413,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 57,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 35,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 4247,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 31,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 122,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 15,
+                "target": "military_police"
+            }
+        },
+        {
+            "Japan": {
+                "attacks": 7,
+                "target": "transportations"
+            }
+        },
+        {
+            "Jordan": {
+                "attacks": 9,
+                "target": "government"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 147,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kuwait": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kyrgyzstan": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Laos": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 39,
+                "target": "citizens"
+            }
+        },
+        {
+            "Lesotho": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 458,
+                "target": "citizens"
+            }
+        },
+        {
+            "Lithuania": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Macedonia": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Madagascar": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Malawi": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 11,
+                "target": "citizens"
+            }
+        },
+        {
+            "Maldives": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 235,
+                "target": "military_police"
+            }
+        },
+        {
+            "Malta": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Mauritania": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 16,
+                "target": "government"
+            }
+        },
+        {
+            "Moldova": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Montenegro": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Morocco": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 182,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 144,
+                "target": "military_police"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 132,
+                "target": "government"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "New Caledonia": {
+                "attacks": 20,
+                "target": "business"
+            }
+        },
+        {
+            "New Zealand": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 64,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 1628,
+                "target": "citizens"
+            }
+        },
+        {
+            "Norway": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 1346,
+                "target": "military_police"
+            }
+        },
+        {
+            "Panama": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Papua New Guinea": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 20,
+                "target": "business"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 1185,
+                "target": "military_police"
+            }
+        },
+        {
+            "Poland": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "Qatar": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Republic of the Congo": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 58,
+                "target": "military_police"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 7,
+                "target": "citizens"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 175,
+                "target": "military_police"
+            }
+        },
+        {
+            "Senegal": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sierra Leone": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 1323,
+                "target": "military_police"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 47,
+                "target": "government"
+            }
+        },
+        {
+            "South Korea": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "South Sudan": {
+                "attacks": 96,
+                "target": "citizens"
+            }
+        },
+        {
+            "Spain": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sri Lanka": {
+                "attacks": 26,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 374,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 59,
+                "target": "citizens"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 799,
+                "target": "citizens"
+            }
+        },
+        {
+            "Taiwan": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Tajikistan": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 413,
+                "target": "military_police"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 41,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 732,
+                "target": "military_police"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 17,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 384,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 284,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 94,
+                "target": "citizens"
+            }
+        },
+        {
+            "Uruguay": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Uzbekistan": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 16,
+                "target": "military_police"
+            }
+        },
+        {
+            "Vietnam": {
+                "attacks": 2,
+                "target": "military_police"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 355,
+                "target": "military_police"
+            }
+        },
+        {
+            "Western Sahara": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 1325,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zambia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 4,
+                "target": "government"
+            }
+        }
+    ],
+    "2024": [
+        {
+            "Afghanistan": {
+                "attacks": 1578,
+                "target": "military_police"
+            }
+        },
+        {
+            "Algeria": {
+                "attacks": 3,
+                "target": "military_police"
+            }
+        },
+        {
+            "Angola": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Argentina": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Australia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Austria": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bangladesh": {
+                "attacks": 11,
+                "target": "transportations"
+            }
+        },
+        {
+            "Belarus": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Belgium": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Benin": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Bolivia": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Brazil": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Bulgaria": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Burkina Faso": {
+                "attacks": 42,
+                "target": "citizens"
+            }
+        },
+        {
+            "Burundi": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cambodia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Cameroon": {
+                "attacks": 63,
+                "target": "citizens"
+            }
+        },
+        {
+            "Canada": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Central African Republic": {
+                "attacks": 12,
+                "target": "government"
+            }
+        },
+        {
+            "Chad": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Chile": {
+                "attacks": 20,
+                "target": "business"
+            }
+        },
+        {
+            "China": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "Colombia": {
+                "attacks": 77,
+                "target": "citizens"
+            }
+        },
+        {
+            "Croatia": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Cyprus": {
+                "attacks": 2,
+                "target": "business"
+            }
+        },
+        {
+            "Democratic Republic of the Congo": {
+                "attacks": 207,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ecuador": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Egypt": {
+                "attacks": 23,
+                "target": "citizens"
+            }
+        },
+        {
+            "Eritrea": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ethiopia": {
+                "attacks": 31,
+                "target": "citizens"
+            }
+        },
+        {
+            "France": {
+                "attacks": 6,
+                "target": "military_police"
+            }
+        },
+        {
+            "Georgia": {
+                "attacks": 1,
+                "target": "business"
+            }
+        },
+        {
+            "Germany": {
+                "attacks": 10,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ghana": {
+                "attacks": 4,
+                "target": "government"
+            }
+        },
+        {
+            "Greece": {
+                "attacks": 18,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guatemala": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Guyana": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Haiti": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Honduras": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "India": {
+                "attacks": 191,
+                "target": "military_police"
+            }
+        },
+        {
+            "Indonesia": {
+                "attacks": 8,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iran": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Iraq": {
+                "attacks": 358,
+                "target": "military_police"
+            }
+        },
+        {
+            "Ireland": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Israel": {
+                "attacks": 26,
+                "target": "citizens"
+            }
+        },
+        {
+            "Italy": {
+                "attacks": 4,
+                "target": "citizens"
+            }
+        },
+        {
+            "Ivory Coast": {
+                "attacks": 2,
+                "target": "government"
+            }
+        },
+        {
+            "Kazakhstan": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Kenya": {
+                "attacks": 29,
+                "target": "military_police"
+            }
+        },
+        {
+            "Kosovo": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Lebanon": {
+                "attacks": 7,
+                "target": "military_police"
+            }
+        },
+        {
+            "Libya": {
+                "attacks": 5,
+                "target": "citizens"
+            }
+        },
+        {
+            "Malaysia": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Maldives": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Mali": {
+                "attacks": 61,
+                "target": "military_police"
+            }
+        },
+        {
+            "Mexico": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Mozambique": {
+                "attacks": 167,
+                "target": "citizens"
+            }
+        },
+        {
+            "Myanmar": {
+                "attacks": 27,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nepal": {
+                "attacks": 13,
+                "target": "government"
+            }
+        },
+        {
+            "Netherlands": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "New Caledonia": {
+                "attacks": 4,
+                "target": "business"
+            }
+        },
+        {
+            "Nicaragua": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Niger": {
+                "attacks": 18,
+                "target": "citizens"
+            }
+        },
+        {
+            "Nigeria": {
+                "attacks": 273,
+                "target": "citizens"
+            }
+        },
+        {
+            "Pakistan": {
+                "attacks": 127,
+                "target": "military_police"
+            }
+        },
+        {
+            "Paraguay": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Peru": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Philippines": {
+                "attacks": 104,
+                "target": "military_police"
+            }
+        },
+        {
+            "Portugal": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Russia": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Rwanda": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        },
+        {
+            "Saudi Arabia": {
+                "attacks": 29,
+                "target": "citizens"
+            }
+        },
+        {
+            "Somalia": {
+                "attacks": 148,
+                "target": "military_police"
+            }
+        },
+        {
+            "South Africa": {
+                "attacks": 14,
+                "target": "citizens"
+            }
+        },
+        {
+            "South Sudan": {
+                "attacks": 6,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sudan": {
+                "attacks": 18,
+                "target": "citizens"
+            }
+        },
+        {
+            "Sweden": {
+                "attacks": 1,
+                "target": "citizens"
+            }
+        },
+        {
+            "Switzerland": {
+                "attacks": 2,
+                "target": "citizens"
+            }
+        },
+        {
+            "Syria": {
+                "attacks": 104,
+                "target": "military_police"
+            }
+        },
+        {
+            "Tanzania": {
+                "attacks": 3,
+                "target": "citizens"
+            }
+        },
+        {
+            "Thailand": {
+                "attacks": 23,
+                "target": "military_police"
+            }
+        },
+        {
+            "Trinidad and Tobago": {
+                "attacks": 1,
+                "target": "government"
+            }
+        },
+        {
+            "Tunisia": {
+                "attacks": 4,
+                "target": "military_police"
+            }
+        },
+        {
+            "Turkey": {
+                "attacks": 5,
+                "target": "business"
+            }
+        },
+        {
+            "Uganda": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "Ukraine": {
+                "attacks": 11,
+                "target": "military_police"
+            }
+        },
+        {
+            "United Kingdom": {
+                "attacks": 39,
+                "target": "citizens"
+            }
+        },
+        {
+            "United States": {
+                "attacks": 27,
+                "target": "military_police"
+            }
+        },
+        {
+            "Venezuela": {
+                "attacks": 3,
+                "target": "government"
+            }
+        },
+        {
+            "West Bank and Gaza Strip": {
+                "attacks": 27,
+                "target": "military_police"
+            }
+        },
+        {
+            "Yemen": {
+                "attacks": 203,
+                "target": "citizens"
+            }
+        },
+        {
+            "Zimbabwe": {
+                "attacks": 1,
+                "target": "military_police"
+            }
+        }
+    ]
+}

@@ -1,0 +1,429 @@
+/* ===========================
+   CSS Custom Properties
+   =========================== */
+:root {  
+  /* Colors */
+  --color-text: #212529;
+  --color-text-muted: #495057;
+  --color-background: #efefef;
+  --color-white: #fff;
+  --color-primary: #0d6efd;
+  --color-focus: #94c0ff;
+  
+  /* Shadows */
+  --shadow-navbar: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Font Families */
+  --font-sans: "Fira Sans", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-serif: "Roboto Slab", Georgia, "Times New Roman", serif;
+}
+
+/* ===========================
+   Base Styles
+   =========================== */
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6,
+.section-heading,
+.navbar .brand-text {
+  font-family: var(--font-serif);
+}
+
+.object-fit-cover { 
+  object-fit: cover; 
+}
+
+section { 
+  scroll-margin-top: 80px; 
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* ===========================
+   Navbar
+   =========================== */
+:root {
+  --navbar-height: 73px;
+}
+
+.navbar {
+  padding: 1rem 0;
+  box-shadow: var(--shadow-navbar);
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  transition: all 0.3s ease;
+  min-height: var(--navbar-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    /* allow the navbar to expand vertically when the collapse menu opens */
+    min-height: initial;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    /* keep navbar fixed on small screens to avoid it sliding under the browser UI */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+  }
+
+  .navbar .navbar-collapse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: var(--shadow-navbar);
+    z-index: 1040;
+    padding: 0.75rem 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow-y: auto;
+    max-height: calc(100vh - 3rem);
+  }
+
+  .navbar .navbar-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.navbar .brand-text { 
+  font-weight: 700; 
+  font-size: 1.25rem;
+}
+
+.navbar .nav-link {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
+
+#main-content {
+  display: none; 
+  width: 100%; 
+  overflow: hidden;
+  /* Position and height set dynamically by JS */
+}
+
+/* ===========================
+   Section Images
+   =========================== */
+.section-image {
+  max-height: 300px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .section-image {
+    max-height: 400px;
+  }
+}
+
+/* ===========================
+   Authentication States
+   =========================== */
+.private-section { 
+  display: none; 
+}
+
+.authenticated .private-section { 
+  display: block; 
+}
+
+.auth-status { 
+  display: block; 
+}
+
+.authenticated .auth-status { 
+  display: none; 
+}
+
+/* Footer - position set dynamically by JS */
+footer {
+  z-index: 90;
+  background: var(--color-white);
+}
+
+/* ===========================
+   Loading Overlay
+   =========================== */
+.loading-overlay {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  flex-direction: column;
+}
+
+.authenticated .loading-overlay {
+  display: flex;
+}
+
+.loading-content {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-text {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+}
+
+/* ===========================
+   Category Header
+   =========================== */
+.category-header {
+  text-align: center;
+  z-index: 1020;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--color-white);
+}
+
+.category-btn {
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1.5rem;
+  max-width: 300px;
+}
+
+.category-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+/* Fix mobile touch states - only apply hover effects on devices that support hover */
+@media (hover: none) {
+  .category-btn:not(.active):hover,
+  .category-btn:not(.active):focus,
+  .category-btn:not(.active):active {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  
+  .category-btn:not(.active):hover small,
+  .category-btn:not(.active):focus small,
+  .category-btn:not(.active):active small {
+    color: #000 !important;
+  }
+}
+
+/* Remove outline/focus ring on touch devices */
+.category-btn:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.category-btn small {
+  color: #000 !important;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 0.7rem;
+}
+
+.category-btn:hover small,
+.category-btn:focus small,
+.category-btn.active small {
+  color: #fff !important;
+}
+
+/* ===========================
+   Canvas category Styles
+   =========================== */
+#main-content .container-fluid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.canvas-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  /* Width and height set by JS */
+}
+
+/* Stacked layout: column direction */
+.stacked-layout .canvas-row {
+  flex-direction: column;
+}
+
+/* Side by side layout: row direction */
+.side-by-side-layout .canvas-row {
+  flex-direction: row;
+}
+
+#canvas-left,
+#canvas-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#canvas-left > .canvas-wrapper,
+#canvas-right > .canvas-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  /* Width and height set by JS */
+  transition: width 0.5s ease, height 0.5s ease;
+}
+
+/* Right canvas positioning and transitions */
+#canvas-right {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* Side-by-side: right canvas slides from the right */
+.side-by-side-layout #canvas-right {
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.side-by-side-layout.right-canvas-active #canvas-right {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Stacked: right canvas slides from the bottom */
+.stacked-layout #canvas-right {
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.stacked-layout.right-canvas-active #canvas-right {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Globe colormap legend */
+#globe_color_map {
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* ===========================
+   Time Control Styles
+   =========================== */
+#timeline-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  background: var(--color-background);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* Position set dynamically by JS */
+}
+
+#timeline_controls {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+#year_title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+#timeline_controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+#timeline_play_btn {
+  min-width: 72px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#timeline_year_slider {
+  flex: 1;
+}
+
+
+/* ===========================
+   Modal Canvas Styles
+   =========================== */
+.modal-canvas {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  overflow: hidden;
+}
+
+.modal-canvas svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  background: transparent;
+  background-color: transparent;
+}
+
+/*===========================
+  fading scroll animation
+   =========================== */
+  .fade-scroll {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 600ms ease, transform 600ms ease;
+    will-change: opacity, transform;
+  }
+  .fade-scroll.in {
+    opacity: 1;
+    transform: translateY(0);
+  }

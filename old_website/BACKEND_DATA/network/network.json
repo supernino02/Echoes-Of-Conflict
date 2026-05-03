@@ -1,0 +1,247 @@
+[
+  {
+    "id": "root",
+    "label": "All attacks",
+    "level": 0,
+    "parent": null,
+    "total": 94003
+  },
+  {
+    "id": "type|Chemical",
+    "label": "Chemical",
+    "level": 1,
+    "parent": "root",
+    "total": 166
+  },
+  {
+    "id": "type|Explosives",
+    "label": "Explosives",
+    "level": 1,
+    "parent": "root",
+    "total": 54658
+  },
+  {
+    "id": "type|Firearms",
+    "label": "Firearms",
+    "level": 1,
+    "parent": "root",
+    "total": 26856
+  },
+  {
+    "id": "type|Incendiary",
+    "label": "Incendiary",
+    "level": 1,
+    "parent": "root",
+    "total": 8224
+  },
+  {
+    "id": "type|Melee",
+    "label": "Melee",
+    "level": 1,
+    "parent": "root",
+    "total": 4098
+  },
+  {
+    "id": "type|Other",
+    "label": "Other",
+    "level": 1,
+    "parent": "root",
+    "total": 1
+  },
+  {
+    "id": "sub|Chemical|Explosive",
+    "label": "Explosive",
+    "level": 2,
+    "parent": "type|Chemical",
+    "total": 73
+  },
+  {
+    "id": "sub|Chemical|Poisoning",
+    "label": "Poisoning",
+    "level": 2,
+    "parent": "type|Chemical",
+    "total": 93
+  },
+  {
+    "id": "sub|Explosives|Dynamite/TNT",
+    "label": "Dynamite/TNT",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 1267
+  },
+  {
+    "id": "sub|Explosives|Grenade",
+    "label": "Grenade",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 5921
+  },
+  {
+    "id": "sub|Explosives|Landmine",
+    "label": "Landmine",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 5426
+  },
+  {
+    "id": "sub|Explosives|Letter Bomb",
+    "label": "Letter Bomb",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 593
+  },
+  {
+    "id": "sub|Explosives|Other Explosive Type",
+    "label": "Other Explosive Type",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 7870
+  },
+  {
+    "id": "sub|Explosives|Pipe Bomb",
+    "label": "Pipe Bomb",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 743
+  },
+  {
+    "id": "sub|Explosives|Pressure Trigger",
+    "label": "Pressure Trigger",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 277
+  },
+  {
+    "id": "sub|Explosives|Projectile (rockets, mortars, RPGs, etc.)",
+    "label": "Projectile (rockets, mortars, RPGs, etc.)",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 12031
+  },
+  {
+    "id": "sub|Explosives|Remote Trigger",
+    "label": "Remote Trigger",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 3133
+  },
+  {
+    "id": "sub|Explosives|Sticky Bomb",
+    "label": "Sticky Bomb",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 2012
+  },
+  {
+    "id": "sub|Explosives|Suicide (carried bodily by human being)",
+    "label": "Suicide (carried bodily by human being)",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 3695
+  },
+  {
+    "id": "sub|Explosives|Time Fuse",
+    "label": "Time Fuse",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 841
+  },
+  {
+    "id": "sub|Explosives|Vehicle",
+    "label": "Vehicle",
+    "level": 2,
+    "parent": "type|Explosives",
+    "total": 10849
+  },
+  {
+    "id": "sub|Firearms|Automatic or Semi-Automatic Rifle",
+    "label": "Automatic or Semi-Automatic Rifle",
+    "level": 2,
+    "parent": "type|Firearms",
+    "total": 18176
+  },
+  {
+    "id": "sub|Firearms|Handgun",
+    "label": "Handgun",
+    "level": 2,
+    "parent": "type|Firearms",
+    "total": 7127
+  },
+  {
+    "id": "sub|Firearms|Other Gun Type",
+    "label": "Other Gun Type",
+    "level": 2,
+    "parent": "type|Firearms",
+    "total": 88
+  },
+  {
+    "id": "sub|Firearms|Rifle/Shotgun (non-automatic)",
+    "label": "Rifle/Shotgun (non-automatic)",
+    "level": 2,
+    "parent": "type|Firearms",
+    "total": 1465
+  },
+  {
+    "id": "sub|Incendiary|Arson/Fire",
+    "label": "Arson/Fire",
+    "level": 2,
+    "parent": "type|Incendiary",
+    "total": 5681
+  },
+  {
+    "id": "sub|Incendiary|Gasoline or Alcohol",
+    "label": "Gasoline or Alcohol",
+    "level": 2,
+    "parent": "type|Incendiary",
+    "total": 976
+  },
+  {
+    "id": "sub|Incendiary|Molotov Cocktail/Petrol Bomb",
+    "label": "Molotov Cocktail/Petrol Bomb",
+    "level": 2,
+    "parent": "type|Incendiary",
+    "total": 1567
+  },
+  {
+    "id": "sub|Melee|Blunt Object",
+    "label": "Blunt Object",
+    "level": 2,
+    "parent": "type|Melee",
+    "total": 657
+  },
+  {
+    "id": "sub|Melee|Hands, Feet, Fists",
+    "label": "Hands, Feet, Fists",
+    "level": 2,
+    "parent": "type|Melee",
+    "total": 269
+  },
+  {
+    "id": "sub|Melee|Knife or Other Sharp Object",
+    "label": "Knife or Other Sharp Object",
+    "level": 2,
+    "parent": "type|Melee",
+    "total": 3050
+  },
+  {
+    "id": "sub|Melee|Rope or Other Strangling Device",
+    "label": "Rope or Other Strangling Device",
+    "level": 2,
+    "parent": "type|Melee",
+    "total": 110
+  },
+  {
+    "id": "sub|Melee|Suffocation",
+    "label": "Suffocation",
+    "level": 2,
+    "parent": "type|Melee",
+    "total": 12
+  },
+  {
+    "id": "sub|Other|Blunt Object",
+    "label": "Blunt Object",
+    "level": 2,
+    "parent": "type|Other",
+    "total": 1
+  }
+]

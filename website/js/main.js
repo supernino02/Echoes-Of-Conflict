@@ -1,0 +1,443 @@
+// Category definitions
+const CATEGORIES = {
+  group: ['SL', 'taliban', 'ISIL'],
+  attack: ['explosion', 'armed_assault', 'assassination', 'hostage_taking', 'infrastructure_attack'],
+  target: ['military_police', 'government', 'business', 'citizens', 'transportations']
+};
+
+const COLORS = {
+  // Structured color definitions
+  GLOBE: {
+    ocean: "rgba(200, 209, 211, 0.84)",
+    country: {
+      stroke: "#171717ff",
+      fill: "#f4f3f3ff"
+    },
+    hexbin: {
+      colormap: [
+        "#fcfdbf", "#fb9f3a", "#ed7953", "#d8576b", "#bc3f85",
+        "#9e2f7f", "#7c1f6d", "#5c126e", "#3b0f70", "#1c1044",
+        "#000004" //magma
+      ]
+    }
+  },
+
+  RIGHT_CHART:{
+    axisLine: '#111213',  
+    textPrimary: '#0d6efd', //labels
+  },
+
+  groupColors: [
+    '#009688', 
+    '#F9A825', 
+    '#6D4C41', 
+  ],
+  attackColors: [
+    '#AD1457', 
+    '#7E57C2', 
+    '#66BB6A', 
+    '#FF7043', 
+    '#1570d8', 
+  ],
+  targetColors: [
+    '#EF6C00', 
+    '#26C6DA', 
+    '#EC407A', 
+    '#FFD54F', 
+    '#558B2F',
+  ],
+
+  defaultComparison: '#78909C',
+
+  //COMMON COLORS
+  axisLine: '#64B5F6',  
+  textPrimary: '#0d6efd', //labels
+}
+
+//FONT SIZE OF EACH CHART LABEL
+const labelFontSize = 14//px
+const chartLabelFontSize = 10//px
+const isSmallScreen = () => window.innerWidth < 576;
+const isXLScreen = () => window.innerWidth >= 1200;
+
+// Aspect ratio 3:2 (width:height)
+const CHART_WIDTH = 300;
+const CHART_HEIGHT = 200;
+const CHART_MARGIN = { top: 20, right: 20, bottom: 20, left: 20 };
+
+// -------------------------------
+// Initial Setup (Bypassing Auth)
+// -------------------------------
+// Automatically hide the auth section, show private sections, and load charts on boot
+(function initializePublicAccess() {
+  document.addEventListener("DOMContentLoaded", () => {
+    const authSectionEl = document.getElementById("api-auth");
+    if (authSectionEl) authSectionEl.style.display = 'none';
+    
+    document.body.classList.add('authenticated');
+    
+    document.querySelectorAll('.private-section').forEach(el => {
+      el.style.display = 'block';
+    });
+
+    initChartsAfterAuth();
+  });
+})();
+
+// Dummy function to prevent errors if the old HTML button is somehow clicked
+function validateToken() {
+  console.log("Authentication removed. Data is fetching locally.");
+}
+
+// -------------------------------
+// Load Chart Function (Local Fetch)
+// -------------------------------
+const loadChart = (function () {
+  // Point to the local backend data folder
+  const BASE_URL = "./website/BACKEND_DATA";
+  const cache = new Map();
+
+  return async function (filePath, chartFunc, choice, containerId) {
+    const cacheKey = Array.isArray(filePath) ? filePath.join('|') : filePath;
+
+    try {
+      if (!cache.has(cacheKey)) {
+        let rawData;
+        if (Array.isArray(filePath)) {
+          const allData = [];
+          for (const path of filePath) {
+            const url = `${BASE_URL}/${path}`;
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.statusText}`);
+
+            let data;
+            if (path.endsWith('.json')) {
+              data = await res.json();
+            } else if (path.endsWith('.csv')) {
+              const textContent = await res.text();
+              const lines = textContent.split('\n').filter(line => line.trim());
+              if (lines.length < 1) throw new Error('CSV file is empty');
+              const headers = lines[0].split(',').map(h => h.trim());
+              data = lines.slice(1).map(line => {
+                const values = line.split(',');
+                const obj = {};
+                headers.forEach((header, i) => {
+                  obj[header] = values[i] ? values[i].trim() : '';
+                });
+                return obj;
+              });
+            } else {
+              throw new Error(`Unsupported file format for ${path}`);
+            }
+            allData.push(data);
+          }
+          rawData = allData.flat();
+        } else {
+          const url = `${BASE_URL}/${filePath}`;
+          const res = await fetch(url);
+          if (!res.ok) throw new Error(`Failed to fetch ${filePath}: ${res.statusText}`);
+
+          if (filePath.endsWith('.json')) {
+            rawData = await res.json();
+          } else if (filePath.endsWith('.csv')) {
+            const textContent = await res.text();
+            const lines = textContent.split('\n').filter(line => line.trim());
+            if (lines.length < 1) throw new Error('CSV file is empty');
+            const headers = lines[0].split(',').map(h => h.trim());
+            rawData = lines.slice(1).map(line => {
+              const values = line.split(',');
+              const obj = {};
+              headers.forEach((header, i) => {
+                obj[header] = values[i] ? values[i].trim() : '';
+              });
+              return obj;
+            });
+          } else {
+            throw new Error(`Unsupported file format for ${filePath}`);
+          }
+        }
+        cache.set(cacheKey, rawData);
+      }
+
+      const rawData = cache.get(cacheKey);
+      chartFunc(rawData, choice, containerId);
+
+    } catch (err) {
+      console.error(`Error loading chart for ${containerId}:`, err);
+    }
+  };
+})();
+
+// -------------------------------
+// Function to load all charts
+// -------------------------------
+async function initChartsAfterAuth() {
+  const loadingOverlay = document.getElementById('loading-overlay');
+  const loadingProgress = document.getElementById('loading-progress');
+  const mainContent = document.getElementById('main-content');
+  const header = document.getElementById('main-header');
+  const globeColorMap = document.getElementById('globe_color_map');
+
+
+  // Show loading overlay
+  if (loadingOverlay) loadingOverlay.style.display = 'flex';
+  const loadingContent = document.getElementById('loading-content');
+  const errorContent = document.getElementById('error-content');
+  if (loadingContent) loadingContent.style.display = 'flex';
+  if (errorContent) errorContent.style.display = 'none';
+  if (mainContent) { mainContent.style.display = 'none'; mainContent.style.opacity = 0; }
+  if (header) { header.style.display = 'none'; header.style.opacity = 0; }
+  if (globeColorMap) { globeColorMap.style.display = 'none'; globeColorMap.style.opacity = 0; }
+  // Explicitly define ALL charts to load (main page + all modal charts)
+  const chartsToLoad = [
+    // ===== GROUP CATEGORY =====
+    { file: 'GROUPS/groups_temporal_cumulative.json', func: draw_group_1, choice: 'ISIL', container: 'plot_group_ISIL_1' },
+    { file: 'GROUPS/groups_temporal_cumulative.json', func: draw_group_1, choice: 'taliban', container: 'plot_group_taliban_1' },
+    { file: 'GROUPS/groups_temporal_cumulative.json', func: draw_group_1, choice: 'SL', container: 'plot_group_SL_1' },
+
+    //loading countries data once for all group charts
+    { file: 'GROUPS/countries.json', func: (data) => {window._countries = data}, choice:null, container: 'body' },
+    { file: 'GROUPS/groups_regional_activity.json', func: draw_group_2, choice: 'ISIL', container: 'plot_group_ISIL_2' },
+    { file: 'GROUPS/groups_regional_activity.json', func: draw_group_2, choice: 'taliban', container: 'plot_group_taliban_2' },
+    { file: 'GROUPS/groups_regional_activity.json', func: draw_group_2, choice: 'SL', container: 'plot_group_SL_2' },
+    
+    { file: 'GROUPS/groups_flows.json', func: draw_group_3, choice: 'ISIL', container: 'plot_group_ISIL_3' },
+    { file: 'GROUPS/groups_flows.json', func: draw_group_3, choice: 'taliban', container: 'plot_group_taliban_3' },
+    { file: 'GROUPS/groups_flows.json', func: draw_group_3, choice: 'SL', container: 'plot_group_SL_3' },
+
+    { file: 'GROUPS/groups_bump_data.json', func: draw_group_4, choice: 'ISIL', container: 'plot_group_ISIL_4' },
+    { file: 'GROUPS/groups_bump_data.json', func: draw_group_4, choice: 'taliban', container: 'plot_group_taliban_4' },
+    { file: 'GROUPS/groups_bump_data.json', func: draw_group_4, choice: 'SL', container: 'plot_group_SL_4' },
+
+    { file: 'GROUPS/groups_casualty_bins.json', func: draw_group_5, choice: 'ISIL', container: 'plot_group_ISIL_5' },
+    { file: 'GROUPS/groups_casualty_bins.json', func: draw_group_5, choice: 'taliban', container: 'plot_group_taliban_5' },
+    { file: 'GROUPS/groups_casualty_bins.json', func: draw_group_5, choice: 'SL', container: 'plot_group_SL_5' },
+
+    // ===== ATTACK CATEGORY =====
+    { file: 'ATTACKS/radar_chart.json', func: draw_attack_1, choice: 'explosion', container: 'plot_attack_explosion_1' },
+    { file: 'ATTACKS/radar_chart.json', func: draw_attack_1, choice: 'armed_assault', container: 'plot_attack_armed_assault_1' },
+    { file: 'ATTACKS/radar_chart.json', func: draw_attack_1, choice: 'assassination', container: 'plot_attack_assassination_1' },
+    { file: 'ATTACKS/radar_chart.json', func: draw_attack_1, choice: 'hostage_taking', container: 'plot_attack_hostage_taking_1' },
+    { file: 'ATTACKS/radar_chart.json', func: draw_attack_1, choice: 'infrastructure_attack', container: 'plot_attack_infrastructure_attack_1' },
+
+    { file: 'ATTACKS/rose_chart.json', func: draw_attack_2, choice: 'explosion', container: 'plot_attack_explosion_2' },
+    { file: 'ATTACKS/rose_chart.json', func: draw_attack_2, choice: 'armed_assault', container: 'plot_attack_armed_assault_2' },
+    { file: 'ATTACKS/rose_chart.json', func: draw_attack_2, choice: 'assassination', container: 'plot_attack_assassination_2' },
+    { file: 'ATTACKS/rose_chart.json', func: draw_attack_2, choice: 'hostage_taking', container: 'plot_attack_hostage_taking_2' },
+    { file: 'ATTACKS/rose_chart.json', func: draw_attack_2, choice: 'infrastructure_attack', container: 'plot_attack_infrastructure_attack_2' },
+    
+    { file: 'ATTACKS/waffle_data.json', func: draw_attack_3, choice: 'explosion', container: 'plot_attack_explosion_3' },
+    { file: 'ATTACKS/waffle_data.json', func: draw_attack_3, choice: 'armed_assault', container: 'plot_attack_armed_assault_3' },
+    { file: 'ATTACKS/waffle_data.json', func: draw_attack_3, choice: 'assassination', container: 'plot_attack_assassination_3' },
+    { file: 'ATTACKS/waffle_data.json', func: draw_attack_3, choice: 'hostage_taking', container: 'plot_attack_hostage_taking_3' },
+    { file: 'ATTACKS/waffle_data.json', func: draw_attack_3, choice: 'infrastructure_attack', container: 'plot_attack_infrastructure_attack_3' },
+        
+    // ===== TARGET CATEGORY =====
+    { file: 'TARGETS/target_barchart.json', func: draw_target_1, choice: 'citizens', container: 'plot_target_citizens_1' },
+    { file: 'TARGETS/target_barchart.json', func: draw_target_1, choice: 'military_police', container: 'plot_target_military_police_1' },
+    { file: 'TARGETS/target_barchart.json', func: draw_target_1, choice: 'government', container: 'plot_target_government_1' },
+    { file: 'TARGETS/target_barchart.json', func: draw_target_1, choice: 'business', container: 'plot_target_business_1' },
+    { file: 'TARGETS/target_barchart.json', func: draw_target_1, choice: 'transportations', container: 'plot_target_transportations_1' },
+
+    { file: 'TARGETS/target_radial_tree.json', func: draw_target_2, choice: 'citizens', container: 'plot_target_citizens_2' },
+    { file: 'TARGETS/target_radial_tree.json', func: draw_target_2, choice: 'military_police', container: 'plot_target_military_police_2' },
+    { file: 'TARGETS/target_radial_tree.json', func: draw_target_2, choice: 'government', container: 'plot_target_government_2' },
+    { file: 'TARGETS/target_radial_tree.json', func: draw_target_2, choice: 'business', container: 'plot_target_business_2' },
+    { file: 'TARGETS/target_radial_tree.json', func: draw_target_2, choice: 'transportations', container: 'plot_target_transportations_2' },
+    
+    // ===== MAIN PAGE CHARTS =====
+    { file: "CATEGORIES/globe.json", func: (data) => { window.globe_data = data }, choice: null, container: "body" },
+    {
+      file: [
+        "CATEGORIES/default_float_1.csv",
+        "CATEGORIES/default_float_2.csv",
+        "CATEGORIES/default_float_3.csv",
+      ],
+      func: (data) => {
+        precomputeGlobeData(data);
+        precomputeColormap();
+      }, choice: null, container: "body"
+    },
+    {
+      file: 
+        "CATEGORIES/globe_attacks_counts.json",
+      func: (data) => {
+        window._attackData = data;
+      }, choice: null, container: "body"
+    },
+    {
+      file: 
+        "CATEGORIES/globe_targets_events.json",
+      func: (data) => {
+        precomputeTargetData(data);
+      }, choice: null, container: "body"
+    },
+
+
+    //RIGHT CHART FILES
+    { file: "CATEGORIES/groups.json", func: (data) => { 
+      computeGroupCumulativeCountry(data);
+      precompute_group(data) 
+    }, choice: null, container: "body" },
+    { file: "CATEGORIES/attacks_cumulative.csv", func: (data) => { 
+      precompute_attack(data) 
+    }, choice: null, container: "body" },
+    { file: "CATEGORIES/target_bump_5.json", func: (data) => { 
+      precompute_target(data) 
+    }, choice: null, container: "body" },
+  ];
+
+  try {
+    let completed = 0;
+    const total = chartsToLoad.length;
+
+    // Update progress helper
+    const updateProgress = () => {
+      const percent = Math.round((completed / total) * 100);
+      if (loadingProgress) loadingProgress.textContent = `${percent}%`;
+    };
+
+    // Load all charts concurrently
+    await Promise.all(
+      chartsToLoad.map(async (chart) => {
+        try {
+          await loadChart(chart.file, chart.func, chart.choice, chart.container);
+        } catch (err) {
+          console.error(`Error loading chart ${chart.container}:`, err);
+        } finally {
+          completed++;
+          updateProgress();
+        }
+      })
+    );
+
+    // Hide loading, show content
+    if (loadingOverlay) loadingOverlay.style.display = 'none';
+    if (mainContent) {
+      mainContent.style.display = 'block';
+      mainContent.style.transition = 'opacity 1s';
+      setTimeout(() => { mainContent.style.opacity = 1; }, 10);
+    }
+    if (globeColorMap) {
+      globeColorMap.style.display = 'none';
+      globeColorMap.style.opacity = '0';
+      setTimeout(() => {
+        globeColorMap.style.display = 'block';
+        globeColorMap.style.opacity = '1';
+      }, 1010);
+    }
+
+
+    if (header) {
+      header.style.display = 'block';
+      header.style.transition = 'opacity 1s';
+      setTimeout(() => { header.style.opacity = 1; }, 10);
+    }
+
+    // Add resize listener
+    window.addEventListener('resize', updateMainCanvases);
+    
+    // Add visualViewport resize listener for mobile browser chrome (URL bar) changes
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', updateMainCanvases);
+      window.visualViewport.addEventListener('scroll', updateMainCanvases);
+    }
+    
+    // Set canvas sizes dynamically
+    updateMainCanvases();
+
+  } catch (err) {
+    console.error('Error during initialization:', err);
+    const loadingContent = document.getElementById('loading-content');
+    const errorMessage = document.getElementById('error-message');
+    if (loadingContent) loadingContent.style.display = 'none';
+    if (errorContent) errorContent.style.display = 'flex';
+    if (errorMessage) errorMessage.textContent = err.message;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    
+    // 1. Initialize the modal with static backdrop (cannot click outside)
+    const modalElement = document.getElementById('screenBlockModal');
+    const screenModal = new bootstrap.Modal(modalElement, {
+        backdrop: 'static',
+        keyboard: false
+    });
+
+    // 2. Define your limits
+    const MIN_WIDTH = 300; // Minimum width in pixels (e.g. for tiny phones)
+    
+    // Define logic elements
+    const title = document.getElementById('blockerTitle');
+    const message = document.getElementById('blockerMessage');
+
+    function checkScreen() {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        
+        // Calculate aspect ratio to detect elongated screens
+        const aspectRatio = width / height;
+        const isElongated = aspectRatio > 1.5; // Screen is significantly wider than tall
+        
+        // A rotated phone has an elongated ratio AND a small height
+        const MAX_PHONE_HEIGHT = 600; // If height is under this when elongated, it's likely a rotated phone
+        const isRotatedPhone = isElongated && height < MAX_PHONE_HEIGHT;
+
+        let errorType = null;
+
+        // 1. First check if screen width is too small (tiny devices)
+        if (width < MIN_WIDTH) {
+            errorType = 'small';
+        }
+        // 2. If it's a rotated phone (elongated + small height), suggest rotation
+        else if (isRotatedPhone) {
+            errorType = 'rotation';
+        }
+
+        // --- SHOW OR HIDE MODAL ---
+        
+        if (errorType) {
+            // Update Text based on error
+            if (errorType === 'rotation') {
+                title.innerText = "Please Rotate Device";
+                message.innerText = "This website works best in Portrait mode. Please rotate your phone.";
+            } else {
+                title.innerText = "Screen Too Small";
+                message.innerText = "Your screen is too small to view this content. Please use a larger device.";
+            }
+
+            // Only call show() if it's not already shown to avoid flickering
+            if (!modalElement.classList.contains('show')) {
+                screenModal.show();
+            }
+        } else {
+            // Conditions met: If modal was open, reload the page to reset state
+            if (modalElement.classList.contains('show')) {
+                window.location.reload();
+            }
+        }
+    }
+
+    // 3. Listeners
+    window.addEventListener('resize', checkScreen);
+    window.addEventListener('orientationchange', checkScreen);
+
+    // Initial check
+    checkScreen();
+});
+
+// -------------------------------
+//fading on scroll
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            obs.unobserve(e.target); // remove if you want it to animate only once
+          }
+        });
+      }, { threshold: 0.5 });
+
+      document.querySelectorAll('.fade-scroll').forEach(el => observer.observe(el));
+    });

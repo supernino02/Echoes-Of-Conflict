@@ -1,0 +1,14 @@
+[
+  { "name": "Explosives", "value": 103475, "icon": "old_website/icons/bomb.svg", "color": "#7f0000" },
+  { "name": "Firearms", "value": 67648, "icon": "old_website/icons/bullet.svg", "color": "#3498db" },
+  { "name": "Incendiary", "value": 13133, "icon": "old_website/icons/fire.svg", "color": "#e67e22" },
+  { "name": "Melee", "value": 4307, "icon": "old_website/icons/knife.svg", "color": "#27ae60" },
+  { "name": "Unknown", "value": 20203, "icon": "old_website/icons/unknown.svg", "color": "#95a5a6" },
+  { "name": "Chemical", "value": 377},
+  { "name": "Sabotage Equipment", "value": 217},
+  { "name": "Vehicle", "value": 206},
+  { "name": "Other", "value": 166},
+  { "name": "Biological", "value": 56},
+  { "name": "Fake Weapons", "value": 45},
+  { "name": "Radiological", "value": 13}
+]

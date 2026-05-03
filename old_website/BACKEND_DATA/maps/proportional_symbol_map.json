@@ -1,0 +1,1160 @@
+[
+    {
+        "country":4,
+        "country_txt":"Afghanistan",
+        "gname":"Taliban",
+        "eventid_count":11926
+    },
+    {
+        "country":5,
+        "country_txt":"Albania",
+        "gname":"Muslim extremists",
+        "eventid_count":1
+    },
+    {
+        "country":6,
+        "country_txt":"Algeria",
+        "gname":"Algerian Islamic Extremists",
+        "eventid_count":373
+    },
+    {
+        "country":7,
+        "country_txt":"Andorra",
+        "gname":"International Revolutionary Action Group (GARI)",
+        "eventid_count":1
+    },
+    {
+        "country":8,
+        "country_txt":"Angola",
+        "gname":"National Union for the Total Independence of Angola (UNITA)",
+        "eventid_count":394
+    },
+    {
+        "country":11,
+        "country_txt":"Argentina",
+        "gname":"Montoneros (Argentina)",
+        "eventid_count":116
+    },
+    {
+        "country":12,
+        "country_txt":"Armenia",
+        "gname":"Armenian Guerrillas",
+        "eventid_count":1
+    },
+    {
+        "country":14,
+        "country_txt":"Australia",
+        "gname":"Jihadi-inspired extremists",
+        "eventid_count":11
+    },
+    {
+        "country":15,
+        "country_txt":"Austria",
+        "gname":"Neo-Nazi extremists",
+        "eventid_count":11
+    },
+    {
+        "country":16,
+        "country_txt":"Azerbaijan",
+        "gname":"Azerbaijan Guerrillas",
+        "eventid_count":7
+    },
+    {
+        "country":18,
+        "country_txt":"Bahrain",
+        "gname":"Al-Ashtar Brigades",
+        "eventid_count":12
+    },
+    {
+        "country":19,
+        "country_txt":"Bangladesh",
+        "gname":"Bangladesh Nationalist Party (BNP)",
+        "eventid_count":101
+    },
+    {
+        "country":20,
+        "country_txt":"Barbados",
+        "gname":"Coordination of the United Revolutionary Organization (CORU)",
+        "eventid_count":2
+    },
+    {
+        "country":21,
+        "country_txt":"Belgium",
+        "gname":"Communist Combattant Cells (CCC) (Belgium)",
+        "eventid_count":21
+    },
+    {
+        "country":23,
+        "country_txt":"Benin",
+        "gname":"Muslim extremists",
+        "eventid_count":1
+    },
+    {
+        "country":25,
+        "country_txt":"Bhutan",
+        "gname":"The United Revolutionary Front of Bhutan",
+        "eventid_count":2
+    },
+    {
+        "country":26,
+        "country_txt":"Bolivia",
+        "gname":"Tupac Katari Guerrilla Army (EGTK)",
+        "eventid_count":22
+    },
+    {
+        "country":28,
+        "country_txt":"Bosnia-Herzegovina",
+        "gname":"Serbian guerrillas",
+        "eventid_count":8
+    },
+    {
+        "country":29,
+        "country_txt":"Botswana",
+        "gname":"African National Congress (South Africa)",
+        "eventid_count":1
+    },
+    {
+        "country":30,
+        "country_txt":"Brazil",
+        "gname":"Death Squad",
+        "eventid_count":13
+    },
+    {
+        "country":31,
+        "country_txt":"Brunei",
+        "gname":"Black September",
+        "eventid_count":5
+    },
+    {
+        "country":32,
+        "country_txt":"Bulgaria",
+        "gname":"Anti-LGBT extremists",
+        "eventid_count":1
+    },
+    {
+        "country":33,
+        "country_txt":"Burkina Faso",
+        "gname":"Muslim extremists",
+        "eventid_count":74
+    },
+    {
+        "country":34,
+        "country_txt":"Burundi",
+        "gname":"Hutu extremists",
+        "eventid_count":107
+    },
+    {
+        "country":35,
+        "country_txt":"Belarus",
+        "gname":"Friends of Freedom",
+        "eventid_count":2
+    },
+    {
+        "country":36,
+        "country_txt":"Cambodia",
+        "gname":"Khmer Rouge",
+        "eventid_count":158
+    },
+    {
+        "country":37,
+        "country_txt":"Cameroon",
+        "gname":"Boko Haram",
+        "eventid_count":341
+    },
+    {
+        "country":38,
+        "country_txt":"Canada",
+        "gname":"Jihadi-inspired extremists",
+        "eventid_count":9
+    },
+    {
+        "country":41,
+        "country_txt":"Central African Republic",
+        "gname":"Anti-Balaka Militia",
+        "eventid_count":82
+    },
+    {
+        "country":42,
+        "country_txt":"Chad",
+        "gname":"Boko Haram",
+        "eventid_count":67
+    },
+    {
+        "country":43,
+        "country_txt":"Chile",
+        "gname":"Manuel Rodriguez Patriotic Front (FPMR)",
+        "eventid_count":829
+    },
+    {
+        "country":44,
+        "country_txt":"China",
+        "gname":"Uighur Separatists",
+        "eventid_count":86
+    },
+    {
+        "country":45,
+        "country_txt":"Colombia",
+        "gname":"Revolutionary Armed Forces of Colombia (FARC)",
+        "eventid_count":2468
+    },
+    {
+        "country":46,
+        "country_txt":"Comoros",
+        "gname":"Separatists",
+        "eventid_count":2
+    },
+    {
+        "country":47,
+        "country_txt":"Republic of the Congo",
+        "gname":"Ninjas",
+        "eventid_count":6
+    },
+    {
+        "country":49,
+        "country_txt":"Costa Rica",
+        "gname":"Coordination of the United Revolutionary Organization (CORU)",
+        "eventid_count":5
+    },
+    {
+        "country":50,
+        "country_txt":"Croatia",
+        "gname":"Serbian extremists",
+        "eventid_count":6
+    },
+    {
+        "country":51,
+        "country_txt":"Cuba",
+        "gname":"Raul Ernesto Cruz Leon, Salvadorian",
+        "eventid_count":3
+    },
+    {
+        "country":53,
+        "country_txt":"Cyprus",
+        "gname":"Conspiracy theory extremists",
+        "eventid_count":7
+    },
+    {
+        "country":54,
+        "country_txt":"Czech Republic",
+        "gname":"Neo-Nazi extremists",
+        "eventid_count":3
+    },
+    {
+        "country":55,
+        "country_txt":"Denmark",
+        "gname":"Anarchists",
+        "eventid_count":4
+    },
+    {
+        "country":56,
+        "country_txt":"Djibouti",
+        "gname":"Front for the Restoration of Unity and Democracy",
+        "eventid_count":6
+    },
+    {
+        "country":57,
+        "country_txt":"Dominica",
+        "gname":"Anti-Government Group",
+        "eventid_count":2
+    },
+    {
+        "country":58,
+        "country_txt":"Dominican Republic",
+        "gname":"Maximiliano Gomez Revolutionary Brigade",
+        "eventid_count":14
+    },
+    {
+        "country":59,
+        "country_txt":"Ecuador",
+        "gname":"Alfaro Vive",
+        "eventid_count":25
+    },
+    {
+        "country":60,
+        "country_txt":"Egypt",
+        "gname":"Sinai Province of the Islamic State",
+        "eventid_count":553
+    },
+    {
+        "country":61,
+        "country_txt":"El Salvador",
+        "gname":"Farabundo Marti National Liberation Front (FMLN)",
+        "eventid_count":3330
+    },
+    {
+        "country":62,
+        "country_txt":"Equatorial Guinea",
+        "gname":"Movement for the Emancipation of the Niger Delta (MEND)",
+        "eventid_count":1
+    },
+    {
+        "country":63,
+        "country_txt":"Eritrea",
+        "gname":"Tigray Peoples Liberation Front (TPLF)",
+        "eventid_count":7
+    },
+    {
+        "country":64,
+        "country_txt":"Estonia",
+        "gname":"Fatherland",
+        "eventid_count":1
+    },
+    {
+        "country":65,
+        "country_txt":"Ethiopia",
+        "gname":"Oromo Liberation Front",
+        "eventid_count":31
+    },
+    {
+        "country":66,
+        "country_txt":"Falkland Islands",
+        "gname":"Artigas-Giachino Command",
+        "eventid_count":1
+    },
+    {
+        "country":67,
+        "country_txt":"Fiji",
+        "gname":"Anti-Government extremists",
+        "eventid_count":2
+    },
+    {
+        "country":68,
+        "country_txt":"Finland",
+        "gname":"Animal Liberation Front (ALF)",
+        "eventid_count":1
+    },
+    {
+        "country":69,
+        "country_txt":"France",
+        "gname":"Corsican National Liberation Front (FLNC)",
+        "eventid_count":639
+    },
+    {
+        "country":70,
+        "country_txt":"French Guiana",
+        "gname":"Caribbean Revolutionary Alliance (ARC)",
+        "eventid_count":3
+    },
+    {
+        "country":71,
+        "country_txt":"French Polynesia",
+        "gname":"Anti-Nuclear extremists",
+        "eventid_count":3
+    },
+    {
+        "country":72,
+        "country_txt":"Gabon",
+        "gname":"Convention of Liberal Reformers (CLR)",
+        "eventid_count":1
+    },
+    {
+        "country":74,
+        "country_txt":"Georgia",
+        "gname":"South Ossetian Separatists",
+        "eventid_count":10
+    },
+    {
+        "country":75,
+        "country_txt":"Germany",
+        "gname":"Neo-Nazi extremists",
+        "eventid_count":177
+    },
+    {
+        "country":76,
+        "country_txt":"Ghana",
+        "gname":"Farighan",
+        "eventid_count":3
+    },
+    {
+        "country":78,
+        "country_txt":"Greece",
+        "gname":"November 17 Revolutionary Organization (N17RO)",
+        "eventid_count":112
+    },
+    {
+        "country":81,
+        "country_txt":"Guadeloupe",
+        "gname":"Caribbean Revolutionary Alliance (ARC)",
+        "eventid_count":19
+    },
+    {
+        "country":83,
+        "country_txt":"Guatemala",
+        "gname":"Guerrilla Army of the Poor (EGP)",
+        "eventid_count":155
+    },
+    {
+        "country":84,
+        "country_txt":"Guinea",
+        "gname":"Rebels",
+        "eventid_count":5
+    },
+    {
+        "country":86,
+        "country_txt":"Guyana",
+        "gname":"Gunmen",
+        "eventid_count":1
+    },
+    {
+        "country":87,
+        "country_txt":"Haiti",
+        "gname":"Aristide supporters",
+        "eventid_count":4
+    },
+    {
+        "country":88,
+        "country_txt":"Honduras",
+        "gname":"Lorenzo Zelaya Revolutionary Front (LZRF)",
+        "eventid_count":40
+    },
+    {
+        "country":89,
+        "country_txt":"Hong Kong",
+        "gname":"Pirates",
+        "eventid_count":2
+    },
+    {
+        "country":90,
+        "country_txt":"Hungary",
+        "gname":"Armenian Secret Army for the Liberation of Armenia",
+        "eventid_count":1
+    },
+    {
+        "country":91,
+        "country_txt":"Iceland",
+        "gname":"Sea Shepherd Conservation Society",
+        "eventid_count":1
+    },
+    {
+        "country":92,
+        "country_txt":"India",
+        "gname":"Communist Party of India - Maoist (CPI-Maoist)",
+        "eventid_count":2092
+    },
+    {
+        "country":93,
+        "country_txt":"Indonesia",
+        "gname":"Free Aceh Movement (GAM)",
+        "eventid_count":116
+    },
+    {
+        "country":94,
+        "country_txt":"Iran",
+        "gname":"Mujahedin-e Khalq (MEK)",
+        "eventid_count":98
+    },
+    {
+        "country":95,
+        "country_txt":"Iraq",
+        "gname":"Islamic State of Iraq and the Levant (ISIL)",
+        "eventid_count":6182
+    },
+    {
+        "country":96,
+        "country_txt":"Ireland",
+        "gname":"Irish Republican Army (IRA)",
+        "eventid_count":51
+    },
+    {
+        "country":97,
+        "country_txt":"Israel",
+        "gname":"Palestinians",
+        "eventid_count":396
+    },
+    {
+        "country":98,
+        "country_txt":"Italy",
+        "gname":"Red Brigades",
+        "eventid_count":215
+    },
+    {
+        "country":99,
+        "country_txt":"Ivory Coast",
+        "gname":"Gbagbo Loyalists",
+        "eventid_count":18
+    },
+    {
+        "country":100,
+        "country_txt":"Jamaica",
+        "gname":"National Front for the Liberation of Cuba (FLNC)",
+        "eventid_count":3
+    },
+    {
+        "country":101,
+        "country_txt":"Japan",
+        "gname":"Chukakuha (Middle Core Faction)",
+        "eventid_count":61
+    },
+    {
+        "country":102,
+        "country_txt":"Jordan",
+        "gname":"Black September",
+        "eventid_count":9
+    },
+    {
+        "country":103,
+        "country_txt":"Kazakhstan",
+        "gname":"Kazakhstan Liberation Army",
+        "eventid_count":3
+    },
+    {
+        "country":104,
+        "country_txt":"Kenya",
+        "gname":"Al-Shabaab",
+        "eventid_count":557
+    },
+    {
+        "country":106,
+        "country_txt":"Kuwait",
+        "gname":"Hezbollah",
+        "eventid_count":10
+    },
+    {
+        "country":107,
+        "country_txt":"Kyrgyzstan",
+        "gname":"Muslim extremists",
+        "eventid_count":4
+    },
+    {
+        "country":108,
+        "country_txt":"Laos",
+        "gname":"Bandits",
+        "eventid_count":1
+    },
+    {
+        "country":109,
+        "country_txt":"Latvia",
+        "gname":"Fighters of Democratic Latvia",
+        "eventid_count":1
+    },
+    {
+        "country":110,
+        "country_txt":"Lebanon",
+        "gname":"Hezbollah",
+        "eventid_count":311
+    },
+    {
+        "country":111,
+        "country_txt":"Lesotho",
+        "gname":"Lesotho Liberation Army (LLA)",
+        "eventid_count":12
+    },
+    {
+        "country":112,
+        "country_txt":"Liberia",
+        "gname":"Liberians United for Reconciliation and Democracy (LURD)",
+        "eventid_count":6
+    },
+    {
+        "country":113,
+        "country_txt":"Libya",
+        "gname":"Tripoli Province of the Islamic State",
+        "eventid_count":360
+    },
+    {
+        "country":115,
+        "country_txt":"Lithuania",
+        "gname":"Anti-LGBT extremists",
+        "eventid_count":1
+    },
+    {
+        "country":116,
+        "country_txt":"Luxembourg",
+        "gname":"Fighting Ecologist Movement",
+        "eventid_count":1
+    },
+    {
+        "country":117,
+        "country_txt":"Macau",
+        "gname":"14 K Triad",
+        "eventid_count":4
+    },
+    {
+        "country":118,
+        "country_txt":"Macedonia",
+        "gname":"National Liberation Army (NLA) (Macedonia)",
+        "eventid_count":35
+    },
+    {
+        "country":119,
+        "country_txt":"Madagascar",
+        "gname":"Anti-Government Demonstrators",
+        "eventid_count":1
+    },
+    {
+        "country":120,
+        "country_txt":"Malawi",
+        "gname":"Democratic Progressive Party (Malawi)",
+        "eventid_count":4
+    },
+    {
+        "country":121,
+        "country_txt":"Malaysia",
+        "gname":"Abu Sayyaf Group (ASG)",
+        "eventid_count":26
+    },
+    {
+        "country":122,
+        "country_txt":"Maldives",
+        "gname":"Muslim extremists",
+        "eventid_count":10
+    },
+    {
+        "country":123,
+        "country_txt":"Mali",
+        "gname":"Jamaat Nusrat al-Islam wal Muslimin (JNIM)",
+        "eventid_count":153
+    },
+    {
+        "country":124,
+        "country_txt":"Malta",
+        "gname":"Turkish radicals",
+        "eventid_count":1
+    },
+    {
+        "country":127,
+        "country_txt":"Martinique",
+        "gname":"Caribbean Revolutionary Alliance (ARC)",
+        "eventid_count":3
+    },
+    {
+        "country":128,
+        "country_txt":"Mauritania",
+        "gname":"Al-Qaida in the Islamic Maghreb (AQIM)",
+        "eventid_count":9
+    },
+    {
+        "country":130,
+        "country_txt":"Mexico",
+        "gname":"23rd of September Communist League",
+        "eventid_count":44
+    },
+    {
+        "country":132,
+        "country_txt":"Moldova",
+        "gname":"Dnestr Republic Separatists",
+        "eventid_count":2
+    },
+    {
+        "country":136,
+        "country_txt":"Morocco",
+        "gname":"Polisario Front",
+        "eventid_count":9
+    },
+    {
+        "country":137,
+        "country_txt":"Mozambique",
+        "gname":"Mozambique National Resistance Movement (MNR)",
+        "eventid_count":293
+    },
+    {
+        "country":138,
+        "country_txt":"Myanmar",
+        "gname":"Arakan Army (AA)",
+        "eventid_count":107
+    },
+    {
+        "country":139,
+        "country_txt":"Namibia",
+        "gname":"South-West Africa People's Organization (SWAPO)",
+        "eventid_count":60
+    },
+    {
+        "country":141,
+        "country_txt":"Nepal",
+        "gname":"Communist Party of Nepal - Maoist (CPN-Maoist-Chand)",
+        "eventid_count":300
+    },
+    {
+        "country":142,
+        "country_txt":"Netherlands",
+        "gname":"Conspiracy theory extremists",
+        "eventid_count":30
+    },
+    {
+        "country":143,
+        "country_txt":"New Caledonia",
+        "gname":"Kanak Socialist National Liberation Front",
+        "eventid_count":5
+    },
+    {
+        "country":144,
+        "country_txt":"New Zealand",
+        "gname":"Conspiracy theory extremists",
+        "eventid_count":12
+    },
+    {
+        "country":145,
+        "country_txt":"Nicaragua",
+        "gname":"Nicaraguan Democratic Force (FDN)",
+        "eventid_count":886
+    },
+    {
+        "country":146,
+        "country_txt":"Niger",
+        "gname":"Boko Haram",
+        "eventid_count":119
+    },
+    {
+        "country":147,
+        "country_txt":"Nigeria",
+        "gname":"Boko Haram",
+        "eventid_count":2790
+    },
+    {
+        "country":149,
+        "country_txt":"North Korea",
+        "gname":"Kim Pyongnil Supporters",
+        "eventid_count":1
+    },
+    {
+        "country":151,
+        "country_txt":"Norway",
+        "gname":"Kurdish extremists",
+        "eventid_count":2
+    },
+    {
+        "country":153,
+        "country_txt":"Pakistan",
+        "gname":"Tehrik-i-Taliban Pakistan (TTP)",
+        "eventid_count":1471
+    },
+    {
+        "country":155,
+        "country_txt":"West Bank and Gaza Strip",
+        "gname":"Palestinians",
+        "eventid_count":562
+    },
+    {
+        "country":156,
+        "country_txt":"Panama",
+        "gname":"20 December Movement (M-20)",
+        "eventid_count":15
+    },
+    {
+        "country":157,
+        "country_txt":"Papua New Guinea",
+        "gname":"Bougainville Revolutionary Army (BRA)",
+        "eventid_count":28
+    },
+    {
+        "country":158,
+        "country_txt":"Paraguay",
+        "gname":"Paraguayan People's Army (EPP)",
+        "eventid_count":75
+    },
+    {
+        "country":159,
+        "country_txt":"Peru",
+        "gname":"Shining Path (SL)",
+        "eventid_count":4550
+    },
+    {
+        "country":160,
+        "country_txt":"Philippines",
+        "gname":"New People's Army (NPA)",
+        "eventid_count":3393
+    },
+    {
+        "country":161,
+        "country_txt":"Poland",
+        "gname":"December 13 Independent Group",
+        "eventid_count":3
+    },
+    {
+        "country":162,
+        "country_txt":"Portugal",
+        "gname":"Popular Forces of April 25",
+        "eventid_count":47
+    },
+    {
+        "country":164,
+        "country_txt":"Qatar",
+        "gname":"Iraqi extremists",
+        "eventid_count":1
+    },
+    {
+        "country":166,
+        "country_txt":"Romania",
+        "gname":"Bavarian Liberation Army",
+        "eventid_count":1
+    },
+    {
+        "country":167,
+        "country_txt":"Russia",
+        "gname":"Chechen Rebels",
+        "eventid_count":320
+    },
+    {
+        "country":168,
+        "country_txt":"Rwanda",
+        "gname":"Hutu extremists",
+        "eventid_count":45
+    },
+    {
+        "country":173,
+        "country_txt":"Saudi Arabia",
+        "gname":"Houthi extremists (Ansar Allah)",
+        "eventid_count":348
+    },
+    {
+        "country":174,
+        "country_txt":"Senegal",
+        "gname":"Movement of Democratic Forces of Casamance",
+        "eventid_count":82
+    },
+    {
+        "country":175,
+        "country_txt":"Serbia-Montenegro",
+        "gname":"Albanian National Army (ANA)",
+        "eventid_count":1
+    },
+    {
+        "country":176,
+        "country_txt":"Seychelles",
+        "gname":"Mercenaries",
+        "eventid_count":2
+    },
+    {
+        "country":177,
+        "country_txt":"Sierra Leone",
+        "gname":"Revolutionary United Front (RUF)",
+        "eventid_count":63
+    },
+    {
+        "country":178,
+        "country_txt":"Singapore",
+        "gname":"Al-Zulfikar",
+        "eventid_count":1
+    },
+    {
+        "country":179,
+        "country_txt":"Slovak Republic",
+        "gname":"Neo-Nazi extremists",
+        "eventid_count":2
+    },
+    {
+        "country":181,
+        "country_txt":"Solomon Islands",
+        "gname":"Guadalcanal Liberation Army",
+        "eventid_count":1
+    },
+    {
+        "country":182,
+        "country_txt":"Somalia",
+        "gname":"Al-Shabaab",
+        "eventid_count":3849
+    },
+    {
+        "country":183,
+        "country_txt":"South Africa",
+        "gname":"African National Congress (South Africa)",
+        "eventid_count":600
+    },
+    {
+        "country":184,
+        "country_txt":"South Korea",
+        "gname":"Student Radicals",
+        "eventid_count":3
+    },
+    {
+        "country":185,
+        "country_txt":"Spain",
+        "gname":"Basque Fatherland and Freedom (ETA)",
+        "eventid_count":1975
+    },
+    {
+        "country":186,
+        "country_txt":"Sri Lanka",
+        "gname":"Liberation Tigers of Tamil Eelam (LTTE)",
+        "eventid_count":1592
+    },
+    {
+        "country":189,
+        "country_txt":"St. Kitts and Nevis",
+        "gname":"St. Kitts Nevis Labor Party",
+        "eventid_count":1
+    },
+    {
+        "country":190,
+        "country_txt":"St. Lucia",
+        "gname":"Rastas",
+        "eventid_count":1
+    },
+    {
+        "country":195,
+        "country_txt":"Sudan",
+        "gname":"Janjaweed",
+        "eventid_count":217
+    },
+    {
+        "country":196,
+        "country_txt":"Suriname",
+        "gname":"Brunswijk Jungle Commando",
+        "eventid_count":41
+    },
+    {
+        "country":197,
+        "country_txt":"Swaziland",
+        "gname":"Umbane People's Liberation Army (Swaziland)",
+        "eventid_count":2
+    },
+    {
+        "country":198,
+        "country_txt":"Sweden",
+        "gname":"Anti-Muslim extremists",
+        "eventid_count":6
+    },
+    {
+        "country":199,
+        "country_txt":"Switzerland",
+        "gname":"Armenian Secret Army for the Liberation of Armenia",
+        "eventid_count":15
+    },
+    {
+        "country":200,
+        "country_txt":"Syria",
+        "gname":"Islamic State of Iraq and the Levant (ISIL)",
+        "eventid_count":818
+    },
+    {
+        "country":201,
+        "country_txt":"Taiwan",
+        "gname":"Anti-Nuclear extremists",
+        "eventid_count":2
+    },
+    {
+        "country":202,
+        "country_txt":"Tajikistan",
+        "gname":"Islamic State of Iraq and the Levant (ISIL)",
+        "eventid_count":4
+    },
+    {
+        "country":203,
+        "country_txt":"Tanzania",
+        "gname":"Central Africa Province of the Islamic State",
+        "eventid_count":5
+    },
+    {
+        "country":204,
+        "country_txt":"Togo",
+        "gname":"Togolese Dissidents",
+        "eventid_count":3
+    },
+    {
+        "country":205,
+        "country_txt":"Thailand",
+        "gname":"Separatists",
+        "eventid_count":380
+    },
+    {
+        "country":207,
+        "country_txt":"Trinidad and Tobago",
+        "gname":"Taxi Drivers",
+        "eventid_count":3
+    },
+    {
+        "country":208,
+        "country_txt":"Tunisia",
+        "gname":"Jund al-Khilafah (Tunisia)",
+        "eventid_count":23
+    },
+    {
+        "country":209,
+        "country_txt":"Turkey",
+        "gname":"Kurdistan Workers' Party (PKK)",
+        "eventid_count":2252
+    },
+    {
+        "country":210,
+        "country_txt":"Turkmenistan",
+        "gname":"Gunmen",
+        "eventid_count":1
+    },
+    {
+        "country":213,
+        "country_txt":"Uganda",
+        "gname":"Lord's Resistance Army (LRA)",
+        "eventid_count":131
+    },
+    {
+        "country":214,
+        "country_txt":"Ukraine",
+        "gname":"Donetsk People's Republic",
+        "eventid_count":636
+    },
+    {
+        "country":215,
+        "country_txt":"United Arab Emirates",
+        "gname":"Abdullah Azzam Brigades",
+        "eventid_count":1
+    },
+    {
+        "country":217,
+        "country_txt":"United States",
+        "gname":"Anti-Abortion extremists",
+        "eventid_count":234
+    },
+    {
+        "country":218,
+        "country_txt":"Uruguay",
+        "gname":"Tupamaros (Uruguay)",
+        "eventid_count":41
+    },
+    {
+        "country":219,
+        "country_txt":"Uzbekistan",
+        "gname":"Islamic Jihad Group (IJG)",
+        "eventid_count":3
+    },
+    {
+        "country":220,
+        "country_txt":"Vanuatu",
+        "gname":"Vanuatu Mobile Force (VMF)",
+        "eventid_count":2
+    },
+    {
+        "country":221,
+        "country_txt":"Vatican City",
+        "gname":"Grey Wolves",
+        "eventid_count":1
+    },
+    {
+        "country":222,
+        "country_txt":"Venezuela",
+        "gname":"National Liberation Army of Colombia (ELN)",
+        "eventid_count":37
+    },
+    {
+        "country":223,
+        "country_txt":"Vietnam",
+        "gname":"Provisional National Government of Vietnam",
+        "eventid_count":2
+    },
+    {
+        "country":228,
+        "country_txt":"Yemen",
+        "gname":"Houthi extremists (Ansar Allah)",
+        "eventid_count":2848
+    },
+    {
+        "country":229,
+        "country_txt":"Democratic Republic of the Congo",
+        "gname":"Allied Democratic Forces (ADF)",
+        "eventid_count":385
+    },
+    {
+        "country":230,
+        "country_txt":"Zambia",
+        "gname":"National Union for the Total Independence of Angola (UNITA)",
+        "eventid_count":15
+    },
+    {
+        "country":231,
+        "country_txt":"Zimbabwe",
+        "gname":"Zimbabwe African Nationalist Union (ZANU)",
+        "eventid_count":14
+    },
+    {
+        "country":235,
+        "country_txt":"Yugoslavia",
+        "gname":"Kosovo Liberation Army (KLA)",
+        "eventid_count":40
+    },
+    {
+        "country":236,
+        "country_txt":"Czechoslovakia",
+        "gname":"Croatian Nationalists",
+        "eventid_count":1
+    },
+    {
+        "country":347,
+        "country_txt":"East Timor",
+        "gname":"Pro-Indonesia extremists",
+        "eventid_count":1
+    },
+    {
+        "country":349,
+        "country_txt":"Western Sahara",
+        "gname":"Polisario Front",
+        "eventid_count":5
+    },
+    {
+        "country":359,
+        "country_txt":"Soviet Union",
+        "gname":"Armenian Guerrillas",
+        "eventid_count":5
+    },
+    {
+        "country":362,
+        "country_txt":"West Germany (FRG)",
+        "gname":"Red Army Faction (RAF)",
+        "eventid_count":55
+    },
+    {
+        "country":403,
+        "country_txt":"Rhodesia",
+        "gname":"Zimbabwe African Nationalist Union (ZANU)",
+        "eventid_count":11
+    },
+    {
+        "country":406,
+        "country_txt":"South Yemen",
+        "gname":"Palestinians",
+        "eventid_count":1
+    },
+    {
+        "country":422,
+        "country_txt":"International",
+        "gname":"Al-Qaida",
+        "eventid_count":1
+    },
+    {
+        "country":499,
+        "country_txt":"East Germany (GDR)",
+        "gname":"Extraparliamentary Opposition (APO)",
+        "eventid_count":3
+    },
+    {
+        "country":532,
+        "country_txt":"New Hebrides",
+        "gname":"Secessionists",
+        "eventid_count":1
+    },
+    {
+        "country":603,
+        "country_txt":"United Kingdom",
+        "gname":"Irish Republican Army (IRA)",
+        "eventid_count":2575
+    },
+    {
+        "country":604,
+        "country_txt":"Zaire",
+        "gname":"Hutu extremists",
+        "eventid_count":4
+    },
+    {
+        "country":605,
+        "country_txt":"People's Republic of the Congo",
+        "gname":"Front for the Liberation of the Enclave of Cabinda (FLEC)",
+        "eventid_count":2
+    },
+    {
+        "country":1001,
+        "country_txt":"Serbia",
+        "gname":"Liberation Army for Presevo, Medvedja and Bujanovac (UCPMB)",
+        "eventid_count":1
+    },
+    {
+        "country":1003,
+        "country_txt":"Kosovo",
+        "gname":"Albanian extremists",
+        "eventid_count":28
+    },
+    {
+        "country":1004,
+        "country_txt":"South Sudan",
+        "gname":"Sudan People's Liberation Movement in Opposition (SPLM-IO)",
+        "eventid_count":153
+    }
+]

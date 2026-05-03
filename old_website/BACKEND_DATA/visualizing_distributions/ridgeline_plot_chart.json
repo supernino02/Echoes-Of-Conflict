@@ -1,0 +1,5510 @@
+[
+    {
+        "region":"Australasia & Oceania",
+        "year":1970,
+        "count":1.0,
+        "count_ma5":3.3333333333,
+        "norm":0.0344827586,
+        "norm_ma5":0.1937984496,
+        "share":0.0015360983
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1971,
+        "count":1.0,
+        "count_ma5":2.75,
+        "norm":0.0344827586,
+        "norm_ma5":0.1598837209,
+        "share":0.0021231423
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1972,
+        "count":8.0,
+        "count_ma5":2.4,
+        "norm":0.275862069,
+        "norm_ma5":0.1395348837,
+        "share":0.0141093474
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1973,
+        "count":1.0,
+        "count_ma5":2.2,
+        "norm":0.0344827586,
+        "norm_ma5":0.1279069767,
+        "share":0.0021141649
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1974,
+        "count":1.0,
+        "count_ma5":2.0,
+        "norm":0.0344827586,
+        "norm_ma5":0.1162790698,
+        "share":0.0017211704
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1975,
+        "count":0.0,
+        "count_ma5":0.4,
+        "norm":0.0,
+        "norm_ma5":0.023255814,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1976,
+        "count":0.0,
+        "count_ma5":0.6,
+        "norm":0.0,
+        "norm_ma5":0.0348837209,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1977,
+        "count":0.0,
+        "count_ma5":0.8,
+        "norm":0.0,
+        "norm_ma5":0.0465116279,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1978,
+        "count":2.0,
+        "count_ma5":2.2,
+        "norm":0.0689655172,
+        "norm_ma5":0.1279069767,
+        "share":0.001310616
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1979,
+        "count":2.0,
+        "count_ma5":2.8,
+        "norm":0.0689655172,
+        "norm_ma5":0.1627906977,
+        "share":0.0007513148
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1980,
+        "count":7.0,
+        "count_ma5":3.2,
+        "norm":0.2413793103,
+        "norm_ma5":0.1860465116,
+        "share":0.00263059
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1981,
+        "count":3.0,
+        "count_ma5":2.8,
+        "norm":0.1034482759,
+        "norm_ma5":0.1627906977,
+        "share":0.0011600928
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1982,
+        "count":2.0,
+        "count_ma5":4.6,
+        "norm":0.0689655172,
+        "norm_ma5":0.2674418605,
+        "share":0.0007864727
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1983,
+        "count":0.0,
+        "count_ma5":4.6,
+        "norm":0.0,
+        "norm_ma5":0.2674418605,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1984,
+        "count":11.0,
+        "count_ma5":4.8,
+        "norm":0.3793103448,
+        "norm_ma5":0.2790697674,
+        "share":0.0031473534
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1985,
+        "count":7.0,
+        "count_ma5":5.0,
+        "norm":0.2413793103,
+        "norm_ma5":0.2906976744,
+        "share":0.0024021963
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1986,
+        "count":4.0,
+        "count_ma5":7.4,
+        "norm":0.1379310345,
+        "norm_ma5":0.4302325581,
+        "share":0.0013986014
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1987,
+        "count":3.0,
+        "count_ma5":11.0,
+        "norm":0.1034482759,
+        "norm_ma5":0.6395348837,
+        "share":0.0009425071
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1988,
+        "count":12.0,
+        "count_ma5":13.2,
+        "norm":0.4137931034,
+        "norm_ma5":0.7674418605,
+        "share":0.0032258065
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1989,
+        "count":29.0,
+        "count_ma5":14.4,
+        "norm":1.0,
+        "norm_ma5":0.8372093023,
+        "share":0.006706753
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1990,
+        "count":18.0,
+        "count_ma5":17.2,
+        "norm":0.6206896552,
+        "norm_ma5":1.0,
+        "share":0.0046320124
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1991,
+        "count":10.0,
+        "count_ma5":14.8,
+        "norm":0.3448275862,
+        "norm_ma5":0.8604651163,
+        "share":0.0021344717
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1992,
+        "count":17.0,
+        "count_ma5":11.8,
+        "norm":0.5862068966,
+        "norm_ma5":0.6860465116,
+        "share":0.003352396
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":11.8,
+        "norm":0.0,
+        "norm_ma5":0.6860465116,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1994,
+        "count":14.0,
+        "count_ma5":13.6,
+        "norm":0.4827586207,
+        "norm_ma5":0.7906976744,
+        "share":0.0040509259
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1995,
+        "count":18.0,
+        "count_ma5":11.6,
+        "norm":0.6206896552,
+        "norm_ma5":0.6744186047,
+        "share":0.005842259
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1996,
+        "count":19.0,
+        "count_ma5":12.8,
+        "norm":0.6551724138,
+        "norm_ma5":0.7441860465,
+        "share":0.0062132112
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1997,
+        "count":7.0,
+        "count_ma5":10.8,
+        "norm":0.2413793103,
+        "norm_ma5":0.6279069767,
+        "share":0.002188868
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1998,
+        "count":6.0,
+        "count_ma5":8.4,
+        "norm":0.2068965517,
+        "norm_ma5":0.488372093,
+        "share":0.0064239829
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":1999,
+        "count":4.0,
+        "count_ma5":5.4,
+        "norm":0.1379310345,
+        "norm_ma5":0.3139534884,
+        "share":0.0028653295
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2000,
+        "count":6.0,
+        "count_ma5":4.4,
+        "norm":0.2068965517,
+        "norm_ma5":0.2558139535,
+        "share":0.0032912781
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2001,
+        "count":4.0,
+        "count_ma5":4.0,
+        "norm":0.1379310345,
+        "norm_ma5":0.2325581395,
+        "share":0.0020920502
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2002,
+        "count":2.0,
+        "count_ma5":3.2,
+        "norm":0.0689655172,
+        "norm_ma5":0.1860465116,
+        "share":0.0015037594
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2003,
+        "count":4.0,
+        "count_ma5":2.0,
+        "norm":0.1379310345,
+        "norm_ma5":0.1162790698,
+        "share":0.003125
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2004,
+        "count":0.0,
+        "count_ma5":1.6,
+        "norm":0.0,
+        "norm_ma5":0.0930232558,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2005,
+        "count":0.0,
+        "count_ma5":1.4,
+        "norm":0.0,
+        "norm_ma5":0.0813953488,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2006,
+        "count":2.0,
+        "count_ma5":1.6,
+        "norm":0.0689655172,
+        "norm_ma5":0.0930232558,
+        "share":0.0007254262
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2007,
+        "count":1.0,
+        "count_ma5":1.8,
+        "norm":0.0344827586,
+        "norm_ma5":0.1046511628,
+        "share":0.0003076923
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2008,
+        "count":5.0,
+        "count_ma5":2.0,
+        "norm":0.1724137931,
+        "norm_ma5":0.1162790698,
+        "share":0.0010414497
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2009,
+        "count":1.0,
+        "count_ma5":1.6,
+        "norm":0.0344827586,
+        "norm_ma5":0.0930232558,
+        "share":0.0002117298
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2010,
+        "count":1.0,
+        "count_ma5":1.4,
+        "norm":0.0344827586,
+        "norm_ma5":0.0813953488,
+        "share":0.000207168
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2011,
+        "count":0.0,
+        "count_ma5":0.6,
+        "norm":0.0,
+        "norm_ma5":0.0348837209,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2012,
+        "count":0.0,
+        "count_ma5":2.2,
+        "norm":0.0,
+        "norm_ma5":0.1279069767,
+        "share":0.0
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2013,
+        "count":1.0,
+        "count_ma5":4.4,
+        "norm":0.0344827586,
+        "norm_ma5":0.2558139535,
+        "share":0.0000830082
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2014,
+        "count":9.0,
+        "count_ma5":6.4,
+        "norm":0.3103448276,
+        "norm_ma5":0.3720930233,
+        "share":0.0005306604
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2015,
+        "count":12.0,
+        "count_ma5":9.0,
+        "norm":0.4137931034,
+        "norm_ma5":0.523255814,
+        "share":0.0007927071
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2016,
+        "count":10.0,
+        "count_ma5":13.0,
+        "norm":0.3448275862,
+        "norm_ma5":0.7558139535,
+        "share":0.0007116931
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2017,
+        "count":13.0,
+        "count_ma5":12.2,
+        "norm":0.4482758621,
+        "norm_ma5":0.7093023256,
+        "share":0.0011439634
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2018,
+        "count":21.0,
+        "count_ma5":14.0,
+        "norm":0.724137931,
+        "norm_ma5":0.8139534884,
+        "share":0.0021313306
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2019,
+        "count":5.0,
+        "count_ma5":15.0,
+        "norm":0.1724137931,
+        "norm_ma5":0.8720930233,
+        "share":0.0005856858
+    },
+    {
+        "region":"Australasia & Oceania",
+        "year":2020,
+        "count":21.0,
+        "count_ma5":15.6666666667,
+        "norm":0.724137931,
+        "norm_ma5":0.9108527132,
+        "share":0.0024887414
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1970,
+        "count":7.0,
+        "count_ma5":5.0,
+        "norm":0.006097561,
+        "norm_ma5":0.0052598359,
+        "share":0.0107526882
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1971,
+        "count":5.0,
+        "count_ma5":5.25,
+        "norm":0.0043554007,
+        "norm_ma5":0.0055228277,
+        "share":0.0106157113
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1972,
+        "count":3.0,
+        "count_ma5":6.4,
+        "norm":0.0026132404,
+        "norm_ma5":0.0067325899,
+        "share":0.0052910053
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1973,
+        "count":6.0,
+        "count_ma5":6.8,
+        "norm":0.0052264808,
+        "norm_ma5":0.0071533768,
+        "share":0.0126849894
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1974,
+        "count":11.0,
+        "count_ma5":14.8,
+        "norm":0.0095818815,
+        "norm_ma5":0.0155691142,
+        "share":0.0189328744
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1975,
+        "count":9.0,
+        "count_ma5":19.0,
+        "norm":0.0078397213,
+        "norm_ma5":0.0199873764,
+        "share":0.0121621622
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1976,
+        "count":45.0,
+        "count_ma5":57.6,
+        "norm":0.0391986063,
+        "norm_ma5":0.0605933095,
+        "share":0.0487540628
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1977,
+        "count":24.0,
+        "count_ma5":177.2,
+        "norm":0.0209059233,
+        "norm_ma5":0.1864085841,
+        "share":0.0181956027
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1978,
+        "count":199.0,
+        "count_ma5":389.4,
+        "norm":0.1733449477,
+        "norm_ma5":0.4096360194,
+        "share":0.130406291
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1979,
+        "count":609.0,
+        "count_ma5":610.0,
+        "norm":0.5304878049,
+        "norm_ma5":0.641699979,
+        "share":0.2287753569
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1980,
+        "count":1070.0,
+        "count_ma5":804.4,
+        "norm":0.9320557491,
+        "norm_ma5":0.8462023985,
+        "share":0.402104472
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1981,
+        "count":1148.0,
+        "count_ma5":936.2,
+        "norm":1.0,
+        "norm_ma5":0.9848516726,
+        "share":0.4439288476
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1982,
+        "count":996.0,
+        "count_ma5":950.6,
+        "norm":0.8675958188,
+        "norm_ma5":1.0,
+        "share":0.3916633897
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1983,
+        "count":858.0,
+        "count_ma5":892.6,
+        "norm":0.7473867596,
+        "norm_ma5":0.9389859036,
+        "share":0.2989547038
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1984,
+        "count":681.0,
+        "count_ma5":741.6,
+        "norm":0.5932055749,
+        "norm_ma5":0.7801388597,
+        "share":0.1948497854
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1985,
+        "count":780.0,
+        "count_ma5":655.6,
+        "norm":0.6794425087,
+        "norm_ma5":0.6896696823,
+        "share":0.2676733013
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1986,
+        "count":393.0,
+        "count_ma5":583.0,
+        "norm":0.3423344948,
+        "norm_ma5":0.6132968651,
+        "share":0.1374125874
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1987,
+        "count":566.0,
+        "count_ma5":547.4,
+        "norm":0.4930313589,
+        "norm_ma5":0.5758468336,
+        "share":0.177819667
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1988,
+        "count":495.0,
+        "count_ma5":454.6,
+        "norm":0.431184669,
+        "norm_ma5":0.4782242794,
+        "share":0.1330645161
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1989,
+        "count":503.0,
+        "count_ma5":521.8,
+        "norm":0.4381533101,
+        "norm_ma5":0.5489164738,
+        "share":0.1163274746
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1990,
+        "count":316.0,
+        "count_ma5":451.0,
+        "norm":0.275261324,
+        "norm_ma5":0.4744371976,
+        "share":0.0813175502
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1991,
+        "count":729.0,
+        "count_ma5":352.0,
+        "norm":0.6350174216,
+        "norm_ma5":0.3702924469,
+        "share":0.1556029883
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1992,
+        "count":212.0,
+        "count_ma5":287.4,
+        "norm":0.1846689895,
+        "norm_ma5":0.3023353671,
+        "share":0.0418063498
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":257.8,
+        "norm":0.0,
+        "norm_ma5":0.2711971386,
+        "share":0.0
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1994,
+        "count":180.0,
+        "count_ma5":135.2,
+        "norm":0.1567944251,
+        "norm_ma5":0.1422259625,
+        "share":0.0520833333
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1995,
+        "count":168.0,
+        "count_ma5":116.2,
+        "norm":0.1463414634,
+        "norm_ma5":0.1222385862,
+        "share":0.0545277507
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1996,
+        "count":116.0,
+        "count_ma5":116.4,
+        "norm":0.1010452962,
+        "norm_ma5":0.1224489796,
+        "share":0.0379332897
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1997,
+        "count":117.0,
+        "count_ma5":82.0,
+        "norm":0.1019163763,
+        "norm_ma5":0.0862613086,
+        "share":0.0365853659
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1998,
+        "count":1.0,
+        "count_ma5":51.2,
+        "norm":0.0008710801,
+        "norm_ma5":0.0538607195,
+        "share":0.0010706638
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":1999,
+        "count":8.0,
+        "count_ma5":29.6,
+        "norm":0.0069686411,
+        "norm_ma5":0.0311382285,
+        "share":0.005730659
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2000,
+        "count":14.0,
+        "count_ma5":6.8,
+        "norm":0.012195122,
+        "norm_ma5":0.0071533768,
+        "share":0.0076796489
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2001,
+        "count":8.0,
+        "count_ma5":8.2,
+        "norm":0.0069686411,
+        "norm_ma5":0.0086261309,
+        "share":0.0041841004
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2002,
+        "count":3.0,
+        "count_ma5":7.6,
+        "norm":0.0026132404,
+        "norm_ma5":0.0079949506,
+        "share":0.0022556391
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2003,
+        "count":8.0,
+        "count_ma5":5.4,
+        "norm":0.0069686411,
+        "norm_ma5":0.0056806228,
+        "share":0.00625
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2004,
+        "count":5.0,
+        "count_ma5":4.8,
+        "norm":0.0043554007,
+        "norm_ma5":0.0050494425,
+        "share":0.0042955326
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2005,
+        "count":3.0,
+        "count_ma5":5.0,
+        "norm":0.0026132404,
+        "norm_ma5":0.0052598359,
+        "share":0.0014873575
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2006,
+        "count":5.0,
+        "count_ma5":3.4,
+        "norm":0.0043554007,
+        "norm_ma5":0.0035766884,
+        "share":0.0018135655
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2007,
+        "count":4.0,
+        "count_ma5":4.2,
+        "norm":0.0034843206,
+        "norm_ma5":0.0044182622,
+        "share":0.0012307692
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2008,
+        "count":0.0,
+        "count_ma5":3.8,
+        "norm":0.0,
+        "norm_ma5":0.0039974753,
+        "share":0.0
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2009,
+        "count":9.0,
+        "count_ma5":3.0,
+        "norm":0.0078397213,
+        "norm_ma5":0.0031559015,
+        "share":0.0019055685
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2010,
+        "count":1.0,
+        "count_ma5":2.4,
+        "norm":0.0008710801,
+        "norm_ma5":0.0025247212,
+        "share":0.000207168
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2011,
+        "count":1.0,
+        "count_ma5":5.2,
+        "norm":0.0008710801,
+        "norm_ma5":0.0054702293,
+        "share":0.0001970443
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2012,
+        "count":1.0,
+        "count_ma5":4.2,
+        "norm":0.0008710801,
+        "norm_ma5":0.0044182622,
+        "share":0.0001173021
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2013,
+        "count":14.0,
+        "count_ma5":4.2,
+        "norm":0.012195122,
+        "norm_ma5":0.0044182622,
+        "share":0.001162115
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2014,
+        "count":4.0,
+        "count_ma5":4.6,
+        "norm":0.0034843206,
+        "norm_ma5":0.004839049,
+        "share":0.0002358491
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2015,
+        "count":1.0,
+        "count_ma5":5.2,
+        "norm":0.0008710801,
+        "norm_ma5":0.0054702293,
+        "share":0.0000660589
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2016,
+        "count":3.0,
+        "count_ma5":5.4,
+        "norm":0.0026132404,
+        "norm_ma5":0.0056806228,
+        "share":0.0002135079
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2017,
+        "count":4.0,
+        "count_ma5":7.6,
+        "norm":0.0034843206,
+        "norm_ma5":0.0079949506,
+        "share":0.0003519887
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2018,
+        "count":15.0,
+        "count_ma5":10.0,
+        "norm":0.0130662021,
+        "norm_ma5":0.0105196718,
+        "share":0.001522379
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2019,
+        "count":15.0,
+        "count_ma5":11.75,
+        "norm":0.0130662021,
+        "norm_ma5":0.0123606143,
+        "share":0.0017570575
+    },
+    {
+        "region":"Central America & Caribbean",
+        "year":2020,
+        "count":13.0,
+        "count_ma5":14.3333333333,
+        "norm":0.0113240418,
+        "norm_ma5":0.0150781962,
+        "share":0.0015406494
+    },
+    {
+        "region":"Central Asia",
+        "year":1970,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1971,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1972,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1973,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1974,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1975,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1976,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1977,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1978,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1979,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1980,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1981,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1982,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1983,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1984,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1985,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1986,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1987,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1988,
+        "count":0.0,
+        "count_ma5":0.0,
+        "norm":0.0,
+        "norm_ma5":0.0,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1989,
+        "count":0.0,
+        "count_ma5":1.4,
+        "norm":0.0,
+        "norm_ma5":0.0304347826,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1990,
+        "count":0.0,
+        "count_ma5":16.8,
+        "norm":0.0,
+        "norm_ma5":0.3652173913,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1991,
+        "count":7.0,
+        "count_ma5":16.8,
+        "norm":0.0909090909,
+        "norm_ma5":0.3652173913,
+        "share":0.0014941302
+    },
+    {
+        "region":"Central Asia",
+        "year":1992,
+        "count":77.0,
+        "count_ma5":29.8,
+        "norm":1.0,
+        "norm_ma5":0.647826087,
+        "share":0.0151843818
+    },
+    {
+        "region":"Central Asia",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":40.8,
+        "norm":0.0,
+        "norm_ma5":0.8869565217,
+        "share":0.0
+    },
+    {
+        "region":"Central Asia",
+        "year":1994,
+        "count":65.0,
+        "count_ma5":46.0,
+        "norm":0.8441558442,
+        "norm_ma5":1.0,
+        "share":0.0188078704
+    },
+    {
+        "region":"Central Asia",
+        "year":1995,
+        "count":55.0,
+        "count_ma5":40.4,
+        "norm":0.7142857143,
+        "norm_ma5":0.8782608696,
+        "share":0.017851347
+    },
+    {
+        "region":"Central Asia",
+        "year":1996,
+        "count":33.0,
+        "count_ma5":45.4,
+        "norm":0.4285714286,
+        "norm_ma5":0.9869565217,
+        "share":0.0107913669
+    },
+    {
+        "region":"Central Asia",
+        "year":1997,
+        "count":49.0,
+        "count_ma5":37.2,
+        "norm":0.6363636364,
+        "norm_ma5":0.8086956522,
+        "share":0.0153220763
+    },
+    {
+        "region":"Central Asia",
+        "year":1998,
+        "count":25.0,
+        "count_ma5":30.4,
+        "norm":0.3246753247,
+        "norm_ma5":0.6608695652,
+        "share":0.0267665953
+    },
+    {
+        "region":"Central Asia",
+        "year":1999,
+        "count":24.0,
+        "count_ma5":27.4,
+        "norm":0.3116883117,
+        "norm_ma5":0.5956521739,
+        "share":0.0171919771
+    },
+    {
+        "region":"Central Asia",
+        "year":2000,
+        "count":21.0,
+        "count_ma5":18.8,
+        "norm":0.2727272727,
+        "norm_ma5":0.4086956522,
+        "share":0.0115194734
+    },
+    {
+        "region":"Central Asia",
+        "year":2001,
+        "count":18.0,
+        "count_ma5":15.2,
+        "norm":0.2337662338,
+        "norm_ma5":0.3304347826,
+        "share":0.0094142259
+    },
+    {
+        "region":"Central Asia",
+        "year":2002,
+        "count":6.0,
+        "count_ma5":12.0,
+        "norm":0.0779220779,
+        "norm_ma5":0.2608695652,
+        "share":0.0045112782
+    },
+    {
+        "region":"Central Asia",
+        "year":2003,
+        "count":7.0,
+        "count_ma5":10.0,
+        "norm":0.0909090909,
+        "norm_ma5":0.2173913043,
+        "share":0.00546875
+    },
+    {
+        "region":"Central Asia",
+        "year":2004,
+        "count":8.0,
+        "count_ma5":7.6,
+        "norm":0.1038961039,
+        "norm_ma5":0.1652173913,
+        "share":0.0068728522
+    },
+    {
+        "region":"Central Asia",
+        "year":2005,
+        "count":11.0,
+        "count_ma5":7.2,
+        "norm":0.1428571429,
+        "norm_ma5":0.1565217391,
+        "share":0.005453644
+    },
+    {
+        "region":"Central Asia",
+        "year":2006,
+        "count":6.0,
+        "count_ma5":13.0,
+        "norm":0.0779220779,
+        "norm_ma5":0.2826086957,
+        "share":0.0021762786
+    },
+    {
+        "region":"Central Asia",
+        "year":2007,
+        "count":4.0,
+        "count_ma5":17.6,
+        "norm":0.0519480519,
+        "norm_ma5":0.3826086957,
+        "share":0.0012307692
+    },
+    {
+        "region":"Central Asia",
+        "year":2008,
+        "count":36.0,
+        "count_ma5":17.2,
+        "norm":0.4675324675,
+        "norm_ma5":0.3739130435,
+        "share":0.0074984378
+    },
+    {
+        "region":"Central Asia",
+        "year":2009,
+        "count":31.0,
+        "count_ma5":17.8,
+        "norm":0.4025974026,
+        "norm_ma5":0.3869565217,
+        "share":0.0065636248
+    },
+    {
+        "region":"Central Asia",
+        "year":2010,
+        "count":9.0,
+        "count_ma5":19.4,
+        "norm":0.1168831169,
+        "norm_ma5":0.4217391304,
+        "share":0.0018645121
+    },
+    {
+        "region":"Central Asia",
+        "year":2011,
+        "count":9.0,
+        "count_ma5":13.6,
+        "norm":0.1168831169,
+        "norm_ma5":0.2956521739,
+        "share":0.001773399
+    },
+    {
+        "region":"Central Asia",
+        "year":2012,
+        "count":12.0,
+        "count_ma5":9.2,
+        "norm":0.1558441558,
+        "norm_ma5":0.2,
+        "share":0.0014076246
+    },
+    {
+        "region":"Central Asia",
+        "year":2013,
+        "count":7.0,
+        "count_ma5":9.4,
+        "norm":0.0909090909,
+        "norm_ma5":0.2043478261,
+        "share":0.0005810575
+    },
+    {
+        "region":"Central Asia",
+        "year":2014,
+        "count":9.0,
+        "count_ma5":11.0,
+        "norm":0.1168831169,
+        "norm_ma5":0.2391304348,
+        "share":0.0005306604
+    },
+    {
+        "region":"Central Asia",
+        "year":2015,
+        "count":10.0,
+        "count_ma5":10.2,
+        "norm":0.1298701299,
+        "norm_ma5":0.2217391304,
+        "share":0.0006605892
+    },
+    {
+        "region":"Central Asia",
+        "year":2016,
+        "count":17.0,
+        "count_ma5":10.2,
+        "norm":0.2207792208,
+        "norm_ma5":0.2217391304,
+        "share":0.0012098783
+    },
+    {
+        "region":"Central Asia",
+        "year":2017,
+        "count":8.0,
+        "count_ma5":9.0,
+        "norm":0.1038961039,
+        "norm_ma5":0.1956521739,
+        "share":0.0007039775
+    },
+    {
+        "region":"Central Asia",
+        "year":2018,
+        "count":7.0,
+        "count_ma5":8.2,
+        "norm":0.0909090909,
+        "norm_ma5":0.1782608696,
+        "share":0.0007104435
+    },
+    {
+        "region":"Central Asia",
+        "year":2019,
+        "count":3.0,
+        "count_ma5":6.0,
+        "norm":0.038961039,
+        "norm_ma5":0.1304347826,
+        "share":0.0003514115
+    },
+    {
+        "region":"Central Asia",
+        "year":2020,
+        "count":6.0,
+        "count_ma5":5.3333333333,
+        "norm":0.0779220779,
+        "norm_ma5":0.115942029,
+        "share":0.000711069
+    },
+    {
+        "region":"East Asia",
+        "year":1970,
+        "count":2.0,
+        "count_ma5":1.0,
+        "norm":0.0202020202,
+        "norm_ma5":0.0204918033,
+        "share":0.0030721966
+    },
+    {
+        "region":"East Asia",
+        "year":1971,
+        "count":1.0,
+        "count_ma5":1.25,
+        "norm":0.0101010101,
+        "norm_ma5":0.0256147541,
+        "share":0.0021231423
+    },
+    {
+        "region":"East Asia",
+        "year":1972,
+        "count":0.0,
+        "count_ma5":1.8,
+        "norm":0.0,
+        "norm_ma5":0.0368852459,
+        "share":0.0
+    },
+    {
+        "region":"East Asia",
+        "year":1973,
+        "count":2.0,
+        "count_ma5":3.8,
+        "norm":0.0202020202,
+        "norm_ma5":0.0778688525,
+        "share":0.0042283298
+    },
+    {
+        "region":"East Asia",
+        "year":1974,
+        "count":4.0,
+        "count_ma5":4.0,
+        "norm":0.0404040404,
+        "norm_ma5":0.0819672131,
+        "share":0.0068846816
+    },
+    {
+        "region":"East Asia",
+        "year":1975,
+        "count":12.0,
+        "count_ma5":4.8,
+        "norm":0.1212121212,
+        "norm_ma5":0.0983606557,
+        "share":0.0162162162
+    },
+    {
+        "region":"East Asia",
+        "year":1976,
+        "count":2.0,
+        "count_ma5":11.4,
+        "norm":0.0202020202,
+        "norm_ma5":0.2336065574,
+        "share":0.0021668472
+    },
+    {
+        "region":"East Asia",
+        "year":1977,
+        "count":4.0,
+        "count_ma5":13.8,
+        "norm":0.0404040404,
+        "norm_ma5":0.2827868852,
+        "share":0.0030326005
+    },
+    {
+        "region":"East Asia",
+        "year":1978,
+        "count":35.0,
+        "count_ma5":11.6,
+        "norm":0.3535353535,
+        "norm_ma5":0.237704918,
+        "share":0.0229357798
+    },
+    {
+        "region":"East Asia",
+        "year":1979,
+        "count":16.0,
+        "count_ma5":12.0,
+        "norm":0.1616161616,
+        "norm_ma5":0.2459016393,
+        "share":0.0060105184
+    },
+    {
+        "region":"East Asia",
+        "year":1980,
+        "count":1.0,
+        "count_ma5":11.8,
+        "norm":0.0101010101,
+        "norm_ma5":0.2418032787,
+        "share":0.0003757986
+    },
+    {
+        "region":"East Asia",
+        "year":1981,
+        "count":4.0,
+        "count_ma5":7.4,
+        "norm":0.0404040404,
+        "norm_ma5":0.1516393443,
+        "share":0.0015467904
+    },
+    {
+        "region":"East Asia",
+        "year":1982,
+        "count":3.0,
+        "count_ma5":7.2,
+        "norm":0.0303030303,
+        "norm_ma5":0.1475409836,
+        "share":0.001179709
+    },
+    {
+        "region":"East Asia",
+        "year":1983,
+        "count":13.0,
+        "count_ma5":9.0,
+        "norm":0.1313131313,
+        "norm_ma5":0.1844262295,
+        "share":0.0045296167
+    },
+    {
+        "region":"East Asia",
+        "year":1984,
+        "count":15.0,
+        "count_ma5":10.6,
+        "norm":0.1515151515,
+        "norm_ma5":0.2172131148,
+        "share":0.0042918455
+    },
+    {
+        "region":"East Asia",
+        "year":1985,
+        "count":10.0,
+        "count_ma5":12.0,
+        "norm":0.101010101,
+        "norm_ma5":0.2459016393,
+        "share":0.003431709
+    },
+    {
+        "region":"East Asia",
+        "year":1986,
+        "count":12.0,
+        "count_ma5":14.2,
+        "norm":0.1212121212,
+        "norm_ma5":0.2909836066,
+        "share":0.0041958042
+    },
+    {
+        "region":"East Asia",
+        "year":1987,
+        "count":10.0,
+        "count_ma5":14.8,
+        "norm":0.101010101,
+        "norm_ma5":0.3032786885,
+        "share":0.0031416902
+    },
+    {
+        "region":"East Asia",
+        "year":1988,
+        "count":24.0,
+        "count_ma5":32.6,
+        "norm":0.2424242424,
+        "norm_ma5":0.6680327869,
+        "share":0.0064516129
+    },
+    {
+        "region":"East Asia",
+        "year":1989,
+        "count":18.0,
+        "count_ma5":36.0,
+        "norm":0.1818181818,
+        "norm_ma5":0.737704918,
+        "share":0.0041628122
+    },
+    {
+        "region":"East Asia",
+        "year":1990,
+        "count":99.0,
+        "count_ma5":48.8,
+        "norm":1.0,
+        "norm_ma5":1.0,
+        "share":0.0254760679
+    },
+    {
+        "region":"East Asia",
+        "year":1991,
+        "count":29.0,
+        "count_ma5":44.0,
+        "norm":0.2929292929,
+        "norm_ma5":0.9016393443,
+        "share":0.006189968
+    },
+    {
+        "region":"East Asia",
+        "year":1992,
+        "count":74.0,
+        "count_ma5":47.2,
+        "norm":0.7474747475,
+        "norm_ma5":0.9672131148,
+        "share":0.0145927825
+    },
+    {
+        "region":"East Asia",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":35.0,
+        "norm":0.0,
+        "norm_ma5":0.7172131148,
+        "share":0.0
+    },
+    {
+        "region":"East Asia",
+        "year":1994,
+        "count":34.0,
+        "count_ma5":47.0,
+        "norm":0.3434343434,
+        "norm_ma5":0.9631147541,
+        "share":0.009837963
+    },
+    {
+        "region":"East Asia",
+        "year":1995,
+        "count":38.0,
+        "count_ma5":40.2,
+        "norm":0.3838383838,
+        "norm_ma5":0.8237704918,
+        "share":0.0123336579
+    },
+    {
+        "region":"East Asia",
+        "year":1996,
+        "count":89.0,
+        "count_ma5":42.0,
+        "norm":0.898989899,
+        "norm_ma5":0.8606557377,
+        "share":0.0291039895
+    },
+    {
+        "region":"East Asia",
+        "year":1997,
+        "count":40.0,
+        "count_ma5":36.0,
+        "norm":0.404040404,
+        "norm_ma5":0.737704918,
+        "share":0.0125078174
+    },
+    {
+        "region":"East Asia",
+        "year":1998,
+        "count":9.0,
+        "count_ma5":32.2,
+        "norm":0.0909090909,
+        "norm_ma5":0.6598360656,
+        "share":0.0096359743
+    },
+    {
+        "region":"East Asia",
+        "year":1999,
+        "count":4.0,
+        "count_ma5":18.2,
+        "norm":0.0404040404,
+        "norm_ma5":0.3729508197,
+        "share":0.0028653295
+    },
+    {
+        "region":"East Asia",
+        "year":2000,
+        "count":19.0,
+        "count_ma5":11.0,
+        "norm":0.1919191919,
+        "norm_ma5":0.2254098361,
+        "share":0.0104223807
+    },
+    {
+        "region":"East Asia",
+        "year":2001,
+        "count":19.0,
+        "count_ma5":10.4,
+        "norm":0.1919191919,
+        "norm_ma5":0.2131147541,
+        "share":0.0099372385
+    },
+    {
+        "region":"East Asia",
+        "year":2002,
+        "count":4.0,
+        "count_ma5":10.4,
+        "norm":0.0404040404,
+        "norm_ma5":0.2131147541,
+        "share":0.0030075188
+    },
+    {
+        "region":"East Asia",
+        "year":2003,
+        "count":6.0,
+        "count_ma5":7.0,
+        "norm":0.0606060606,
+        "norm_ma5":0.143442623,
+        "share":0.0046875
+    },
+    {
+        "region":"East Asia",
+        "year":2004,
+        "count":4.0,
+        "count_ma5":3.4,
+        "norm":0.0404040404,
+        "norm_ma5":0.0696721311,
+        "share":0.0034364261
+    },
+    {
+        "region":"East Asia",
+        "year":2005,
+        "count":2.0,
+        "count_ma5":2.6,
+        "norm":0.0202020202,
+        "norm_ma5":0.0532786885,
+        "share":0.0009915716
+    },
+    {
+        "region":"East Asia",
+        "year":2006,
+        "count":1.0,
+        "count_ma5":6.4,
+        "norm":0.0101010101,
+        "norm_ma5":0.131147541,
+        "share":0.0003627131
+    },
+    {
+        "region":"East Asia",
+        "year":2007,
+        "count":0.0,
+        "count_ma5":7.2,
+        "norm":0.0,
+        "norm_ma5":0.1475409836,
+        "share":0.0
+    },
+    {
+        "region":"East Asia",
+        "year":2008,
+        "count":25.0,
+        "count_ma5":7.0,
+        "norm":0.2525252525,
+        "norm_ma5":0.143442623,
+        "share":0.0052072485
+    },
+    {
+        "region":"East Asia",
+        "year":2009,
+        "count":8.0,
+        "count_ma5":7.6,
+        "norm":0.0808080808,
+        "norm_ma5":0.1557377049,
+        "share":0.0016938387
+    },
+    {
+        "region":"East Asia",
+        "year":2010,
+        "count":1.0,
+        "count_ma5":8.4,
+        "norm":0.0101010101,
+        "norm_ma5":0.1721311475,
+        "share":0.000207168
+    },
+    {
+        "region":"East Asia",
+        "year":2011,
+        "count":4.0,
+        "count_ma5":6.4,
+        "norm":0.0404040404,
+        "norm_ma5":0.131147541,
+        "share":0.0007881773
+    },
+    {
+        "region":"East Asia",
+        "year":2012,
+        "count":4.0,
+        "count_ma5":13.4,
+        "norm":0.0404040404,
+        "norm_ma5":0.2745901639,
+        "share":0.0004692082
+    },
+    {
+        "region":"East Asia",
+        "year":2013,
+        "count":15.0,
+        "count_ma5":18.8,
+        "norm":0.1515151515,
+        "norm_ma5":0.3852459016,
+        "share":0.0012451233
+    },
+    {
+        "region":"East Asia",
+        "year":2014,
+        "count":43.0,
+        "count_ma5":19.6,
+        "norm":0.4343434343,
+        "norm_ma5":0.4016393443,
+        "share":0.0025353774
+    },
+    {
+        "region":"East Asia",
+        "year":2015,
+        "count":28.0,
+        "count_ma5":20.2,
+        "norm":0.2828282828,
+        "norm_ma5":0.4139344262,
+        "share":0.0018496499
+    },
+    {
+        "region":"East Asia",
+        "year":2016,
+        "count":8.0,
+        "count_ma5":18.4,
+        "norm":0.0808080808,
+        "norm_ma5":0.3770491803,
+        "share":0.0005693545
+    },
+    {
+        "region":"East Asia",
+        "year":2017,
+        "count":7.0,
+        "count_ma5":13.4,
+        "norm":0.0707070707,
+        "norm_ma5":0.2745901639,
+        "share":0.0006159803
+    },
+    {
+        "region":"East Asia",
+        "year":2018,
+        "count":6.0,
+        "count_ma5":12.0,
+        "norm":0.0606060606,
+        "norm_ma5":0.2459016393,
+        "share":0.0006089516
+    },
+    {
+        "region":"East Asia",
+        "year":2019,
+        "count":18.0,
+        "count_ma5":13.0,
+        "norm":0.1818181818,
+        "norm_ma5":0.2663934426,
+        "share":0.002108469
+    },
+    {
+        "region":"East Asia",
+        "year":2020,
+        "count":21.0,
+        "count_ma5":15.0,
+        "norm":0.2121212121,
+        "norm_ma5":0.3073770492,
+        "share":0.0024887414
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1970,
+        "count":12.0,
+        "count_ma5":6.0,
+        "norm":0.0124610592,
+        "norm_ma5":0.0137299771,
+        "share":0.0184331797
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1971,
+        "count":5.0,
+        "count_ma5":4.75,
+        "norm":0.005192108,
+        "norm_ma5":0.0108695652,
+        "share":0.0106157113
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1972,
+        "count":1.0,
+        "count_ma5":4.2,
+        "norm":0.0010384216,
+        "norm_ma5":0.009610984,
+        "share":0.0017636684
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1973,
+        "count":1.0,
+        "count_ma5":1.8,
+        "norm":0.0010384216,
+        "norm_ma5":0.0041189931,
+        "share":0.0021141649
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1974,
+        "count":2.0,
+        "count_ma5":0.8,
+        "norm":0.0020768432,
+        "norm_ma5":0.0018306636,
+        "share":0.0034423408
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1975,
+        "count":0.0,
+        "count_ma5":1.0,
+        "norm":0.0,
+        "norm_ma5":0.0022883295,
+        "share":0.0
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1976,
+        "count":0.0,
+        "count_ma5":1.2,
+        "norm":0.0,
+        "norm_ma5":0.0027459954,
+        "share":0.0
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1977,
+        "count":2.0,
+        "count_ma5":1.0,
+        "norm":0.0020768432,
+        "norm_ma5":0.0022883295,
+        "share":0.0015163002
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1978,
+        "count":2.0,
+        "count_ma5":1.2,
+        "norm":0.0020768432,
+        "norm_ma5":0.0027459954,
+        "share":0.001310616
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1979,
+        "count":1.0,
+        "count_ma5":2.0,
+        "norm":0.0010384216,
+        "norm_ma5":0.004576659,
+        "share":0.0003756574
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1980,
+        "count":1.0,
+        "count_ma5":2.2,
+        "norm":0.0010384216,
+        "norm_ma5":0.0050343249,
+        "share":0.0003757986
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1981,
+        "count":4.0,
+        "count_ma5":2.2,
+        "norm":0.0041536864,
+        "norm_ma5":0.0050343249,
+        "share":0.0015467904
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1982,
+        "count":3.0,
+        "count_ma5":2.8,
+        "norm":0.0031152648,
+        "norm_ma5":0.0064073227,
+        "share":0.001179709
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1983,
+        "count":2.0,
+        "count_ma5":3.6,
+        "norm":0.0020768432,
+        "norm_ma5":0.0082379863,
+        "share":0.0006968641
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1984,
+        "count":4.0,
+        "count_ma5":3.4,
+        "norm":0.0041536864,
+        "norm_ma5":0.0077803204,
+        "share":0.0011444921
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1985,
+        "count":5.0,
+        "count_ma5":3.0,
+        "norm":0.005192108,
+        "norm_ma5":0.0068649886,
+        "share":0.0017158545
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1986,
+        "count":3.0,
+        "count_ma5":3.4,
+        "norm":0.0031152648,
+        "norm_ma5":0.0077803204,
+        "share":0.001048951
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1987,
+        "count":1.0,
+        "count_ma5":5.8,
+        "norm":0.0010384216,
+        "norm_ma5":0.0132723112,
+        "share":0.000314169
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1988,
+        "count":4.0,
+        "count_ma5":16.4,
+        "norm":0.0041536864,
+        "norm_ma5":0.0375286041,
+        "share":0.0010752688
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1989,
+        "count":16.0,
+        "count_ma5":32.6,
+        "norm":0.0166147456,
+        "norm_ma5":0.0745995423,
+        "share":0.0037002775
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1990,
+        "count":58.0,
+        "count_ma5":50.6,
+        "norm":0.0602284528,
+        "norm_ma5":0.1157894737,
+        "share":0.0149253731
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1991,
+        "count":84.0,
+        "count_ma5":49.8,
+        "norm":0.0872274143,
+        "norm_ma5":0.1139588101,
+        "share":0.0179295624
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1992,
+        "count":91.0,
+        "count_ma5":65.6,
+        "norm":0.0944963655,
+        "norm_ma5":0.1501144165,
+        "share":0.0179451785
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":67.6,
+        "norm":0.0,
+        "norm_ma5":0.1546910755,
+        "share":0.0
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1994,
+        "count":95.0,
+        "count_ma5":85.8,
+        "norm":0.0986500519,
+        "norm_ma5":0.1963386728,
+        "share":0.0274884259
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1995,
+        "count":68.0,
+        "count_ma5":117.2,
+        "norm":0.0706126687,
+        "norm_ma5":0.2681922197,
+        "share":0.0220707562
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1996,
+        "count":175.0,
+        "count_ma5":138.2,
+        "norm":0.1817237799,
+        "norm_ma5":0.3162471396,
+        "share":0.0572269457
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1997,
+        "count":248.0,
+        "count_ma5":146.8,
+        "norm":0.2575285566,
+        "norm_ma5":0.3359267735,
+        "share":0.0775484678
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1998,
+        "count":105.0,
+        "count_ma5":180.0,
+        "norm":0.1090342679,
+        "norm_ma5":0.4118993135,
+        "share":0.1124197002
+    },
+    {
+        "region":"Eastern Europe",
+        "year":1999,
+        "count":138.0,
+        "count_ma5":195.4,
+        "norm":0.1433021807,
+        "norm_ma5":0.4471395881,
+        "share":0.0988538682
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2000,
+        "count":234.0,
+        "count_ma5":168.2,
+        "norm":0.2429906542,
+        "norm_ma5":0.3848970252,
+        "share":0.1283598464
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2001,
+        "count":252.0,
+        "count_ma5":167.2,
+        "norm":0.261682243,
+        "norm_ma5":0.3826086957,
+        "share":0.1317991632
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2002,
+        "count":112.0,
+        "count_ma5":148.6,
+        "norm":0.1163032191,
+        "norm_ma5":0.3400457666,
+        "share":0.0842105263
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2003,
+        "count":100.0,
+        "count_ma5":117.0,
+        "norm":0.1038421599,
+        "norm_ma5":0.2677345538,
+        "share":0.078125
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2004,
+        "count":45.0,
+        "count_ma5":80.6,
+        "norm":0.046728972,
+        "norm_ma5":0.1844393593,
+        "share":0.0386597938
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2005,
+        "count":76.0,
+        "count_ma5":70.6,
+        "norm":0.0789200415,
+        "norm_ma5":0.1615560641,
+        "share":0.0376797224
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2006,
+        "count":70.0,
+        "count_ma5":92.4,
+        "norm":0.0726895119,
+        "norm_ma5":0.2114416476,
+        "share":0.0253899166
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2007,
+        "count":62.0,
+        "count_ma5":116.4,
+        "norm":0.0643821391,
+        "norm_ma5":0.2663615561,
+        "share":0.0190769231
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2008,
+        "count":209.0,
+        "count_ma5":153.4,
+        "norm":0.2170301142,
+        "norm_ma5":0.3510297483,
+        "share":0.0435325974
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2009,
+        "count":165.0,
+        "count_ma5":179.0,
+        "norm":0.1713395639,
+        "norm_ma5":0.409610984,
+        "share":0.0349354224
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2010,
+        "count":261.0,
+        "count_ma5":201.2,
+        "norm":0.2710280374,
+        "norm_ma5":0.4604118993,
+        "share":0.0540708515
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2011,
+        "count":198.0,
+        "count_ma5":192.6,
+        "norm":0.2056074766,
+        "norm_ma5":0.4407322654,
+        "share":0.0390147783
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2012,
+        "count":173.0,
+        "count_ma5":352.2,
+        "norm":0.1796469367,
+        "norm_ma5":0.8059496568,
+        "share":0.0202932551
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2013,
+        "count":166.0,
+        "count_ma5":437.0,
+        "norm":0.1723779855,
+        "norm_ma5":1.0,
+        "share":0.0137793642
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2014,
+        "count":963.0,
+        "count_ma5":424.6,
+        "norm":1.0,
+        "norm_ma5":0.971624714,
+        "share":0.0567806604
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2015,
+        "count":685.0,
+        "count_ma5":412.4,
+        "norm":0.7113187954,
+        "norm_ma5":0.9437070938,
+        "share":0.0452503633
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2016,
+        "count":136.0,
+        "count_ma5":393.6,
+        "norm":0.1412253375,
+        "norm_ma5":0.9006864989,
+        "share":0.0096790264
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2017,
+        "count":112.0,
+        "count_ma5":209.8,
+        "norm":0.1163032191,
+        "norm_ma5":0.4800915332,
+        "share":0.0098556846
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2018,
+        "count":72.0,
+        "count_ma5":84.8,
+        "norm":0.0747663551,
+        "norm_ma5":0.1940503432,
+        "share":0.0073074191
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2019,
+        "count":44.0,
+        "count_ma5":72.0,
+        "norm":0.0456905504,
+        "norm_ma5":0.1647597254,
+        "share":0.0051540354
+    },
+    {
+        "region":"Eastern Europe",
+        "year":2020,
+        "count":60.0,
+        "count_ma5":58.6666666667,
+        "norm":0.062305296,
+        "norm_ma5":0.1342486651,
+        "share":0.0071106897
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1970,
+        "count":28.0,
+        "count_ma5":45.3333333333,
+        "norm":0.004002287,
+        "norm_ma5":0.0079526583,
+        "share":0.0430107527
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1971,
+        "count":55.0,
+        "count_ma5":38.75,
+        "norm":0.0078616352,
+        "norm_ma5":0.0067977686,
+        "share":0.1167728238
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1972,
+        "count":53.0,
+        "count_ma5":39.4,
+        "norm":0.0075757576,
+        "norm_ma5":0.0069117957,
+        "share":0.0934744268
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1973,
+        "count":19.0,
+        "count_ma5":42.6,
+        "norm":0.0027158376,
+        "norm_ma5":0.0074731598,
+        "share":0.0401691332
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1974,
+        "count":42.0,
+        "count_ma5":42.6,
+        "norm":0.0060034305,
+        "norm_ma5":0.0074731598,
+        "share":0.0722891566
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1975,
+        "count":44.0,
+        "count_ma5":74.2,
+        "norm":0.0062893082,
+        "norm_ma5":0.0130166304,
+        "share":0.0594594595
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1976,
+        "count":55.0,
+        "count_ma5":96.0,
+        "norm":0.0078616352,
+        "norm_ma5":0.0168409234,
+        "share":0.059588299
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1977,
+        "count":211.0,
+        "count_ma5":178.6,
+        "norm":0.0301600915,
+        "norm_ma5":0.0313311347,
+        "share":0.159969674
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1978,
+        "count":128.0,
+        "count_ma5":257.2,
+        "norm":0.0182961692,
+        "norm_ma5":0.0451196407,
+        "share":0.0838794233
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1979,
+        "count":455.0,
+        "count_ma5":308.6,
+        "norm":0.0650371641,
+        "norm_ma5":0.0541365518,
+        "share":0.1709241172
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1980,
+        "count":437.0,
+        "count_ma5":324.4,
+        "norm":0.0624642653,
+        "norm_ma5":0.0569082871,
+        "share":0.1642239759
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1981,
+        "count":312.0,
+        "count_ma5":365.6,
+        "norm":0.0445969125,
+        "norm_ma5":0.0641358501,
+        "share":0.120649652
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1982,
+        "count":290.0,
+        "count_ma5":328.2,
+        "norm":0.0414522584,
+        "norm_ma5":0.057574907,
+        "share":0.1140385372
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1983,
+        "count":334.0,
+        "count_ma5":267.4,
+        "norm":0.0477415666,
+        "norm_ma5":0.0469089888,
+        "share":0.1163763066
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1984,
+        "count":268.0,
+        "count_ma5":244.2,
+        "norm":0.0383076043,
+        "norm_ma5":0.042839099,
+        "share":0.0766809728
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1985,
+        "count":133.0,
+        "count_ma5":226.6,
+        "norm":0.0190108634,
+        "norm_ma5":0.0397515964,
+        "share":0.0456417296
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1986,
+        "count":196.0,
+        "count_ma5":209.0,
+        "norm":0.0280160091,
+        "norm_ma5":0.0366640937,
+        "share":0.0685314685
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1987,
+        "count":202.0,
+        "count_ma5":248.4,
+        "norm":0.0288736421,
+        "norm_ma5":0.0435758894,
+        "share":0.0634621426
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1988,
+        "count":246.0,
+        "count_ma5":320.6,
+        "norm":0.0351629503,
+        "norm_ma5":0.0562416673,
+        "share":0.0661290323
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1989,
+        "count":465.0,
+        "count_ma5":403.8,
+        "norm":0.0664665523,
+        "norm_ma5":0.0708371342,
+        "share":0.1075393154
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1990,
+        "count":494.0,
+        "count_ma5":601.8,
+        "norm":0.0706117782,
+        "norm_ma5":0.1055715388,
+        "share":0.1271230057
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1991,
+        "count":612.0,
+        "count_ma5":552.6,
+        "norm":0.0874785592,
+        "norm_ma5":0.0969405656,
+        "share":0.1306296692
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1992,
+        "count":1192.0,
+        "count_ma5":669.8,
+        "norm":0.170383076,
+        "norm_ma5":0.1175005263,
+        "share":0.2350621179
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":689.0,
+        "norm":0.0,
+        "norm_ma5":0.120868711,
+        "share":0.0
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1994,
+        "count":1051.0,
+        "count_ma5":641.2,
+        "norm":0.1502287021,
+        "norm_ma5":0.1124833345,
+        "share":0.3041087963
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1995,
+        "count":590.0,
+        "count_ma5":512.4,
+        "norm":0.0843339051,
+        "norm_ma5":0.0898884289,
+        "share":0.1914962674
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1996,
+        "count":373.0,
+        "count_ma5":561.8,
+        "norm":0.0533161807,
+        "norm_ma5":0.0985544874,
+        "share":0.1219751472
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1997,
+        "count":548.0,
+        "count_ma5":414.8,
+        "norm":0.0783304746,
+        "norm_ma5":0.0727668234,
+        "share":0.1713570982
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1998,
+        "count":247.0,
+        "count_ma5":351.2,
+        "norm":0.0353058891,
+        "norm_ma5":0.0616097116,
+        "share":0.2644539615
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":1999,
+        "count":316.0,
+        "count_ma5":348.8,
+        "norm":0.0451686678,
+        "norm_ma5":0.0611886885,
+        "share":0.2263610315
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2000,
+        "count":272.0,
+        "count_ma5":304.0,
+        "norm":0.0388793596,
+        "norm_ma5":0.0533295909,
+        "share":0.1492046078
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2001,
+        "count":361.0,
+        "count_ma5":316.6,
+        "norm":0.0516009148,
+        "norm_ma5":0.0555399621,
+        "share":0.1888075314
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2002,
+        "count":324.0,
+        "count_ma5":351.8,
+        "norm":0.0463121784,
+        "norm_ma5":0.0617149674,
+        "share":0.2436090226
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2003,
+        "count":310.0,
+        "count_ma5":473.8,
+        "norm":0.0443110349,
+        "norm_ma5":0.0831169742,
+        "share":0.2421875
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2004,
+        "count":492.0,
+        "count_ma5":638.8,
+        "norm":0.0703259005,
+        "norm_ma5":0.1120623114,
+        "share":0.4226804124
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2005,
+        "count":882.0,
+        "count_ma5":850.8,
+        "norm":0.1260720412,
+        "norm_ma5":0.149252684,
+        "share":0.4372830937
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2006,
+        "count":1186.0,
+        "count_ma5":1095.8,
+        "norm":0.1695254431,
+        "norm_ma5":0.1922321241,
+        "share":0.4301777294
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2007,
+        "count":1384.0,
+        "count_ma5":1269.6,
+        "norm":0.1978273299,
+        "norm_ma5":0.2227212125,
+        "share":0.4258461538
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2008,
+        "count":1535.0,
+        "count_ma5":1385.8,
+        "norm":0.2194110921,
+        "norm_ma5":0.243105747,
+        "share":0.3197250573
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2009,
+        "count":1361.0,
+        "count_ma5":1481.2,
+        "norm":0.194539737,
+        "norm_ma5":0.2598414146,
+        "share":0.2881643024
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2010,
+        "count":1463.0,
+        "count_ma5":1685.2,
+        "norm":0.2091194969,
+        "norm_ma5":0.295628377,
+        "share":0.3030868034
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2011,
+        "count":1663.0,
+        "count_ma5":2292.6,
+        "norm":0.2377072613,
+        "norm_ma5":0.402182303,
+        "share":0.3276847291
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2012,
+        "count":2404.0,
+        "count_ma5":3419.6,
+        "norm":0.3436249285,
+        "norm_ma5":0.5998877272,
+        "share":0.2819941349
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2013,
+        "count":4572.0,
+        "count_ma5":4365.8,
+        "norm":0.653516295,
+        "norm_ma5":0.7658760789,
+        "share":0.3795135718
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2014,
+        "count":6996.0,
+        "count_ma5":5344.6,
+        "norm":1.0,
+        "norm_ma5":0.9375833275,
+        "share":0.4125
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2015,
+        "count":6194.0,
+        "count_ma5":5700.4,
+        "norm":0.8853630646,
+        "norm_ma5":1.0,
+        "share":0.4091689787
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2016,
+        "count":6557.0,
+        "count_ma5":5334.0,
+        "norm":0.9372498571,
+        "norm_ma5":0.9357238089,
+        "share":0.4666571774
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2017,
+        "count":4183.0,
+        "count_ma5":4369.8,
+        "norm":0.5979130932,
+        "norm_ma5":0.766577784,
+        "share":0.368092221
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2018,
+        "count":2740.0,
+        "count_ma5":3491.4,
+        "norm":0.3916523728,
+        "norm_ma5":0.6124833345,
+        "share":0.278087892
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2019,
+        "count":2175.0,
+        "count_ma5":2725.0,
+        "norm":0.3108919383,
+        "norm_ma5":0.478036629,
+        "share":0.2547733396
+    },
+    {
+        "region":"Middle East & North Africa",
+        "year":2020,
+        "count":1802.0,
+        "count_ma5":2239.0,
+        "norm":0.2575757576,
+        "norm_ma5":0.3927794541,
+        "share":0.2135577151
+    },
+    {
+        "region":"North America",
+        "year":1970,
+        "count":472.0,
+        "count_ma5":264.0,
+        "norm":1.0,
+        "norm_ma5":1.0,
+        "share":0.7250384025
+    },
+    {
+        "region":"North America",
+        "year":1971,
+        "count":247.0,
+        "count_ma5":214.0,
+        "norm":0.5233050847,
+        "norm_ma5":0.8106060606,
+        "share":0.5244161359
+    },
+    {
+        "region":"North America",
+        "year":1972,
+        "count":73.0,
+        "count_ma5":193.4,
+        "norm":0.1546610169,
+        "norm_ma5":0.7325757576,
+        "share":0.1287477954
+    },
+    {
+        "region":"North America",
+        "year":1973,
+        "count":64.0,
+        "count_ma5":130.8,
+        "norm":0.1355932203,
+        "norm_ma5":0.4954545455,
+        "share":0.1353065539
+    },
+    {
+        "region":"North America",
+        "year":1974,
+        "count":111.0,
+        "count_ma5":106.4,
+        "norm":0.2351694915,
+        "norm_ma5":0.403030303,
+        "share":0.1910499139
+    },
+    {
+        "region":"North America",
+        "year":1975,
+        "count":159.0,
+        "count_ma5":121.6,
+        "norm":0.3368644068,
+        "norm_ma5":0.4606060606,
+        "share":0.2148648649
+    },
+    {
+        "region":"North America",
+        "year":1976,
+        "count":125.0,
+        "count_ma5":132.2,
+        "norm":0.2648305085,
+        "norm_ma5":0.5007575758,
+        "share":0.1354279523
+    },
+    {
+        "region":"North America",
+        "year":1977,
+        "count":149.0,
+        "count_ma5":125.8,
+        "norm":0.3156779661,
+        "norm_ma5":0.4765151515,
+        "share":0.1129643669
+    },
+    {
+        "region":"North America",
+        "year":1978,
+        "count":117.0,
+        "count_ma5":109.0,
+        "norm":0.2478813559,
+        "norm_ma5":0.4128787879,
+        "share":0.0766710354
+    },
+    {
+        "region":"North America",
+        "year":1979,
+        "count":79.0,
+        "count_ma5":99.4,
+        "norm":0.1673728814,
+        "norm_ma5":0.3765151515,
+        "share":0.0296769346
+    },
+    {
+        "region":"North America",
+        "year":1980,
+        "count":75.0,
+        "count_ma5":86.6,
+        "norm":0.1588983051,
+        "norm_ma5":0.328030303,
+        "share":0.0281848929
+    },
+    {
+        "region":"North America",
+        "year":1981,
+        "count":77.0,
+        "count_ma5":72.6,
+        "norm":0.1631355932,
+        "norm_ma5":0.275,
+        "share":0.0297757154
+    },
+    {
+        "region":"North America",
+        "year":1982,
+        "count":85.0,
+        "count_ma5":70.2,
+        "norm":0.1800847458,
+        "norm_ma5":0.2659090909,
+        "share":0.0334250885
+    },
+    {
+        "region":"North America",
+        "year":1983,
+        "count":47.0,
+        "count_ma5":64.0,
+        "norm":0.0995762712,
+        "norm_ma5":0.2424242424,
+        "share":0.0163763066
+    },
+    {
+        "region":"North America",
+        "year":1984,
+        "count":67.0,
+        "count_ma5":59.2,
+        "norm":0.1419491525,
+        "norm_ma5":0.2242424242,
+        "share":0.0191702432
+    },
+    {
+        "region":"North America",
+        "year":1985,
+        "count":44.0,
+        "count_ma5":49.2,
+        "norm":0.093220339,
+        "norm_ma5":0.1863636364,
+        "share":0.0150995196
+    },
+    {
+        "region":"North America",
+        "year":1986,
+        "count":53.0,
+        "count_ma5":45.8,
+        "norm":0.1122881356,
+        "norm_ma5":0.1734848485,
+        "share":0.0185314685
+    },
+    {
+        "region":"North America",
+        "year":1987,
+        "count":35.0,
+        "count_ma5":41.2,
+        "norm":0.0741525424,
+        "norm_ma5":0.1560606061,
+        "share":0.0109959158
+    },
+    {
+        "region":"North America",
+        "year":1988,
+        "count":30.0,
+        "count_ma5":39.8,
+        "norm":0.063559322,
+        "norm_ma5":0.1507575758,
+        "share":0.0080645161
+    },
+    {
+        "region":"North America",
+        "year":1989,
+        "count":44.0,
+        "count_ma5":37.4,
+        "norm":0.093220339,
+        "norm_ma5":0.1416666667,
+        "share":0.0101757632
+    },
+    {
+        "region":"North America",
+        "year":1990,
+        "count":37.0,
+        "count_ma5":38.6,
+        "norm":0.0783898305,
+        "norm_ma5":0.1462121212,
+        "share":0.0095213587
+    },
+    {
+        "region":"North America",
+        "year":1991,
+        "count":41.0,
+        "count_ma5":32.6,
+        "norm":0.0868644068,
+        "norm_ma5":0.1234848485,
+        "share":0.008751334
+    },
+    {
+        "region":"North America",
+        "year":1992,
+        "count":41.0,
+        "count_ma5":44.0,
+        "norm":0.0868644068,
+        "norm_ma5":0.1666666667,
+        "share":0.0080851903
+    },
+    {
+        "region":"North America",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":55.4,
+        "norm":0.0,
+        "norm_ma5":0.2098484848,
+        "share":0.0
+    },
+    {
+        "region":"North America",
+        "year":1994,
+        "count":101.0,
+        "count_ma5":69.4,
+        "norm":0.2139830508,
+        "norm_ma5":0.2628787879,
+        "share":0.029224537
+    },
+    {
+        "region":"North America",
+        "year":1995,
+        "count":94.0,
+        "count_ma5":89.0,
+        "norm":0.1991525424,
+        "norm_ma5":0.3371212121,
+        "share":0.0305095748
+    },
+    {
+        "region":"North America",
+        "year":1996,
+        "count":111.0,
+        "count_ma5":96.4,
+        "norm":0.2351694915,
+        "norm_ma5":0.3651515152,
+        "share":0.0362982341
+    },
+    {
+        "region":"North America",
+        "year":1997,
+        "count":139.0,
+        "count_ma5":87.6,
+        "norm":0.2944915254,
+        "norm_ma5":0.3318181818,
+        "share":0.0434646654
+    },
+    {
+        "region":"North America",
+        "year":1998,
+        "count":37.0,
+        "count_ma5":79.0,
+        "norm":0.0783898305,
+        "norm_ma5":0.2992424242,
+        "share":0.039614561
+    },
+    {
+        "region":"North America",
+        "year":1999,
+        "count":57.0,
+        "count_ma5":67.6,
+        "norm":0.1207627119,
+        "norm_ma5":0.2560606061,
+        "share":0.0408309456
+    },
+    {
+        "region":"North America",
+        "year":2000,
+        "count":51.0,
+        "count_ma5":46.4,
+        "norm":0.1080508475,
+        "norm_ma5":0.1757575758,
+        "share":0.027975864
+    },
+    {
+        "region":"North America",
+        "year":2001,
+        "count":54.0,
+        "count_ma5":46.2,
+        "norm":0.1144067797,
+        "norm_ma5":0.175,
+        "share":0.0282426778
+    },
+    {
+        "region":"North America",
+        "year":2002,
+        "count":33.0,
+        "count_ma5":37.2,
+        "norm":0.0699152542,
+        "norm_ma5":0.1409090909,
+        "share":0.0248120301
+    },
+    {
+        "region":"North America",
+        "year":2003,
+        "count":36.0,
+        "count_ma5":31.4,
+        "norm":0.0762711864,
+        "norm_ma5":0.1189393939,
+        "share":0.028125
+    },
+    {
+        "region":"North America",
+        "year":2004,
+        "count":12.0,
+        "count_ma5":23.6,
+        "norm":0.0254237288,
+        "norm_ma5":0.0893939394,
+        "share":0.0103092784
+    },
+    {
+        "region":"North America",
+        "year":2005,
+        "count":22.0,
+        "count_ma5":21.2,
+        "norm":0.0466101695,
+        "norm_ma5":0.0803030303,
+        "share":0.0109072881
+    },
+    {
+        "region":"North America",
+        "year":2006,
+        "count":15.0,
+        "count_ma5":20.2,
+        "norm":0.031779661,
+        "norm_ma5":0.0765151515,
+        "share":0.0054406964
+    },
+    {
+        "region":"North America",
+        "year":2007,
+        "count":21.0,
+        "count_ma5":21.2,
+        "norm":0.0444915254,
+        "norm_ma5":0.0803030303,
+        "share":0.0064615385
+    },
+    {
+        "region":"North America",
+        "year":2008,
+        "count":31.0,
+        "count_ma5":22.0,
+        "norm":0.0656779661,
+        "norm_ma5":0.0833333333,
+        "share":0.0064569881
+    },
+    {
+        "region":"North America",
+        "year":2009,
+        "count":17.0,
+        "count_ma5":21.2,
+        "norm":0.0360169492,
+        "norm_ma5":0.0803030303,
+        "share":0.0035994072
+    },
+    {
+        "region":"North America",
+        "year":2010,
+        "count":26.0,
+        "count_ma5":24.8,
+        "norm":0.0550847458,
+        "norm_ma5":0.0939393939,
+        "share":0.0053863683
+    },
+    {
+        "region":"North America",
+        "year":2011,
+        "count":11.0,
+        "count_ma5":25.0,
+        "norm":0.0233050847,
+        "norm_ma5":0.0946969697,
+        "share":0.0021674877
+    },
+    {
+        "region":"North America",
+        "year":2012,
+        "count":39.0,
+        "count_ma5":29.0,
+        "norm":0.0826271186,
+        "norm_ma5":0.1098484848,
+        "share":0.0045747801
+    },
+    {
+        "region":"North America",
+        "year":2013,
+        "count":32.0,
+        "count_ma5":36.8,
+        "norm":0.0677966102,
+        "norm_ma5":0.1393939394,
+        "share":0.002656263
+    },
+    {
+        "region":"North America",
+        "year":2014,
+        "count":37.0,
+        "count_ma5":50.8,
+        "norm":0.0783898305,
+        "norm_ma5":0.1924242424,
+        "share":0.0021816038
+    },
+    {
+        "region":"North America",
+        "year":2015,
+        "count":65.0,
+        "count_ma5":64.0,
+        "norm":0.1377118644,
+        "norm_ma5":0.2424242424,
+        "share":0.0042938301
+    },
+    {
+        "region":"North America",
+        "year":2016,
+        "count":81.0,
+        "count_ma5":79.6,
+        "norm":0.1716101695,
+        "norm_ma5":0.3015151515,
+        "share":0.0057647143
+    },
+    {
+        "region":"North America",
+        "year":2017,
+        "count":105.0,
+        "count_ma5":93.8,
+        "norm":0.2224576271,
+        "norm_ma5":0.3553030303,
+        "share":0.0092397043
+    },
+    {
+        "region":"North America",
+        "year":2018,
+        "count":110.0,
+        "count_ma5":106.8,
+        "norm":0.2330508475,
+        "norm_ma5":0.4045454545,
+        "share":0.0111641125
+    },
+    {
+        "region":"North America",
+        "year":2019,
+        "count":108.0,
+        "count_ma5":113.25,
+        "norm":0.2288135593,
+        "norm_ma5":0.4289772727,
+        "share":0.0126508141
+    },
+    {
+        "region":"North America",
+        "year":2020,
+        "count":130.0,
+        "count_ma5":116.0,
+        "norm":0.2754237288,
+        "norm_ma5":0.4393939394,
+        "share":0.0154064944
+    },
+    {
+        "region":"South America",
+        "year":1970,
+        "count":65.0,
+        "count_ma5":40.6666666667,
+        "norm":0.0435656836,
+        "norm_ma5":0.0333935512,
+        "share":0.0998463902
+    },
+    {
+        "region":"South America",
+        "year":1971,
+        "count":24.0,
+        "count_ma5":51.25,
+        "norm":0.0160857909,
+        "norm_ma5":0.0420840861,
+        "share":0.050955414
+    },
+    {
+        "region":"South America",
+        "year":1972,
+        "count":33.0,
+        "count_ma5":57.2,
+        "norm":0.0221179625,
+        "norm_ma5":0.0469699458,
+        "share":0.0582010582
+    },
+    {
+        "region":"South America",
+        "year":1973,
+        "count":83.0,
+        "count_ma5":55.2,
+        "norm":0.0556300268,
+        "norm_ma5":0.04532764,
+        "share":0.1754756871
+    },
+    {
+        "region":"South America",
+        "year":1974,
+        "count":81.0,
+        "count_ma5":68.6,
+        "norm":0.0542895442,
+        "norm_ma5":0.0563310888,
+        "share":0.1394148021
+    },
+    {
+        "region":"South America",
+        "year":1975,
+        "count":55.0,
+        "count_ma5":85.8,
+        "norm":0.0368632708,
+        "norm_ma5":0.0704549187,
+        "share":0.0743243243
+    },
+    {
+        "region":"South America",
+        "year":1976,
+        "count":91.0,
+        "count_ma5":113.6,
+        "norm":0.0609919571,
+        "norm_ma5":0.0932829693,
+        "share":0.0985915493
+    },
+    {
+        "region":"South America",
+        "year":1977,
+        "count":119.0,
+        "count_ma5":144.6,
+        "norm":0.0797587131,
+        "norm_ma5":0.1187387091,
+        "share":0.0902198635
+    },
+    {
+        "region":"South America",
+        "year":1978,
+        "count":222.0,
+        "count_ma5":197.4,
+        "norm":0.1487935657,
+        "norm_ma5":0.1620955822,
+        "share":0.1454783748
+    },
+    {
+        "region":"South America",
+        "year":1979,
+        "count":236.0,
+        "count_ma5":255.8,
+        "norm":0.1581769437,
+        "norm_ma5":0.2100509115,
+        "share":0.0886551465
+    },
+    {
+        "region":"South America",
+        "year":1980,
+        "count":319.0,
+        "count_ma5":359.8,
+        "norm":0.2138069705,
+        "norm_ma5":0.2954508129,
+        "share":0.1198797445
+    },
+    {
+        "region":"South America",
+        "year":1981,
+        "count":383.0,
+        "count_ma5":505.4,
+        "norm":0.2567024129,
+        "norm_ma5":0.415010675,
+        "share":0.1481051817
+    },
+    {
+        "region":"South America",
+        "year":1982,
+        "count":639.0,
+        "count_ma5":756.6,
+        "norm":0.4282841823,
+        "norm_ma5":0.6212842831,
+        "share":0.2512780181
+    },
+    {
+        "region":"South America",
+        "year":1983,
+        "count":950.0,
+        "count_ma5":900.8,
+        "norm":0.6367292225,
+        "norm_ma5":0.7396945311,
+        "share":0.331010453
+    },
+    {
+        "region":"South America",
+        "year":1984,
+        "count":1492.0,
+        "count_ma5":1061.0,
+        "norm":1.0,
+        "norm_ma5":0.8712432255,
+        "share":0.4268955651
+    },
+    {
+        "region":"South America",
+        "year":1985,
+        "count":1040.0,
+        "count_ma5":1186.2,
+        "norm":0.6970509383,
+        "norm_ma5":0.9740515684,
+        "share":0.3568977351
+    },
+    {
+        "region":"South America",
+        "year":1986,
+        "count":1184.0,
+        "count_ma5":1204.4,
+        "norm":0.7935656836,
+        "norm_ma5":0.9889965512,
+        "share":0.413986014
+    },
+    {
+        "region":"South America",
+        "year":1987,
+        "count":1265.0,
+        "count_ma5":1183.0,
+        "norm":0.8478552279,
+        "norm_ma5":0.9714238791,
+        "share":0.397423814
+    },
+    {
+        "region":"South America",
+        "year":1988,
+        "count":1041.0,
+        "count_ma5":1190.2,
+        "norm":0.6977211796,
+        "norm_ma5":0.97733618,
+        "share":0.2798387097
+    },
+    {
+        "region":"South America",
+        "year":1989,
+        "count":1385.0,
+        "count_ma5":1217.8,
+        "norm":0.9282841823,
+        "norm_ma5":1.0,
+        "share":0.3203052729
+    },
+    {
+        "region":"South America",
+        "year":1990,
+        "count":1076.0,
+        "count_ma5":1205.6,
+        "norm":0.7211796247,
+        "norm_ma5":0.9899819346,
+        "share":0.276891405
+    },
+    {
+        "region":"South America",
+        "year":1991,
+        "count":1322.0,
+        "count_ma5":997.4,
+        "norm":0.8860589812,
+        "norm_ma5":0.8190179011,
+        "share":0.2821771612
+    },
+    {
+        "region":"South America",
+        "year":1992,
+        "count":1204.0,
+        "count_ma5":795.0,
+        "norm":0.8069705094,
+        "norm_ma5":0.6528165544,
+        "share":0.2374285151
+    },
+    {
+        "region":"South America",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":630.8,
+        "norm":0.0,
+        "norm_ma5":0.5179832485,
+        "share":0.0
+    },
+    {
+        "region":"South America",
+        "year":1994,
+        "count":373.0,
+        "count_ma5":469.8,
+        "norm":0.25,
+        "norm_ma5":0.3857776318,
+        "share":0.1079282407
+    },
+    {
+        "region":"South America",
+        "year":1995,
+        "count":255.0,
+        "count_ma5":383.8,
+        "norm":0.1709115282,
+        "norm_ma5":0.3151584825,
+        "share":0.0827653359
+    },
+    {
+        "region":"South America",
+        "year":1996,
+        "count":517.0,
+        "count_ma5":405.4,
+        "norm":0.3465147453,
+        "norm_ma5":0.3328953851,
+        "share":0.1690647482
+    },
+    {
+        "region":"South America",
+        "year":1997,
+        "count":774.0,
+        "count_ma5":357.6,
+        "norm":0.518766756,
+        "norm_ma5":0.2936442766,
+        "share":0.2420262664
+    },
+    {
+        "region":"South America",
+        "year":1998,
+        "count":108.0,
+        "count_ma5":336.6,
+        "norm":0.072386059,
+        "norm_ma5":0.2764000657,
+        "share":0.1156316916
+    },
+    {
+        "region":"South America",
+        "year":1999,
+        "count":134.0,
+        "count_ma5":279.0,
+        "norm":0.0898123324,
+        "norm_ma5":0.2291016587,
+        "share":0.0959885387
+    },
+    {
+        "region":"South America",
+        "year":2000,
+        "count":150.0,
+        "count_ma5":156.6,
+        "norm":0.100536193,
+        "norm_ma5":0.1285925439,
+        "share":0.0822819528
+    },
+    {
+        "region":"South America",
+        "year":2001,
+        "count":229.0,
+        "count_ma5":158.4,
+        "norm":0.1534852547,
+        "norm_ma5":0.1300706191,
+        "share":0.1197698745
+    },
+    {
+        "region":"South America",
+        "year":2002,
+        "count":162.0,
+        "count_ma5":140.0,
+        "norm":0.1085790885,
+        "norm_ma5":0.1149614058,
+        "share":0.1218045113
+    },
+    {
+        "region":"South America",
+        "year":2003,
+        "count":117.0,
+        "count_ma5":119.8,
+        "norm":0.0784182306,
+        "norm_ma5":0.0983741173,
+        "share":0.09140625
+    },
+    {
+        "region":"South America",
+        "year":2004,
+        "count":42.0,
+        "count_ma5":84.0,
+        "norm":0.028150134,
+        "norm_ma5":0.0689768435,
+        "share":0.0360824742
+    },
+    {
+        "region":"South America",
+        "year":2005,
+        "count":49.0,
+        "count_ma5":61.0,
+        "norm":0.0328418231,
+        "norm_ma5":0.0500903268,
+        "share":0.0242935052
+    },
+    {
+        "region":"South America",
+        "year":2006,
+        "count":50.0,
+        "count_ma5":66.4,
+        "norm":0.0335120643,
+        "norm_ma5":0.0545245525,
+        "share":0.0181356547
+    },
+    {
+        "region":"South America",
+        "year":2007,
+        "count":47.0,
+        "count_ma5":90.0,
+        "norm":0.0315013405,
+        "norm_ma5":0.0739037609,
+        "share":0.0144615385
+    },
+    {
+        "region":"South America",
+        "year":2008,
+        "count":144.0,
+        "count_ma5":109.8,
+        "norm":0.0965147453,
+        "norm_ma5":0.0901625883,
+        "share":0.0299937513
+    },
+    {
+        "region":"South America",
+        "year":2009,
+        "count":160.0,
+        "count_ma5":121.0,
+        "norm":0.1072386059,
+        "norm_ma5":0.0993595007,
+        "share":0.0338767732
+    },
+    {
+        "region":"South America",
+        "year":2010,
+        "count":148.0,
+        "count_ma5":138.8,
+        "norm":0.0991957105,
+        "norm_ma5":0.1139760223,
+        "share":0.030660866
+    },
+    {
+        "region":"South America",
+        "year":2011,
+        "count":106.0,
+        "count_ma5":147.0,
+        "norm":0.0710455764,
+        "norm_ma5":0.1207094761,
+        "share":0.0208866995
+    },
+    {
+        "region":"South America",
+        "year":2012,
+        "count":136.0,
+        "count_ma5":171.6,
+        "norm":0.091152815,
+        "norm_ma5":0.1409098374,
+        "share":0.0159530792
+    },
+    {
+        "region":"South America",
+        "year":2013,
+        "count":185.0,
+        "count_ma5":177.2,
+        "norm":0.1239946381,
+        "norm_ma5":0.1455082936,
+        "share":0.0153565203
+    },
+    {
+        "region":"South America",
+        "year":2014,
+        "count":283.0,
+        "count_ma5":189.4,
+        "norm":0.1896782842,
+        "norm_ma5":0.155526359,
+        "share":0.0166863208
+    },
+    {
+        "region":"South America",
+        "year":2015,
+        "count":176.0,
+        "count_ma5":198.0,
+        "norm":0.1179624665,
+        "norm_ma5":0.1625882739,
+        "share":0.0116263707
+    },
+    {
+        "region":"South America",
+        "year":2016,
+        "count":167.0,
+        "count_ma5":221.6,
+        "norm":0.1119302949,
+        "norm_ma5":0.1819674823,
+        "share":0.0118852751
+    },
+    {
+        "region":"South America",
+        "year":2017,
+        "count":179.0,
+        "count_ma5":220.2,
+        "norm":0.1199731903,
+        "norm_ma5":0.1808178683,
+        "share":0.015751496
+    },
+    {
+        "region":"South America",
+        "year":2018,
+        "count":303.0,
+        "count_ma5":238.4,
+        "norm":0.2030831099,
+        "norm_ma5":0.195762851,
+        "share":0.0307520552
+    },
+    {
+        "region":"South America",
+        "year":2019,
+        "count":276.0,
+        "count_ma5":256.25,
+        "norm":0.1849865952,
+        "norm_ma5":0.2104204303,
+        "share":0.0323298583
+    },
+    {
+        "region":"South America",
+        "year":2020,
+        "count":267.0,
+        "count_ma5":282.0,
+        "norm":0.1789544236,
+        "norm_ma5":0.2315651174,
+        "share":0.0316425693
+    },
+    {
+        "region":"South Asia",
+        "year":1970,
+        "count":1.0,
+        "count_ma5":0.6666666667,
+        "norm":0.0002001201,
+        "norm_ma5":0.0001540215,
+        "share":0.0015360983
+    },
+    {
+        "region":"South Asia",
+        "year":1971,
+        "count":0.0,
+        "count_ma5":0.75,
+        "norm":0.0,
+        "norm_ma5":0.0001732742,
+        "share":0.0
+    },
+    {
+        "region":"South Asia",
+        "year":1972,
+        "count":1.0,
+        "count_ma5":1.0,
+        "norm":0.0002001201,
+        "norm_ma5":0.0002310323,
+        "share":0.0017636684
+    },
+    {
+        "region":"South Asia",
+        "year":1973,
+        "count":1.0,
+        "count_ma5":1.6,
+        "norm":0.0002001201,
+        "norm_ma5":0.0003696516,
+        "share":0.0021141649
+    },
+    {
+        "region":"South Asia",
+        "year":1974,
+        "count":2.0,
+        "count_ma5":2.4,
+        "norm":0.0004002401,
+        "norm_ma5":0.0005544774,
+        "share":0.0034423408
+    },
+    {
+        "region":"South Asia",
+        "year":1975,
+        "count":4.0,
+        "count_ma5":2.6,
+        "norm":0.0008004803,
+        "norm_ma5":0.0006006839,
+        "share":0.0054054054
+    },
+    {
+        "region":"South Asia",
+        "year":1976,
+        "count":4.0,
+        "count_ma5":2.8,
+        "norm":0.0008004803,
+        "norm_ma5":0.0006468903,
+        "share":0.0043336945
+    },
+    {
+        "region":"South Asia",
+        "year":1977,
+        "count":2.0,
+        "count_ma5":9.2,
+        "norm":0.0004002401,
+        "norm_ma5":0.0021254967,
+        "share":0.0015163002
+    },
+    {
+        "region":"South Asia",
+        "year":1978,
+        "count":2.0,
+        "count_ma5":10.8,
+        "norm":0.0004002401,
+        "norm_ma5":0.0024951483,
+        "share":0.001310616
+    },
+    {
+        "region":"South Asia",
+        "year":1979,
+        "count":34.0,
+        "count_ma5":14.6,
+        "norm":0.0068040824,
+        "norm_ma5":0.0033730709,
+        "share":0.0127723516
+    },
+    {
+        "region":"South Asia",
+        "year":1980,
+        "count":12.0,
+        "count_ma5":18.2,
+        "norm":0.0024014409,
+        "norm_ma5":0.004204787,
+        "share":0.0045095829
+    },
+    {
+        "region":"South Asia",
+        "year":1981,
+        "count":23.0,
+        "count_ma5":30.4,
+        "norm":0.0046027617,
+        "norm_ma5":0.0070233805,
+        "share":0.0088940449
+    },
+    {
+        "region":"South Asia",
+        "year":1982,
+        "count":20.0,
+        "count_ma5":72.4,
+        "norm":0.0040024014,
+        "norm_ma5":0.0167267351,
+        "share":0.0078647267
+    },
+    {
+        "region":"South Asia",
+        "year":1983,
+        "count":63.0,
+        "count_ma5":102.2,
+        "norm":0.0126075645,
+        "norm_ma5":0.0236114962,
+        "share":0.0219512195
+    },
+    {
+        "region":"South Asia",
+        "year":1984,
+        "count":244.0,
+        "count_ma5":152.2,
+        "norm":0.0488292976,
+        "norm_ma5":0.0351631088,
+        "share":0.06981402
+    },
+    {
+        "region":"South Asia",
+        "year":1985,
+        "count":161.0,
+        "count_ma5":217.8,
+        "norm":0.0322193316,
+        "norm_ma5":0.0503188245,
+        "share":0.0552505148
+    },
+    {
+        "region":"South Asia",
+        "year":1986,
+        "count":273.0,
+        "count_ma5":365.4,
+        "norm":0.0546327797,
+        "norm_ma5":0.0844191849,
+        "share":0.0954545455
+    },
+    {
+        "region":"South Asia",
+        "year":1987,
+        "count":348.0,
+        "count_ma5":501.8,
+        "norm":0.0696417851,
+        "norm_ma5":0.1159319841,
+        "share":0.10933082
+    },
+    {
+        "region":"South Asia",
+        "year":1988,
+        "count":801.0,
+        "count_ma5":589.6,
+        "norm":0.1602961777,
+        "norm_ma5":0.1362166158,
+        "share":0.2153225806
+    },
+    {
+        "region":"South Asia",
+        "year":1989,
+        "count":926.0,
+        "count_ma5":670.4,
+        "norm":0.1853111867,
+        "norm_ma5":0.1548840218,
+        "share":0.2141535615
+    },
+    {
+        "region":"South Asia",
+        "year":1990,
+        "count":600.0,
+        "count_ma5":709.8,
+        "norm":0.1200720432,
+        "norm_ma5":0.1639866925,
+        "share":0.1544004117
+    },
+    {
+        "region":"South Asia",
+        "year":1991,
+        "count":677.0,
+        "count_ma5":549.6,
+        "norm":0.1354812888,
+        "norm_ma5":0.1269753258,
+        "share":0.1445037353
+    },
+    {
+        "region":"South Asia",
+        "year":1992,
+        "count":545.0,
+        "count_ma5":439.6,
+        "norm":0.1090654393,
+        "norm_ma5":0.101561778,
+        "share":0.107473871
+    },
+    {
+        "region":"South Asia",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":529.8,
+        "norm":0.0,
+        "norm_ma5":0.1224008872,
+        "share":0.0
+    },
+    {
+        "region":"South Asia",
+        "year":1994,
+        "count":376.0,
+        "count_ma5":542.2,
+        "norm":0.0752451471,
+        "norm_ma5":0.1252656871,
+        "share":0.1087962963
+    },
+    {
+        "region":"South Asia",
+        "year":1995,
+        "count":1051.0,
+        "count_ma5":531.0,
+        "norm":0.2103261957,
+        "norm_ma5":0.1226781259,
+        "share":0.341123012
+    },
+    {
+        "region":"South Asia",
+        "year":1996,
+        "count":739.0,
+        "count_ma5":558.2,
+        "norm":0.1478887332,
+        "norm_ma5":0.1289622031,
+        "share":0.2416612165
+    },
+    {
+        "region":"South Asia",
+        "year":1997,
+        "count":489.0,
+        "count_ma5":528.0,
+        "norm":0.0978587152,
+        "norm_ma5":0.1219850291,
+        "share":0.1529080675
+    },
+    {
+        "region":"South Asia",
+        "year":1998,
+        "count":136.0,
+        "count_ma5":389.0,
+        "norm":0.0272163298,
+        "norm_ma5":0.0898715461,
+        "share":0.1456102784
+    },
+    {
+        "region":"South Asia",
+        "year":1999,
+        "count":225.0,
+        "count_ma5":318.2,
+        "norm":0.0450270162,
+        "norm_ma5":0.0735144626,
+        "share":0.1611747851
+    },
+    {
+        "region":"South Asia",
+        "year":2000,
+        "count":356.0,
+        "count_ma5":287.2,
+        "norm":0.0712427456,
+        "norm_ma5":0.0663524628,
+        "share":0.1952825014
+    },
+    {
+        "region":"South Asia",
+        "year":2001,
+        "count":385.0,
+        "count_ma5":330.6,
+        "norm":0.0770462277,
+        "norm_ma5":0.0763792625,
+        "share":0.2013598326
+    },
+    {
+        "region":"South Asia",
+        "year":2002,
+        "count":334.0,
+        "count_ma5":359.4,
+        "norm":0.0668401041,
+        "norm_ma5":0.0830329914,
+        "share":0.2511278195
+    },
+    {
+        "region":"South Asia",
+        "year":2003,
+        "count":353.0,
+        "count_ma5":409.0,
+        "norm":0.0706423854,
+        "norm_ma5":0.0944921911,
+        "share":0.27578125
+    },
+    {
+        "region":"South Asia",
+        "year":2004,
+        "count":369.0,
+        "count_ma5":519.6,
+        "norm":0.0738443066,
+        "norm_ma5":0.1200443582,
+        "share":0.3170103093
+    },
+    {
+        "region":"South Asia",
+        "year":2005,
+        "count":604.0,
+        "count_ma5":649.6,
+        "norm":0.1208725235,
+        "norm_ma5":0.150078551,
+        "share":0.2994546356
+    },
+    {
+        "region":"South Asia",
+        "year":2006,
+        "count":938.0,
+        "count_ma5":931.0,
+        "norm":0.1877126276,
+        "norm_ma5":0.2150910267,
+        "share":0.3402248821
+    },
+    {
+        "region":"South Asia",
+        "year":2007,
+        "count":984.0,
+        "count_ma5":1246.2,
+        "norm":0.1969181509,
+        "norm_ma5":0.2879123926,
+        "share":0.3027692308
+    },
+    {
+        "region":"South Asia",
+        "year":2008,
+        "count":1760.0,
+        "count_ma5":1521.6,
+        "norm":0.3522113268,
+        "norm_ma5":0.3515386748,
+        "share":0.3665902937
+    },
+    {
+        "region":"South Asia",
+        "year":2009,
+        "count":1945.0,
+        "count_ma5":1761.6,
+        "norm":0.3892335401,
+        "norm_ma5":0.4069864153,
+        "share":0.4118145247
+    },
+    {
+        "region":"South Asia",
+        "year":2010,
+        "count":1981.0,
+        "count_ma5":2326.2,
+        "norm":0.3964378627,
+        "norm_ma5":0.5374272248,
+        "share":0.4103998343
+    },
+    {
+        "region":"South Asia",
+        "year":2011,
+        "count":2138.0,
+        "count_ma5":2896.4,
+        "norm":0.427856714,
+        "norm_ma5":0.669161815,
+        "share":0.4212807882
+    },
+    {
+        "region":"South Asia",
+        "year":2012,
+        "count":3807.0,
+        "count_ma5":3506.8,
+        "norm":0.7618571143,
+        "norm_ma5":0.8101839017,
+        "share":0.446568915
+    },
+    {
+        "region":"South Asia",
+        "year":2013,
+        "count":4611.0,
+        "count_ma5":4027.8,
+        "norm":0.9227536522,
+        "norm_ma5":0.930551705,
+        "share":0.3827508923
+    },
+    {
+        "region":"South Asia",
+        "year":2014,
+        "count":4997.0,
+        "count_ma5":4328.4,
+        "norm":1.0,
+        "norm_ma5":1.0,
+        "share":0.294634434
+    },
+    {
+        "region":"South Asia",
+        "year":2015,
+        "count":4586.0,
+        "count_ma5":4253.4,
+        "norm":0.9177506504,
+        "norm_ma5":0.9826725811,
+        "share":0.302946228
+    },
+    {
+        "region":"South Asia",
+        "year":2016,
+        "count":3641.0,
+        "count_ma5":3988.6,
+        "norm":0.7286371823,
+        "norm_ma5":0.9214952407,
+        "share":0.2591274642
+    },
+    {
+        "region":"South Asia",
+        "year":2017,
+        "count":3432.0,
+        "count_ma5":3597.0,
+        "norm":0.6868120873,
+        "norm_ma5":0.8310230108,
+        "share":0.3020063358
+    },
+    {
+        "region":"South Asia",
+        "year":2018,
+        "count":3287.0,
+        "count_ma5":3363.4,
+        "norm":0.6577946768,
+        "norm_ma5":0.7770538767,
+        "share":0.3336039785
+    },
+    {
+        "region":"South Asia",
+        "year":2019,
+        "count":3039.0,
+        "count_ma5":3294.0,
+        "norm":0.6081648989,
+        "norm_ma5":0.7610202384,
+        "share":0.3559798524
+    },
+    {
+        "region":"South Asia",
+        "year":2020,
+        "count":3418.0,
+        "count_ma5":3248.0,
+        "norm":0.6840104062,
+        "norm_ma5":0.7503927548,
+        "share":0.405072292
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1970,
+        "count":10.0,
+        "count_ma5":10.3333333333,
+        "norm":0.0084175084,
+        "norm_ma5":0.0094905707,
+        "share":0.0153609831
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1971,
+        "count":6.0,
+        "count_ma5":8.25,
+        "norm":0.0050505051,
+        "norm_ma5":0.0075771492,
+        "share":0.0127388535
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1972,
+        "count":15.0,
+        "count_ma5":7.2,
+        "norm":0.0126262626,
+        "norm_ma5":0.0066127847,
+        "share":0.0264550265
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1973,
+        "count":2.0,
+        "count_ma5":6.6,
+        "norm":0.0016835017,
+        "norm_ma5":0.0060617193,
+        "share":0.0042283298
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1974,
+        "count":3.0,
+        "count_ma5":7.8,
+        "norm":0.0025252525,
+        "norm_ma5":0.0071638501,
+        "share":0.0051635112
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1975,
+        "count":7.0,
+        "count_ma5":6.4,
+        "norm":0.0058922559,
+        "norm_ma5":0.0058780309,
+        "share":0.0094594595
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1976,
+        "count":12.0,
+        "count_ma5":14.8,
+        "norm":0.0101010101,
+        "norm_ma5":0.0135929464,
+        "share":0.0130010834
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1977,
+        "count":8.0,
+        "count_ma5":31.4,
+        "norm":0.0067340067,
+        "norm_ma5":0.0288390889,
+        "share":0.0060652009
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1978,
+        "count":44.0,
+        "count_ma5":47.4,
+        "norm":0.037037037,
+        "norm_ma5":0.0435341661,
+        "share":0.0288335518
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1979,
+        "count":86.0,
+        "count_ma5":55.0,
+        "norm":0.0723905724,
+        "norm_ma5":0.0505143277,
+        "share":0.0323065364
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1980,
+        "count":87.0,
+        "count_ma5":62.0,
+        "norm":0.0732323232,
+        "norm_ma5":0.056943424,
+        "share":0.0326944758
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1981,
+        "count":50.0,
+        "count_ma5":57.6,
+        "norm":0.0420875421,
+        "norm_ma5":0.0529022777,
+        "share":0.0193348801
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1982,
+        "count":43.0,
+        "count_ma5":49.6,
+        "norm":0.0361952862,
+        "norm_ma5":0.0455547392,
+        "share":0.0169091624
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1983,
+        "count":22.0,
+        "count_ma5":57.8,
+        "norm":0.0185185185,
+        "norm_ma5":0.0530859662,
+        "share":0.0076655052
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1984,
+        "count":46.0,
+        "count_ma5":68.2,
+        "norm":0.0387205387,
+        "norm_ma5":0.0626377663,
+        "share":0.0131616595
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1985,
+        "count":128.0,
+        "count_ma5":92.2,
+        "norm":0.1077441077,
+        "norm_ma5":0.0846803821,
+        "share":0.0439258751
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1986,
+        "count":102.0,
+        "count_ma5":136.2,
+        "norm":0.0858585859,
+        "norm_ma5":0.1250918442,
+        "share":0.0356643357
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1987,
+        "count":163.0,
+        "count_ma5":167.6,
+        "norm":0.1372053872,
+        "norm_ma5":0.1539309331,
+        "share":0.0512095507
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1988,
+        "count":242.0,
+        "count_ma5":211.6,
+        "norm":0.2037037037,
+        "norm_ma5":0.1943423953,
+        "share":0.0650537634
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1989,
+        "count":203.0,
+        "count_ma5":232.4,
+        "norm":0.1708754209,
+        "norm_ma5":0.2134459956,
+        "share":0.046947271
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1990,
+        "count":348.0,
+        "count_ma5":255.6,
+        "norm":0.2929292929,
+        "norm_ma5":0.2347538575,
+        "share":0.0895522388
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1991,
+        "count":206.0,
+        "count_ma5":207.2,
+        "norm":0.1734006734,
+        "norm_ma5":0.1903012491,
+        "share":0.0439701174
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1992,
+        "count":279.0,
+        "count_ma5":196.8,
+        "norm":0.2348484848,
+        "norm_ma5":0.1807494489,
+        "share":0.055018734
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":160.8,
+        "norm":0.0,
+        "norm_ma5":0.1476855253,
+        "share":0.0
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1994,
+        "count":151.0,
+        "count_ma5":158.2,
+        "norm":0.1271043771,
+        "norm_ma5":0.1452975753,
+        "share":0.0436921296
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1995,
+        "count":168.0,
+        "count_ma5":134.2,
+        "norm":0.1414141414,
+        "norm_ma5":0.1232549596,
+        "share":0.0545277507
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1996,
+        "count":193.0,
+        "count_ma5":140.6,
+        "norm":0.1624579125,
+        "norm_ma5":0.1291329904,
+        "share":0.0631131458
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1997,
+        "count":159.0,
+        "count_ma5":131.8,
+        "norm":0.1338383838,
+        "norm_ma5":0.121050698,
+        "share":0.0497185741
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1998,
+        "count":32.0,
+        "count_ma5":149.4,
+        "norm":0.0269360269,
+        "norm_ma5":0.1372152829,
+        "share":0.034261242
+    },
+    {
+        "region":"Southeast Asia",
+        "year":1999,
+        "count":107.0,
+        "count_ma5":148.0,
+        "norm":0.0900673401,
+        "norm_ma5":0.1359294636,
+        "share":0.0766475645
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2000,
+        "count":256.0,
+        "count_ma5":138.2,
+        "norm":0.2154882155,
+        "norm_ma5":0.1269287289,
+        "share":0.1404278662
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2001,
+        "count":186.0,
+        "count_ma5":160.8,
+        "norm":0.1565656566,
+        "norm_ma5":0.1476855253,
+        "share":0.0972803347
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2002,
+        "count":110.0,
+        "count_ma5":158.2,
+        "norm":0.0925925926,
+        "norm_ma5":0.1452975753,
+        "share":0.0827067669
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2003,
+        "count":145.0,
+        "count_ma5":147.8,
+        "norm":0.1220538721,
+        "norm_ma5":0.1357457752,
+        "share":0.11328125
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2004,
+        "count":94.0,
+        "count_ma5":165.0,
+        "norm":0.0791245791,
+        "norm_ma5":0.1515429831,
+        "share":0.0807560137
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2005,
+        "count":204.0,
+        "count_ma5":216.0,
+        "norm":0.1717171717,
+        "norm_ma5":0.1983835415,
+        "share":0.1011403074
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2006,
+        "count":272.0,
+        "count_ma5":289.8,
+        "norm":0.228956229,
+        "norm_ma5":0.2661645849,
+        "share":0.0986579616
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2007,
+        "count":365.0,
+        "count_ma5":383.2,
+        "norm":0.3072390572,
+        "norm_ma5":0.3519470977,
+        "share":0.1123076923
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2008,
+        "count":514.0,
+        "count_ma5":436.8,
+        "norm":0.4326599327,
+        "norm_ma5":0.4011756062,
+        "share":0.107061029
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2009,
+        "count":561.0,
+        "count_ma5":453.6,
+        "norm":0.4722222222,
+        "norm_ma5":0.4166054372,
+        "share":0.1187804362
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2010,
+        "count":472.0,
+        "count_ma5":498.2,
+        "norm":0.3973063973,
+        "norm_ma5":0.4575679647,
+        "share":0.0977833023
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2011,
+        "count":356.0,
+        "count_ma5":633.0,
+        "norm":0.2996632997,
+        "norm_ma5":0.5813739897,
+        "share":0.0701477833
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2012,
+        "count":588.0,
+        "count_ma5":737.4,
+        "norm":0.4949494949,
+        "norm_ma5":0.6772593681,
+        "share":0.068973607
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2013,
+        "count":1188.0,
+        "count_ma5":857.4,
+        "norm":1.0,
+        "norm_ma5":0.7874724467,
+        "share":0.0986137628
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2014,
+        "count":1083.0,
+        "count_ma5":1001.6,
+        "norm":0.9116161616,
+        "norm_ma5":0.9199118295,
+        "share":0.0638561321
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2015,
+        "count":1072.0,
+        "count_ma5":1088.8,
+        "norm":0.9023569024,
+        "norm_ma5":1.0,
+        "share":0.0708151671
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2016,
+        "count":1077.0,
+        "count_ma5":1026.2,
+        "norm":0.9065656566,
+        "norm_ma5":0.9425055107,
+        "share":0.0766493488
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2017,
+        "count":1024.0,
+        "count_ma5":952.6,
+        "norm":0.861952862,
+        "norm_ma5":0.8749081558,
+        "share":0.0901091165
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2018,
+        "count":875.0,
+        "count_ma5":822.0,
+        "norm":0.7365319865,
+        "norm_ma5":0.7549595885,
+        "share":0.08880544
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2019,
+        "count":715.0,
+        "count_ma5":758.25,
+        "norm":0.6018518519,
+        "norm_ma5":0.6964088905,
+        "share":0.0837530749
+    },
+    {
+        "region":"Southeast Asia",
+        "year":2020,
+        "count":419.0,
+        "count_ma5":669.6666666667,
+        "norm":0.3526936027,
+        "norm_ma5":0.6150502082,
+        "share":0.0496563167
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1970,
+        "count":3.0,
+        "count_ma5":3.0,
+        "norm":0.0012925463,
+        "norm_ma5":0.0014169658,
+        "share":0.0046082949
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1971,
+        "count":2.0,
+        "count_ma5":3.25,
+        "norm":0.0008616975,
+        "norm_ma5":0.0015350463,
+        "share":0.0042462845
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1972,
+        "count":4.0,
+        "count_ma5":4.0,
+        "norm":0.0017233951,
+        "norm_ma5":0.0018892877,
+        "share":0.0070546737
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1973,
+        "count":4.0,
+        "count_ma5":5.8,
+        "norm":0.0017233951,
+        "norm_ma5":0.0027394672,
+        "share":0.0084566596
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1974,
+        "count":7.0,
+        "count_ma5":7.6,
+        "norm":0.0030159414,
+        "norm_ma5":0.0035896467,
+        "share":0.0120481928
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1975,
+        "count":12.0,
+        "count_ma5":12.6,
+        "norm":0.0051701853,
+        "norm_ma5":0.0059512564,
+        "share":0.0162162162
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1976,
+        "count":11.0,
+        "count_ma5":21.0,
+        "norm":0.0047393365,
+        "norm_ma5":0.0099187606,
+        "share":0.0119176598
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1977,
+        "count":29.0,
+        "count_ma5":44.4,
+        "norm":0.0124946144,
+        "norm_ma5":0.0209710939,
+        "share":0.0219863533
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1978,
+        "count":46.0,
+        "count_ma5":53.6,
+        "norm":0.0198190435,
+        "norm_ma5":0.0253164557,
+        "share":0.0301441678
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1979,
+        "count":124.0,
+        "count_ma5":71.0,
+        "norm":0.0534252477,
+        "norm_ma5":0.0335348574,
+        "share":0.0465815177
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1980,
+        "count":58.0,
+        "count_ma5":77.2,
+        "norm":0.0249892288,
+        "norm_ma5":0.0364632534,
+        "share":0.0217963172
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1981,
+        "count":98.0,
+        "count_ma5":89.2,
+        "norm":0.0422231797,
+        "norm_ma5":0.0421311166,
+        "share":0.037896365
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1982,
+        "count":60.0,
+        "count_ma5":89.6,
+        "norm":0.0258509263,
+        "norm_ma5":0.0423200453,
+        "share":0.0235941801
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1983,
+        "count":106.0,
+        "count_ma5":106.2,
+        "norm":0.0456699698,
+        "norm_ma5":0.0501605895,
+        "share":0.0369337979
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1984,
+        "count":126.0,
+        "count_ma5":123.6,
+        "norm":0.0542869453,
+        "norm_ma5":0.0583789911,
+        "share":0.0360515021
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1985,
+        "count":141.0,
+        "count_ma5":146.4,
+        "norm":0.0607496769,
+        "norm_ma5":0.0691479312,
+        "share":0.0483870968
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1986,
+        "count":185.0,
+        "count_ma5":192.6,
+        "norm":0.0797070228,
+        "norm_ma5":0.0909692046,
+        "share":0.0646853147
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1987,
+        "count":174.0,
+        "count_ma5":225.6,
+        "norm":0.0749676863,
+        "norm_ma5":0.1065558285,
+        "share":0.05466541
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1988,
+        "count":337.0,
+        "count_ma5":287.4,
+        "norm":0.1451960362,
+        "norm_ma5":0.135745324,
+        "share":0.0905913978
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1989,
+        "count":291.0,
+        "count_ma5":304.6,
+        "norm":0.1253769927,
+        "norm_ma5":0.1438692613,
+        "share":0.0672987974
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1990,
+        "count":450.0,
+        "count_ma5":383.8,
+        "norm":0.1938819474,
+        "norm_ma5":0.1812771585,
+        "share":0.1158003088
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1991,
+        "count":271.0,
+        "count_ma5":316.4,
+        "norm":0.1167600172,
+        "norm_ma5":0.1494426601,
+        "share":0.0578441836
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1992,
+        "count":570.0,
+        "count_ma5":344.6,
+        "norm":0.2455838001,
+        "norm_ma5":0.1627621387,
+        "share":0.1124038651
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":302.4,
+        "norm":0.0,
+        "norm_ma5":0.142830153,
+        "share":0.0
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1994,
+        "count":432.0,
+        "count_ma5":291.6,
+        "norm":0.1861266695,
+        "norm_ma5":0.1377290761,
+        "share":0.125
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1995,
+        "count":239.0,
+        "count_ma5":233.4,
+        "norm":0.1029728565,
+        "norm_ma5":0.1102399395,
+        "share":0.0775722168
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1996,
+        "count":217.0,
+        "count_ma5":250.8,
+        "norm":0.0934941835,
+        "norm_ma5":0.1184583412,
+        "share":0.0709614127
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1997,
+        "count":279.0,
+        "count_ma5":193.0,
+        "norm":0.1202068074,
+        "norm_ma5":0.0911581334,
+        "share":0.0872420263
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1998,
+        "count":87.0,
+        "count_ma5":183.4,
+        "norm":0.0374838432,
+        "norm_ma5":0.0866238428,
+        "share":0.0931477516
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":1999,
+        "count":143.0,
+        "count_ma5":172.4,
+        "norm":0.0616113744,
+        "norm_ma5":0.0814283015,
+        "share":0.1024355301
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2000,
+        "count":191.0,
+        "count_ma5":140.8,
+        "norm":0.0822921155,
+        "norm_ma5":0.0665029284,
+        "share":0.1047723533
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2001,
+        "count":162.0,
+        "count_ma5":138.0,
+        "norm":0.0697975011,
+        "norm_ma5":0.065180427,
+        "share":0.0847280335
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2002,
+        "count":121.0,
+        "count_ma5":116.2,
+        "norm":0.0521327014,
+        "norm_ma5":0.0548838088,
+        "share":0.0909774436
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2003,
+        "count":73.0,
+        "count_ma5":90.0,
+        "norm":0.0314519604,
+        "norm_ma5":0.0425089741,
+        "share":0.05703125
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2004,
+        "count":34.0,
+        "count_ma5":80.4,
+        "norm":0.0146488583,
+        "norm_ma5":0.0379746835,
+        "share":0.029209622
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2005,
+        "count":60.0,
+        "count_ma5":116.6,
+        "norm":0.0258509263,
+        "norm_ma5":0.0550727376,
+        "share":0.0297471492
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2006,
+        "count":114.0,
+        "count_ma5":178.0,
+        "norm":0.04911676,
+        "norm_ma5":0.0840733044,
+        "share":0.0413492927
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2007,
+        "count":302.0,
+        "count_ma5":227.8,
+        "norm":0.1301163292,
+        "norm_ma5":0.1075949367,
+        "share":0.0929230769
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2008,
+        "count":380.0,
+        "count_ma5":282.0,
+        "norm":0.1637225334,
+        "norm_ma5":0.1331947856,
+        "share":0.079150177
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2009,
+        "count":283.0,
+        "count_ma5":358.0,
+        "norm":0.1219302025,
+        "norm_ma5":0.1690912526,
+        "share":0.0599195427
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2010,
+        "count":331.0,
+        "count_ma5":531.0,
+        "norm":0.1426109436,
+        "norm_ma5":0.2508029473,
+        "share":0.0685726124
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2011,
+        "count":494.0,
+        "count_ma5":655.2,
+        "norm":0.2128392934,
+        "norm_ma5":0.3094653316,
+        "share":0.0973399015
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2012,
+        "count":1167.0,
+        "count_ma5":1062.8,
+        "norm":0.502800517,
+        "norm_ma5":0.5019837521,
+        "share":0.1368914956
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2013,
+        "count":1001.0,
+        "count_ma5":1390.8,
+        "norm":0.4312796209,
+        "norm_ma5":0.6569053467,
+        "share":0.083091226
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2014,
+        "count":2321.0,
+        "count_ma5":1708.4,
+        "norm":1.0,
+        "norm_ma5":0.8069147931,
+        "share":0.1368514151
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2015,
+        "count":1971.0,
+        "count_ma5":1875.0,
+        "norm":0.8492029298,
+        "norm_ma5":0.8856036274,
+        "share":0.1302021403
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2016,
+        "count":2082.0,
+        "count_ma5":2117.2,
+        "norm":0.8970271435,
+        "norm_ma5":1.0,
+        "share":0.1481745072
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2017,
+        "count":2000.0,
+        "count_ma5":2041.8,
+        "norm":0.8616975442,
+        "norm_ma5":0.9643869261,
+        "share":0.1759943682
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2018,
+        "count":2212.0,
+        "count_ma5":2047.0,
+        "norm":0.9530374838,
+        "norm_ma5":0.9668430002,
+        "share":0.2245001522
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2019,
+        "count":1944.0,
+        "count_ma5":2038.25,
+        "norm":0.8375700129,
+        "norm_ma5":0.9627101833,
+        "share":0.2277146539
+    },
+    {
+        "region":"Sub-Saharan Africa",
+        "year":2020,
+        "count":1997.0,
+        "count_ma5":2051.0,
+        "norm":0.8604049978,
+        "norm_ma5":0.9687322879,
+        "share":0.2366674567
+    },
+    {
+        "region":"Western Europe",
+        "year":1970,
+        "count":50.0,
+        "count_ma5":183.6666666667,
+        "norm":0.0490196078,
+        "norm_ma5":0.2487360058,
+        "share":0.0768049155
+    },
+    {
+        "region":"Western Europe",
+        "year":1971,
+        "count":125.0,
+        "count_ma5":210.25,
+        "norm":0.1225490196,
+        "norm_ma5":0.2847372698,
+        "share":0.2653927813
+    },
+    {
+        "region":"Western Europe",
+        "year":1972,
+        "count":376.0,
+        "count_ma5":231.6,
+        "norm":0.368627451,
+        "norm_ma5":0.3136511376,
+        "share":0.6631393298
+    },
+    {
+        "region":"Western Europe",
+        "year":1973,
+        "count":290.0,
+        "count_ma5":309.2,
+        "norm":0.2843137255,
+        "norm_ma5":0.4187432286,
+        "share":0.6131078224
+    },
+    {
+        "region":"Western Europe",
+        "year":1974,
+        "count":317.0,
+        "count_ma5":399.8,
+        "norm":0.3107843137,
+        "norm_ma5":0.5414409534,
+        "share":0.5456110155
+    },
+    {
+        "region":"Western Europe",
+        "year":1975,
+        "count":438.0,
+        "count_ma5":478.8,
+        "norm":0.4294117647,
+        "norm_ma5":0.6484290358,
+        "share":0.5918918919
+    },
+    {
+        "region":"Western Europe",
+        "year":1976,
+        "count":578.0,
+        "count_ma5":566.6,
+        "norm":0.5666666667,
+        "norm_ma5":0.7673347779,
+        "share":0.6262188516
+    },
+    {
+        "region":"Western Europe",
+        "year":1977,
+        "count":771.0,
+        "count_ma5":707.2,
+        "norm":0.7558823529,
+        "norm_ma5":0.9577464789,
+        "share":0.5845337377
+    },
+    {
+        "region":"Western Europe",
+        "year":1978,
+        "count":729.0,
+        "count_ma5":738.4,
+        "norm":0.7147058824,
+        "norm_ma5":1.0,
+        "share":0.4777195282
+    },
+    {
+        "region":"Western Europe",
+        "year":1979,
+        "count":1020.0,
+        "count_ma5":719.6,
+        "norm":1.0,
+        "norm_ma5":0.974539545,
+        "share":0.3831705485
+    },
+    {
+        "region":"Western Europe",
+        "year":1980,
+        "count":594.0,
+        "count_ma5":645.8,
+        "norm":0.5823529412,
+        "norm_ma5":0.8745937161,
+        "share":0.2232243517
+    },
+    {
+        "region":"Western Europe",
+        "year":1981,
+        "count":484.0,
+        "count_ma5":595.0,
+        "norm":0.4745098039,
+        "norm_ma5":0.8057963164,
+        "share":0.1871616396
+    },
+    {
+        "region":"Western Europe",
+        "year":1982,
+        "count":402.0,
+        "count_ma5":499.2,
+        "norm":0.3941176471,
+        "norm_ma5":0.676056338,
+        "share":0.1580810067
+    },
+    {
+        "region":"Western Europe",
+        "year":1983,
+        "count":475.0,
+        "count_ma5":473.4,
+        "norm":0.4656862745,
+        "norm_ma5":0.6411159263,
+        "share":0.1655052265
+    },
+    {
+        "region":"Western Europe",
+        "year":1984,
+        "count":541.0,
+        "count_ma5":467.6,
+        "norm":0.5303921569,
+        "norm_ma5":0.6332611051,
+        "share":0.1547925608
+    },
+    {
+        "region":"Western Europe",
+        "year":1985,
+        "count":465.0,
+        "count_ma5":470.4,
+        "norm":0.4558823529,
+        "norm_ma5":0.6370530878,
+        "share":0.1595744681
+    },
+    {
+        "region":"Western Europe",
+        "year":1986,
+        "count":455.0,
+        "count_ma5":473.0,
+        "norm":0.4460784314,
+        "norm_ma5":0.6405742145,
+        "share":0.1590909091
+    },
+    {
+        "region":"Western Europe",
+        "year":1987,
+        "count":416.0,
+        "count_ma5":453.6,
+        "norm":0.4078431373,
+        "norm_ma5":0.6143011918,
+        "share":0.1306943135
+    },
+    {
+        "region":"Western Europe",
+        "year":1988,
+        "count":488.0,
+        "count_ma5":438.6,
+        "norm":0.4784313725,
+        "norm_ma5":0.5939869989,
+        "share":0.1311827957
+    },
+    {
+        "region":"Western Europe",
+        "year":1989,
+        "count":444.0,
+        "count_ma5":487.0,
+        "norm":0.4352941176,
+        "norm_ma5":0.6595341278,
+        "share":0.1026827012
+    },
+    {
+        "region":"Western Europe",
+        "year":1990,
+        "count":390.0,
+        "count_ma5":557.6,
+        "norm":0.3823529412,
+        "norm_ma5":0.7551462622,
+        "share":0.1003602676
+    },
+    {
+        "region":"Western Europe",
+        "year":1991,
+        "count":697.0,
+        "count_ma5":460.0,
+        "norm":0.6833333333,
+        "norm_ma5":0.6229685807,
+        "share":0.1487726788
+    },
+    {
+        "region":"Western Europe",
+        "year":1992,
+        "count":769.0,
+        "count_ma5":488.0,
+        "norm":0.7539215686,
+        "norm_ma5":0.6608884074,
+        "share":0.151646618
+    },
+    {
+        "region":"Western Europe",
+        "year":1993,
+        "count":0.0,
+        "count_ma5":477.4,
+        "norm":0.0,
+        "norm_ma5":0.6465330444,
+        "share":0.0
+    },
+    {
+        "region":"Western Europe",
+        "year":1994,
+        "count":584.0,
+        "count_ma5":433.2,
+        "norm":0.5725490196,
+        "norm_ma5":0.5866738895,
+        "share":0.1689814815
+    },
+    {
+        "region":"Western Europe",
+        "year":1995,
+        "count":337.0,
+        "count_ma5":349.2,
+        "norm":0.3303921569,
+        "norm_ma5":0.4729144095,
+        "share":0.1093800714
+    },
+    {
+        "region":"Western Europe",
+        "year":1996,
+        "count":476.0,
+        "count_ma5":377.4,
+        "norm":0.4666666667,
+        "norm_ma5":0.5111050921,
+        "share":0.1556572923
+    },
+    {
+        "region":"Western Europe",
+        "year":1997,
+        "count":349.0,
+        "count_ma5":307.8,
+        "norm":0.3421568627,
+        "norm_ma5":0.4168472373,
+        "share":0.1091307067
+    },
+    {
+        "region":"Western Europe",
+        "year":1998,
+        "count":141.0,
+        "count_ma5":291.0,
+        "norm":0.1382352941,
+        "norm_ma5":0.3940953413,
+        "share":0.1509635974
+    },
+    {
+        "region":"Western Europe",
+        "year":1999,
+        "count":236.0,
+        "count_ma5":242.6,
+        "norm":0.231372549,
+        "norm_ma5":0.3285482124,
+        "share":0.1690544413
+    },
+    {
+        "region":"Western Europe",
+        "year":2000,
+        "count":253.0,
+        "count_ma5":196.6,
+        "norm":0.2480392157,
+        "norm_ma5":0.2662513543,
+        "share":0.1387822271
+    },
+    {
+        "region":"Western Europe",
+        "year":2001,
+        "count":234.0,
+        "count_ma5":192.6,
+        "norm":0.2294117647,
+        "norm_ma5":0.2608342362,
+        "share":0.1223849372
+    },
+    {
+        "region":"Western Europe",
+        "year":2002,
+        "count":119.0,
+        "count_ma5":157.2,
+        "norm":0.1166666667,
+        "norm_ma5":0.2128927411,
+        "share":0.0894736842
+    },
+    {
+        "region":"Western Europe",
+        "year":2003,
+        "count":121.0,
+        "count_ma5":127.4,
+        "norm":0.118627451,
+        "norm_ma5":0.1725352113,
+        "share":0.09453125
+    },
+    {
+        "region":"Western Europe",
+        "year":2004,
+        "count":59.0,
+        "count_ma5":100.2,
+        "norm":0.0578431373,
+        "norm_ma5":0.1356988082,
+        "share":0.0506872852
+    },
+    {
+        "region":"Western Europe",
+        "year":2005,
+        "count":104.0,
+        "count_ma5":91.6,
+        "norm":0.1019607843,
+        "norm_ma5":0.1240520043,
+        "share":0.0515617253
+    },
+    {
+        "region":"Western Europe",
+        "year":2006,
+        "count":98.0,
+        "count_ma5":99.8,
+        "norm":0.0960784314,
+        "norm_ma5":0.1351570964,
+        "share":0.0355458832
+    },
+    {
+        "region":"Western Europe",
+        "year":2007,
+        "count":76.0,
+        "count_ma5":124.4,
+        "norm":0.0745098039,
+        "norm_ma5":0.1684723727,
+        "share":0.0233846154
+    },
+    {
+        "region":"Western Europe",
+        "year":2008,
+        "count":162.0,
+        "count_ma5":130.2,
+        "norm":0.1588235294,
+        "norm_ma5":0.1763271939,
+        "share":0.0337429702
+    },
+    {
+        "region":"Western Europe",
+        "year":2009,
+        "count":182.0,
+        "count_ma5":129.6,
+        "norm":0.1784313725,
+        "norm_ma5":0.1755146262,
+        "share":0.0385348296
+    },
+    {
+        "region":"Western Europe",
+        "year":2010,
+        "count":133.0,
+        "count_ma5":153.2,
+        "norm":0.1303921569,
+        "norm_ma5":0.207475623,
+        "share":0.0275533458
+    },
+    {
+        "region":"Western Europe",
+        "year":2011,
+        "count":95.0,
+        "count_ma5":171.8,
+        "norm":0.0931372549,
+        "norm_ma5":0.2326652221,
+        "share":0.0187192118
+    },
+    {
+        "region":"Western Europe",
+        "year":2012,
+        "count":194.0,
+        "count_ma5":178.4,
+        "norm":0.1901960784,
+        "norm_ma5":0.241603467,
+        "share":0.0227565982
+    },
+    {
+        "region":"Western Europe",
+        "year":2013,
+        "count":255.0,
+        "count_ma5":219.4,
+        "norm":0.25,
+        "norm_ma5":0.2971289274,
+        "share":0.0211670955
+    },
+    {
+        "region":"Western Europe",
+        "year":2014,
+        "count":215.0,
+        "count_ma5":254.8,
+        "norm":0.2107843137,
+        "norm_ma5":0.3450704225,
+        "share":0.0126768868
+    },
+    {
+        "region":"Western Europe",
+        "year":2015,
+        "count":338.0,
+        "count_ma5":275.4,
+        "norm":0.331372549,
+        "norm_ma5":0.3729685807,
+        "share":0.0223279165
+    },
+    {
+        "region":"Western Europe",
+        "year":2016,
+        "count":272.0,
+        "count_ma5":265.4,
+        "norm":0.2666666667,
+        "norm_ma5":0.3594257855,
+        "share":0.0193580528
+    },
+    {
+        "region":"Western Europe",
+        "year":2017,
+        "count":297.0,
+        "count_ma5":261.4,
+        "norm":0.2911764706,
+        "norm_ma5":0.3540086674,
+        "share":0.0261351637
+    },
+    {
+        "region":"Western Europe",
+        "year":2018,
+        "count":205.0,
+        "count_ma5":250.6,
+        "norm":0.2009803922,
+        "norm_ma5":0.3393824485,
+        "share":0.0208058459
+    },
+    {
+        "region":"Western Europe",
+        "year":2019,
+        "count":195.0,
+        "count_ma5":245.25,
+        "norm":0.1911764706,
+        "norm_ma5":0.3321370531,
+        "share":0.0228417477
+    },
+    {
+        "region":"Western Europe",
+        "year":2020,
+        "count":284.0,
+        "count_ma5":228.0,
+        "norm":0.2784313725,
+        "norm_ma5":0.3087757313,
+        "share":0.0336572648
+    }
+]

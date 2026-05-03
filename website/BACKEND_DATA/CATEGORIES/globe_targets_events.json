@@ -1,0 +1,117 @@
+{
+  "military_police": [
+    {
+      "year": 2014,
+      "victims": 1700,
+      "lat": 34.6215,
+      "long": 43.6683,
+      "summary": "ISIL abducted cadets from Camp Speicher in Tikrit. Executed 1,700+ Shia soldiers in mass killings. Bodies dumped in Tigris river and mass graves."
+    },
+    {
+      "year": 1983,
+      "victims": 299,
+      "lat": 33.8295,
+      "long": 35.4893,
+      "summary": "Two truck bombs struck US and French barracks in Beirut. Killed 241 American servicemen and 58 French paratroopers. Deadliest single day for US Marines since Iwo Jima."
+    },
+    {
+      "year": 2006,
+      "victims": 103,
+      "lat": 7.9500,
+      "long": 80.7500,
+      "summary": "LTTE suicide truck bomber hit a naval convoy in Sri Lanka. Killed over 100 sailors near Digampathana. Massive explosion injured 150 others."
+    }
+  ],
+  "government": [
+    {
+      "year": 1998,
+      "victims": 224,
+      "lat": -1.2833,
+      "long": 36.8167,
+      "summary": "Al-Qaida truck bomb detonated at US Embassy in Nairobi, Kenya. Killed 213 Kenyans and 11 Americans. Simultaneous attack occurred in Tanzania."
+    },
+    {
+      "year": 1995,
+      "victims": 168,
+      "lat": 35.4721,
+      "long": -97.5173,
+      "summary": "Truck bomb destroyed Murrah Federal Building in Oklahoma City. Anti-government extremist killed 168 people. Deadliest act of domestic terrorism in US history."
+    },
+    {
+      "year": 1989,
+      "victims": 63,
+      "lat": 4.6097,
+      "long": -74.0817,
+      "summary": "Medellin Cartel truck bomb destroyed DAS headquarters in Bogota. Targeted Colombian intelligence agency during drug war. Killed 63 and injured 600."
+    }
+  ],
+  "business": [
+    {
+      "year": 2017,
+      "victims": 587,
+      "lat": 2.0469,
+      "long": 45.3182,
+      "summary": "Al-Shabaab truck bomb exploded at busy Mogadishu intersection. Targeted Safari Hotel and nearby businesses. Deadliest bombing in Somalia's history."
+    },
+    {
+      "year": 2002,
+      "victims": 202,
+      "lat": -8.7173,
+      "long": 115.1746,
+      "summary": "Jemaah Islamiyah detonated bombs at Bali nightclubs. Killed 202 people, mostly foreign tourists. Targeted the Sari Club and Paddy's Pub."
+    },
+    {
+      "year": 2008,
+      "victims": 166,
+      "lat": 18.9220,
+      "long": 72.8347,
+      "summary": "Lashkar-e-Taiba gunmen attacked Mumbai hotels and landmarks. Siege on Taj Mahal Palace and Oberoi lasted days. Killed 166 civilians and security personnel."
+    }
+  ],
+  "citizens": [
+    {
+      "year": 2001,
+      "victims": 2977,
+      "lat": 40.7128,
+      "long": -74.0060,
+      "summary": "Hijacked planes struck the World Trade Center in New York. Both towers collapsed killing thousands of civilians. Deadliest terrorist attack in human history."
+    },
+    {
+      "year": 2004,
+      "victims": 334,
+      "lat": 43.1841,
+      "long": 44.5385,
+      "summary": "Chechen rebels seized a school in Beslan, Russia. Three-day siege ended in explosions and fire. Killed 334 hostages, including 186 children."
+    },
+    {
+      "year": 2014,
+      "victims": 300,
+      "lat": 12.3667,
+      "long": 14.2167,
+      "summary": "Boko Haram militants attacked Gamboru Ngala, Nigeria. Opened fire on busy market and burned town. Killed over 300 civilians in a 12-hour assault."
+    }
+  ],
+  "transportations": [
+    {
+      "year": 1985,
+      "victims": 329,
+      "lat": 51.02,
+      "long": -12.35,
+      "summary": "Sikh extremists bombed Air India Flight 182 over the Atlantic. Plane disintegrated killing all 329 aboard. Remains Canada's largest mass murder."
+    },
+    {
+      "year": 2004,
+      "victims": 193,
+      "lat": 40.4076,
+      "long": -3.6651,
+      "summary": "Al-Qaida cell bombed four commuter trains in Madrid. Coordinated backpack bombs detonated during rush hour. Killed 193 and injured over 2,000."
+    },
+    {
+      "year": 1995,
+      "victims": 14,
+      "lat": 35.6804,
+      "long": 139.7690,
+      "summary": "Aum Shinrikyo released Sarin gas in Tokyo subway. Killed 14 people and injured thousands. First major chemical terror attack on modern transport."
+    }
+  ]
+}

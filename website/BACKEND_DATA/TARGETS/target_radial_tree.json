@@ -1,0 +1,840 @@
+{
+  "military_police": {
+    "name": "ALL ATTACKS",
+    "value": 171656,
+    "type": "root",
+    "children": [
+      {
+        "name": "military_police",
+        "value": 62699,
+        "type": "category",
+        "children": [
+          {
+            "name": "Police Security Forces/Officers",
+            "value": 12571,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Personnel",
+            "value": 9983,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Unit/Patrol/Convoy",
+            "value": 9196,
+            "type": "subtype"
+          },
+          {
+            "name": "Police Building",
+            "value": 7190,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Building",
+            "value": 7040,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "value": 27630,
+        "type": "category",
+        "children": [
+          {
+            "name": "Government Personnel",
+            "value": 7294,
+            "type": "subtype"
+          },
+          {
+            "name": "Political Meeting",
+            "value": 7192,
+            "type": "subtype"
+          },
+          {
+            "name": "Government Building",
+            "value": 5163,
+            "type": "subtype"
+          },
+          {
+            "name": "Embassy/Consulate",
+            "value": 1646,
+            "type": "subtype"
+          },
+          {
+            "name": "Judge/Attorney/Court",
+            "value": 1414,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "value": 22169,
+        "type": "category",
+        "children": [
+          {
+            "name": "Retail/Grocery/Bakery",
+            "value": 4539,
+            "type": "subtype"
+          },
+          {
+            "name": "Bank/Commerce",
+            "value": 3327,
+            "type": "subtype"
+          },
+          {
+            "name": "Unknown",
+            "value": 2660,
+            "type": "subtype"
+          },
+          {
+            "name": "Restaurant/Bar/Cafe",
+            "value": 1944,
+            "type": "subtype"
+          },
+          {
+            "name": "Construction",
+            "value": 1390,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "citizens",
+        "value": 51985,
+        "type": "category",
+        "children": [
+          {
+            "name": "Unnamed Civilian/Unspecified",
+            "value": 13552,
+            "type": "subtype"
+          },
+          {
+            "name": "Village/City/Town/Suburb",
+            "value": 8662,
+            "type": "subtype"
+          },
+          {
+            "name": "House/Apartment/Residence",
+            "value": 3671,
+            "type": "subtype"
+          },
+          {
+            "name": "Vehicles/Transportation",
+            "value": 3539,
+            "type": "subtype"
+          },
+          {
+            "name": "Marketplace/Plaza/Square",
+            "value": 3119,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "transportations",
+        "value": 7173,
+        "type": "category",
+        "children": [
+          {
+            "name": "Bus (excluding tourists)",
+            "value": 2990,
+            "type": "subtype"
+          },
+          {
+            "name": "Train/Train Tracks/Trolley",
+            "value": 2284,
+            "type": "subtype"
+          },
+          {
+            "name": "Bridge/Car Tunnel",
+            "value": 727,
+            "type": "subtype"
+          },
+          {
+            "name": "Bus Station/Stop",
+            "value": 559,
+            "type": "subtype"
+          },
+          {
+            "name": "Highway/Road/Toll/Traffic Signal",
+            "value": 275,
+            "type": "subtype"
+          }
+        ]
+      }
+    ]
+  },
+  "government": {
+    "name": "ALL ATTACKS",
+    "value": 171656,
+    "type": "root",
+    "children": [
+      {
+        "name": "military_police",
+        "value": 62699,
+        "type": "category",
+        "children": [
+          {
+            "name": "Police Security Forces/Officers",
+            "value": 12571,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Personnel",
+            "value": 9983,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Unit/Patrol/Convoy",
+            "value": 9196,
+            "type": "subtype"
+          },
+          {
+            "name": "Police Building",
+            "value": 7190,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Building",
+            "value": 7040,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "value": 27630,
+        "type": "category",
+        "children": [
+          {
+            "name": "Government Personnel",
+            "value": 7294,
+            "type": "subtype"
+          },
+          {
+            "name": "Political Meeting",
+            "value": 7192,
+            "type": "subtype"
+          },
+          {
+            "name": "Government Building",
+            "value": 5163,
+            "type": "subtype"
+          },
+          {
+            "name": "Embassy/Consulate",
+            "value": 1646,
+            "type": "subtype"
+          },
+          {
+            "name": "Judge/Attorney/Court",
+            "value": 1414,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "value": 22169,
+        "type": "category",
+        "children": [
+          {
+            "name": "Retail/Grocery/Bakery",
+            "value": 4539,
+            "type": "subtype"
+          },
+          {
+            "name": "Bank/Commerce",
+            "value": 3327,
+            "type": "subtype"
+          },
+          {
+            "name": "Unknown",
+            "value": 2660,
+            "type": "subtype"
+          },
+          {
+            "name": "Restaurant/Bar/Cafe",
+            "value": 1944,
+            "type": "subtype"
+          },
+          {
+            "name": "Construction",
+            "value": 1390,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "citizens",
+        "value": 51985,
+        "type": "category",
+        "children": [
+          {
+            "name": "Unnamed Civilian/Unspecified",
+            "value": 13552,
+            "type": "subtype"
+          },
+          {
+            "name": "Village/City/Town/Suburb",
+            "value": 8662,
+            "type": "subtype"
+          },
+          {
+            "name": "House/Apartment/Residence",
+            "value": 3671,
+            "type": "subtype"
+          },
+          {
+            "name": "Vehicles/Transportation",
+            "value": 3539,
+            "type": "subtype"
+          },
+          {
+            "name": "Marketplace/Plaza/Square",
+            "value": 3119,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "transportations",
+        "value": 7173,
+        "type": "category",
+        "children": [
+          {
+            "name": "Bus (excluding tourists)",
+            "value": 2990,
+            "type": "subtype"
+          },
+          {
+            "name": "Train/Train Tracks/Trolley",
+            "value": 2284,
+            "type": "subtype"
+          },
+          {
+            "name": "Bridge/Car Tunnel",
+            "value": 727,
+            "type": "subtype"
+          },
+          {
+            "name": "Bus Station/Stop",
+            "value": 559,
+            "type": "subtype"
+          },
+          {
+            "name": "Highway/Road/Toll/Traffic Signal",
+            "value": 275,
+            "type": "subtype"
+          }
+        ]
+      }
+    ]
+  },
+  "business": {
+    "name": "ALL ATTACKS",
+    "value": 171656,
+    "type": "root",
+    "children": [
+      {
+        "name": "military_police",
+        "value": 62699,
+        "type": "category",
+        "children": [
+          {
+            "name": "Police Security Forces/Officers",
+            "value": 12571,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Personnel",
+            "value": 9983,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Unit/Patrol/Convoy",
+            "value": 9196,
+            "type": "subtype"
+          },
+          {
+            "name": "Police Building",
+            "value": 7190,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Building",
+            "value": 7040,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "value": 27630,
+        "type": "category",
+        "children": [
+          {
+            "name": "Government Personnel",
+            "value": 7294,
+            "type": "subtype"
+          },
+          {
+            "name": "Political Meeting",
+            "value": 7192,
+            "type": "subtype"
+          },
+          {
+            "name": "Government Building",
+            "value": 5163,
+            "type": "subtype"
+          },
+          {
+            "name": "Embassy/Consulate",
+            "value": 1646,
+            "type": "subtype"
+          },
+          {
+            "name": "Judge/Attorney/Court",
+            "value": 1414,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "value": 22169,
+        "type": "category",
+        "children": [
+          {
+            "name": "Retail/Grocery/Bakery",
+            "value": 4539,
+            "type": "subtype"
+          },
+          {
+            "name": "Bank/Commerce",
+            "value": 3327,
+            "type": "subtype"
+          },
+          {
+            "name": "Unknown",
+            "value": 2660,
+            "type": "subtype"
+          },
+          {
+            "name": "Restaurant/Bar/Cafe",
+            "value": 1944,
+            "type": "subtype"
+          },
+          {
+            "name": "Construction",
+            "value": 1390,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "citizens",
+        "value": 51985,
+        "type": "category",
+        "children": [
+          {
+            "name": "Unnamed Civilian/Unspecified",
+            "value": 13552,
+            "type": "subtype"
+          },
+          {
+            "name": "Village/City/Town/Suburb",
+            "value": 8662,
+            "type": "subtype"
+          },
+          {
+            "name": "House/Apartment/Residence",
+            "value": 3671,
+            "type": "subtype"
+          },
+          {
+            "name": "Vehicles/Transportation",
+            "value": 3539,
+            "type": "subtype"
+          },
+          {
+            "name": "Marketplace/Plaza/Square",
+            "value": 3119,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "transportations",
+        "value": 7173,
+        "type": "category",
+        "children": [
+          {
+            "name": "Bus (excluding tourists)",
+            "value": 2990,
+            "type": "subtype"
+          },
+          {
+            "name": "Train/Train Tracks/Trolley",
+            "value": 2284,
+            "type": "subtype"
+          },
+          {
+            "name": "Bridge/Car Tunnel",
+            "value": 727,
+            "type": "subtype"
+          },
+          {
+            "name": "Bus Station/Stop",
+            "value": 559,
+            "type": "subtype"
+          },
+          {
+            "name": "Highway/Road/Toll/Traffic Signal",
+            "value": 275,
+            "type": "subtype"
+          }
+        ]
+      }
+    ]
+  },
+  "citizens": {
+    "name": "ALL ATTACKS",
+    "value": 171656,
+    "type": "root",
+    "children": [
+      {
+        "name": "military_police",
+        "value": 62699,
+        "type": "category",
+        "children": [
+          {
+            "name": "Police Security Forces/Officers",
+            "value": 12571,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Personnel",
+            "value": 9983,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Unit/Patrol/Convoy",
+            "value": 9196,
+            "type": "subtype"
+          },
+          {
+            "name": "Police Building",
+            "value": 7190,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Building",
+            "value": 7040,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "value": 27630,
+        "type": "category",
+        "children": [
+          {
+            "name": "Government Personnel",
+            "value": 7294,
+            "type": "subtype"
+          },
+          {
+            "name": "Political Meeting",
+            "value": 7192,
+            "type": "subtype"
+          },
+          {
+            "name": "Government Building",
+            "value": 5163,
+            "type": "subtype"
+          },
+          {
+            "name": "Embassy/Consulate",
+            "value": 1646,
+            "type": "subtype"
+          },
+          {
+            "name": "Judge/Attorney/Court",
+            "value": 1414,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "value": 22169,
+        "type": "category",
+        "children": [
+          {
+            "name": "Retail/Grocery/Bakery",
+            "value": 4539,
+            "type": "subtype"
+          },
+          {
+            "name": "Bank/Commerce",
+            "value": 3327,
+            "type": "subtype"
+          },
+          {
+            "name": "Unknown",
+            "value": 2660,
+            "type": "subtype"
+          },
+          {
+            "name": "Restaurant/Bar/Cafe",
+            "value": 1944,
+            "type": "subtype"
+          },
+          {
+            "name": "Construction",
+            "value": 1390,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "citizens",
+        "value": 51985,
+        "type": "category",
+        "children": [
+          {
+            "name": "Unnamed Civilian/Unspecified",
+            "value": 13552,
+            "type": "subtype"
+          },
+          {
+            "name": "Village/City/Town/Suburb",
+            "value": 8662,
+            "type": "subtype"
+          },
+          {
+            "name": "House/Apartment/Residence",
+            "value": 3671,
+            "type": "subtype"
+          },
+          {
+            "name": "Vehicles/Transportation",
+            "value": 3539,
+            "type": "subtype"
+          },
+          {
+            "name": "Marketplace/Plaza/Square",
+            "value": 3119,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "transportations",
+        "value": 7173,
+        "type": "category",
+        "children": [
+          {
+            "name": "Bus (excluding tourists)",
+            "value": 2990,
+            "type": "subtype"
+          },
+          {
+            "name": "Train/Train Tracks/Trolley",
+            "value": 2284,
+            "type": "subtype"
+          },
+          {
+            "name": "Bridge/Car Tunnel",
+            "value": 727,
+            "type": "subtype"
+          },
+          {
+            "name": "Bus Station/Stop",
+            "value": 559,
+            "type": "subtype"
+          },
+          {
+            "name": "Highway/Road/Toll/Traffic Signal",
+            "value": 275,
+            "type": "subtype"
+          }
+        ]
+      }
+    ]
+  },
+  "transportations": {
+    "name": "ALL ATTACKS",
+    "value": 171656,
+    "type": "root",
+    "children": [
+      {
+        "name": "military_police",
+        "value": 62699,
+        "type": "category",
+        "children": [
+          {
+            "name": "Police Security Forces/Officers",
+            "value": 12571,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Personnel",
+            "value": 9983,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Unit/Patrol/Convoy",
+            "value": 9196,
+            "type": "subtype"
+          },
+          {
+            "name": "Police Building",
+            "value": 7190,
+            "type": "subtype"
+          },
+          {
+            "name": "Military Building",
+            "value": 7040,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "value": 27630,
+        "type": "category",
+        "children": [
+          {
+            "name": "Government Personnel",
+            "value": 7294,
+            "type": "subtype"
+          },
+          {
+            "name": "Political Meeting",
+            "value": 7192,
+            "type": "subtype"
+          },
+          {
+            "name": "Government Building",
+            "value": 5163,
+            "type": "subtype"
+          },
+          {
+            "name": "Embassy/Consulate",
+            "value": 1646,
+            "type": "subtype"
+          },
+          {
+            "name": "Judge/Attorney/Court",
+            "value": 1414,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "value": 22169,
+        "type": "category",
+        "children": [
+          {
+            "name": "Retail/Grocery/Bakery",
+            "value": 4539,
+            "type": "subtype"
+          },
+          {
+            "name": "Bank/Commerce",
+            "value": 3327,
+            "type": "subtype"
+          },
+          {
+            "name": "Unknown",
+            "value": 2660,
+            "type": "subtype"
+          },
+          {
+            "name": "Restaurant/Bar/Cafe",
+            "value": 1944,
+            "type": "subtype"
+          },
+          {
+            "name": "Construction",
+            "value": 1390,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "citizens",
+        "value": 51985,
+        "type": "category",
+        "children": [
+          {
+            "name": "Unnamed Civilian/Unspecified",
+            "value": 13552,
+            "type": "subtype"
+          },
+          {
+            "name": "Village/City/Town/Suburb",
+            "value": 8662,
+            "type": "subtype"
+          },
+          {
+            "name": "House/Apartment/Residence",
+            "value": 3671,
+            "type": "subtype"
+          },
+          {
+            "name": "Vehicles/Transportation",
+            "value": 3539,
+            "type": "subtype"
+          },
+          {
+            "name": "Marketplace/Plaza/Square",
+            "value": 3119,
+            "type": "subtype"
+          }
+        ]
+      },
+      {
+        "name": "transportations",
+        "value": 7173,
+        "type": "category",
+        "children": [
+          {
+            "name": "Bus (excluding tourists)",
+            "value": 2990,
+            "type": "subtype"
+          },
+          {
+            "name": "Train/Train Tracks/Trolley",
+            "value": 2284,
+            "type": "subtype"
+          },
+          {
+            "name": "Bridge/Car Tunnel",
+            "value": 727,
+            "type": "subtype"
+          },
+          {
+            "name": "Bus Station/Stop",
+            "value": 559,
+            "type": "subtype"
+          },
+          {
+            "name": "Highway/Road/Toll/Traffic Signal",
+            "value": 275,
+            "type": "subtype"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

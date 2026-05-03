@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visualizing Conflict and Human Suffering through Data</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="website/assets/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- D3.js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <script src="https://d3js.org/d3-hexbin.v0.2.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+
+  <!-- Main styles -->
+  <link rel="stylesheet" href="website/css/main_style.css" />
+
+  <!-- Scripts -->
+  <script src="website/js/draw_group_1.js"></script>
+  <script src="website/js/draw_group_2.js"></script>
+  <script src="website/js/draw_group_3.js"></script>
+  <script src="website/js/draw_group_4.js"></script>
+  <script src="website/js/draw_group_5.js"></script>
+
+  <script src="website/js/draw_attack_1.js"></script>
+  <script src="website/js/draw_attack_2.js"></script>
+  <script src="website/js/draw_attack_3.js"></script>
+
+  <script src="website/js/draw_target_1.js"></script>
+  <script src="website/js/draw_target_2.js"></script>
+
+  <script src="website/js/main.js" defer></script>
+  <script src="website/js/categories.js" defer></script>
+
+  <script src="website/js/draw_main_left.js"></script>
+  <script src="website/js/globe/globe_default.js"></script>
+  <script src="website/js/globe/globe_default_preprocessing.js"></script>  
+  <script src="website/js/globe/globe_group.js"></script>
+  <script src="website/js/globe/globe_attack.js"></script>
+  <script src="website/js/globe/globe_target.js"></script>
+  
+  <script src="website/js/draw_main_right.js"></script>
+  <script src="website/js/right_chart/right_chart_group.js"></script>
+  <script src="website/js/right_chart/right_chart_attack.js"></script>
+  <script src="website/js/right_chart/right_chart_target.js"></script>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100" id="body">
+
+  <!-- NAVBAR (fixed top) -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-white py-1 sticky-top border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#" data-bs-toggle="modal" data-bs-target="#aboutUsModal">
+        <img src="website/assets/logo.png" alt="Logo BUGBusters" height="28" />
+        <span class="brand-text">BUGBusters</span>
+      </a>
+
+      <!-- Desktop Menu (hidden on mobile) -->
+      <div class="collapse navbar-collapse d-none d-lg-block">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#introModal">Contents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gtdDatasetModal">Sources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#aboutUsModal">About Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOffcanvas" aria-controls="navOffcanvas" aria-label="Apri menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="navOffcanvas" aria-labelledby="navOffcanvasLabel">
+        <div class="offcanvas-header border-bottom">
+          <h5 class="offcanvas-title" id="navOffcanvasLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+          <!-- Menu Items Centrali -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#introModal">Contents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gtdDatasetModal">Sources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#aboutUsModal">About Us</a>
+            </li>
+          </ul>
+          
+          <!-- Footer del menu offcanvas -->
+          <div class="border-top pt-3">
+            <div class="row align-items-center gy-3">
+              <!-- Logo Unige a sinistra -->
+              <div class="col-6 col-md-2 text-center text-md-start">
+                <a href="https://unige.it/en" target="_blank" rel="noopener noreferrer"
+                  class="d-inline-flex align-items-center text-decoration-none">
+                  <img src="https://id.unige.it/sites/id.unige.it/files/2022-02/naming-2.png" alt="Universita di Genova"
+                    style="height: 40px; width: auto;" class="me-1" />
+                </a>
+              </div>
+              
+              <div class="col-6 col-md-10 text-center text-md-end">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3 flex-wrap">
+
+                  <a href="https://github.com/Isabibbi" target="_blank" rel="noopener noreferrer"
+                    class="text-decoration-none small d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-1">
+                      <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    <span class="d-none d-md-inline">Isabella Tagliafico</span>
+                    <span class="d-md-none">IT</span>
+                  </a>
+
+                  <a href="https://github.com/supernino02" target="_blank" rel="noopener noreferrer"
+                    class="text-decoration-none small d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-1">
+                      <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    <span class="d-none d-md-inline">Luca Ninivaggi</span>
+                    <span class="d-md-none">LN</span>
+                  </a>
+
+                  <a href="https://github.com/FlavioBarraraStefani" target="_blank" rel="noopener noreferrer"
+                    class="text-decoration-none small d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-1">
+                      <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    <span class="d-none d-md-inline">Flavio Barrara Stefani</span>
+                    <span class="d-md-none">FBS</span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- MAIN CONTENT AREA -->
+  <main class="flex-grow-1 d-flex align-items-center justify-content-center">
+
+    <!-- Login Section (shown by default) -->
+    <section id="api-auth" class="py-5 w-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-5">
+            <div class="rounded-3 border bg-white shadow-sm p-4 p-lg-5">
+              <div class="mb-4 text-center">
+                <h2 class="section-heading h3 text-body-emphasis mb-0">Access Private Content</h2>
+              </div>
+              <div id="auth-status" class="alert alert-info mb-3">Enter your GitHub Personal Access Token to view
+                additional content</div>
+              <div class="mb-3">
+                <input type="password" id="github-token" class="form-control"
+                  placeholder="Enter your GitHub Personal Access Token">
+              </div>
+              <div class="text-center">
+                <button onclick="validateToken()" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loading Overlay (shown during data loading) -->
+    <div id="loading-overlay" class="loading-overlay private-section">
+      <!-- Loading Content -->
+      <div id="loading-content" class="loading-content">
+        <div class="spinner-border text-primary mb-3" role="status" style="width: 3rem; height: 3rem;">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="loading-text mb-0">Loading data...</p>
+        <p id="loading-progress" class="text-muted small mt-2">0%</p>
+      </div>
+      <!-- Error Content -->
+      <div id="error-content" class="loading-content flex" style="display: none;">
+        <i class="fas fa-exclamation-triangle text-danger mb-3" style="font-size: 3rem;"></i>
+        <p class="text-danger mb-0">Failed to load data</p>
+        <p id="error-message" class="text-muted small mt-2"></p>
+      </div>
+    </div>
+
+    <!-- Main Canvas Section (hidden by default, shown after auth) -->
+    <section id="main-content" class="w-100 private-section align-self-stretch">
+      <div class="container-fluid w-100" style="padding-right: 0; padding-left: 0; height: 100%;">
+        <!-- Canvas Row -->
+        <div class="canvas-row">
+          <!-- Canvas 1 (Left - always visible) -->
+          <div id="canvas-left">
+            <div id="globe_color_map" class="rounded-3 bg-white"></div>
+            <div class="canvas-wrapper rounded-3">
+              <svg></svg>
+            </div>
+          </div>
+          <!-- Canvas 2 (Right - slides in when needed) -->
+          <div id="canvas-right">
+            <div class="canvas-wrapper bg-white rounded-3 shadow-sm">
+              <svg></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline fixed to bottom -->
+        <div id="timeline-container"
+          class="d-flex align-items-center gap-2 px-4 bg-white private-section border-bottom mx-auto">
+          <!-- Left: fixed-size play button -->
+          <div class="flex-shrink-0">
+            <button id="timeline_play_btn" class="btn btn-primary btn-sm">▶</button>
+          </div>
+
+          <!-- Middle: flexible slider -->
+          <div class="flex-grow-1 px-2">
+            <input type="range" min="1969" max="2020" value="1969" id="timeline_year_slider" class="w-100" />
+          </div>
+
+          <!-- Right: fixed-width year label (4 chars) -->
+          <div class="flex-shrink-0 text-end" style="width: 6ch;">
+            <output for="timeline_year_slider" id="year_title" class="fw-bold d-flex align-items-center">1969</output>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTENTS MODAL -->
+  <div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header border-0 px-3 py-2">
+          <h2 class="modal-title section-heading h2 mb-0" id="introModalLabel">Contents</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-3 p-lg-4">
+          <div class="p-3 border rounded-3 text-justify" style="max-width: 65ch; margin-inline: auto;">
+            <p class="mb-2 small">
+              Welcome to the <strong>BUGBusters</strong> visualization project.
+              Despite decades of counterterrorism efforts, terrorism remains an unresolved issue affecting communities worldwide. 
+              This interactive platform raises awareness about terrorism (1970–2020) through clear, focused visual analyses.
+            </p>
+
+            <h3 class="h5 mb-3 pt-2">Categories</h3>
+            <p class="mb-3 small">
+              We begin with an overview of the total number of terrorist attacks globally, 
+              establishing the scale and scope of this phenomenon across decades, and then let you explore three themed categories: 
+              Groups, Attacks, and Targets.
+            </p>
+
+            <div class="d-flex gap-3 align-items-center py-1 fade-scroll">
+              <div class="flex-shrink-0 col-1 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-users fs-4" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ps-2 ps-md-3 border-start border-0 border-md-2">
+                <p class="mb-0 small">
+                  <strong>Groups</strong>: deep insights into major organizations and their patterns over time.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 align-items-center py-1 fade-scroll">
+              <div class="flex-shrink-0 col-1 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-bomb fs-4" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ps-2 ps-md-3 border-start border-0 border-md-2">
+                <p class="mb-0 small">
+                  <strong>Attacks</strong>: analysis of tactics (bombings, armed assaults, assassinations, etc.), casualties and trends.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 align-items-center py-1 fade-scroll">
+              <div class="flex-shrink-0 col-1 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-bullseye fs-4" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ps-2 ps-md-3 border-start border-0 border-md-2">
+                <p class="mb-0 small">
+                  <strong>Targets</strong>: who and what are attacked — military, government, civilians, transport and infrastructure — and how preferences change.
+                </p>
+              </div>
+            </div>
+
+            <h3 class="h5 mb-3 pt-2">Interactions</h3>
+            <p class="mb-2 small fade-scroll">
+              To navigate across the temporal dimension, use the timeline slider at the bottom to select specific years 
+              or play an animation showing changes over time.
+            </p>
+
+            <p class="mb-2 small fade-scroll">
+              Lastly, all the visualizations are interactive. Hover over elements to see detailed tooltips, 
+              and click on items to filter and explore related data across the different views.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GTD DATASET MODAL -->
+  <div class="modal fade" id="gtdDatasetModal" tabindex="-1" aria-labelledby="gtdDatasetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header border-0 px-4 pt-4">
+          <h2 class="modal-title section-heading h2" id="gtdDatasetModalLabel">Global Terrorism Database</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-4 p-lg-5">
+          <div class="row g-4 align-items-center">
+            <div class="col-6 col-lg-4 col-sm-4 mx-auto mx-lg-0 text-center">
+              <img src="website/assets/gtd.jpg" class="img-fluid object-fit-cover section-image" alt="GTD Cover Image"
+                style="max-width: 260px; border-radius: 8px;" />
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="p-4 border rounded-3 h-100" style="max-width: 65ch;">
+                <div class="fade-scroll">
+                  <h3 class="h5 mb-3">What is the GTD?</h3>
+                  <p class="mb-4">
+                    The <a href="https://www.start.umd.edu/data-tools/GTD" target="_blank">Global Terrorism Database (GTD)</a>
+                    is an event-level dataset maintained by the
+                    <a href="https://umd.edu/" target="_blank">University of Maryland</a>.
+                    It contains over 200,000 records of terrorist attacks worldwide, spanning from 1970 to 2020.
+                  </p>
+                </div>
+                <div class="fade-scroll">
+                  <h3 class="h5 mb-3">Data Collection & Quality</h3>
+                  <p class="mb-4">
+                    Data are collected from multiple open sources. The GTD research team integrates and standardizes them
+                    to ensure consistency over time, performing rigorous quality control, retrospective coding, and
+                    cross-referencing with other terrorism databases to identify and include missing events.
+                  </p>
+                </div>
+                <div class="fade-scroll">
+                  <h3 class="h5 mb-3">Data Contents</h3>
+                  <p class="mb-4">
+                    Each record represents a single terrorist incident and includes detailed information such as the date and location of the attack, type of weapon used, targets and victims, perpetrators, and claims of responsibility. Additional variables describe casualties, outcomes, and data sources. A full codebook and <a href="https://www.start.umd.edu/sites/default/files/2024-10/Codebook.pdf" target="_blank">documentation</a> can be found on the GTD website.
+                  </p>
+                </div>
+                <div class="fade-scroll">
+                  <h3 class="h5 mb-3">Data Cleaning & Processing</h3>
+                  <p class="mb-4 fade-scroll">
+                    During our analysis of the GTD dataset, we identified and processed numerous data columns. Several columns presented significant sparsity and were excluded from our visualizations due to limited utility for our narrative. We strategically created multiple specialized JSON files tailored to each visualization type in our project, extracting only the most relevant features for deeper insights. Despite its comprehensive nature, the GTD dataset proved manageable and didn't present insurmountable technical challenges during our processing pipeline.
+                  </p>
+                </div>  
+                <div class="fade-scroll">
+                  <h3 class="h5 mb-3">Implementation & Challenges</h3>
+                  <p class="mb-0">
+                    Throughout the development of this project, we encountered minimal significant implementation difficulties. Our team successfully managed the data pipeline, developed robust visualizations, and maintained code quality throughout the workflow. The combination of careful planning and agile problem-solving allowed us to work efficiently and deliver a comprehensive, well integrated visualization platform that effectively communicates complex patterns in the GTD data.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT US MODAL -->
+  <div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header border-0 px-4 pt-4">
+          <h2 class="modal-title section-heading h2" id="aboutUsModalLabel">About Us</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-4 p-lg-5">
+        <div class="row g-4 align-items-stretch">
+          
+          <!-- Left Logo (Unige) -->
+          <div class="col-4 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+            <img src="website/assets/logoUnige.png" class="img-fluid section-image" alt="University of Genoa Logo"
+              style="max-width: 130px; height: auto;" />
+          </div>
+          
+          <!-- Middle Text -->
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="p-4 border rounded-3 text-justify" style="max-width: 65ch;">
+              <p class="mb-3 fade-scroll">
+                The <strong>BUGBusters</strong> study group is composed of three students enrolled in the
+                <a href="https://corsi.unige.it/en/corsi/10852" target="_blank">Master's Degree in Artificial Intelligence</a>
+                at the <a href="https://unige.it/en" target="_blank">University of Genoa</a>, within the
+                <a href="https://corsi.unige.it/off.f/2022/ins/53404" target="_blank">Data Visualization course</a>
+                taught by <a href="https://rubrica.unige.it/personale/UkNHU15t" target="_blank">Professor Annalisa Barla</a>.
+              </p>                
+              
+              <p class="mb-3 fade-scroll">
+                <strong>
+                  <a href="https://github.com/supernino02" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-2">
+                      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+                        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27
+                        1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                        0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    Luca Ninivaggi
+                  </a>
+                </strong><br>
+                Backend development for category data processing and globe interactions. Technical implementation of category switching and world map navigation functionality.
+              </p>
+
+              <p class="mb-3 fade-scroll">
+                <strong>
+                  <a href="https://github.com/Isabibbi" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-2">
+                      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+                        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27
+                        1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                        0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    Isabella Tagliafico
+                  </a>
+                </strong><br>
+                Attacks section visualization and overview module. Contributed to target classification development in collaboration with Flavio.
+              </p>
+
+              <p class="mb-0 fade-scroll">
+                <strong>
+                  <a href="https://github.com/FlavioBarraraStefani" target="_blank" rel="noopener noreferrer" class="text-decoration-none d-inline-flex align-items-center">
+                    <svg aria-hidden="true" height="18" viewBox="0 0 16 16" fill="currentColor" class="me-2">
+                      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+                        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.6 7.6 0 012.01-.27c.68 0 1.36.09 2.01.27
+                        1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                        0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    Flavio Barrara Stefani
+                  </a>
+                </strong><br>
+                Groups section development. Target category implementation in partnership with Isabella.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Right Logo (DIBRIS) -->
+          <div class="col-4 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+            <img src="website/assets/logoDibris.png" class="img-fluid section-image" alt="DIBRIS Logo"
+              style="max-width: 130px; height: auto;" />
+          </div>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORY SELECTION -->
+  <div id="main-header" style="display:none" class="category-header bg-white private-section border-bottom">
+    <div class="container py-1">
+      <div class="d-flex justify-content-center gap-1 gap-lg-4 gap-md-2">
+        <button type="button" class="btn btn-outline-primary category-btn flex-fill py-2 px-0 px-md-3 border-0"
+          data-category="group" onclick="selectCategory('group')">
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-users fa-lg" aria-hidden="true" style="font-size:1.0rem; padding:0.25rem 0;"></i>
+            <small class="text-muted mt-1"
+              style="font-weight:400; text-transform:none; font-size:0.7rem;">Groups</small>
+          </div>
+        </button>
+        <button type="button" class="btn btn-outline-primary category-btn flex-fill py-2 px-0 px-md-3 border-0"
+          data-category="attack" onclick="selectCategory('attack')">
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bomb fa-lg" aria-hidden="true" style="font-size:1.0rem; padding:0.25rem 0;"></i>
+            <small class="text-muted mt-1"
+              style="font-weight:400; text-transform:none; font-size:0.7rem;">Attacks</small>
+          </div>
+        </button>
+        <button type="button" class="btn btn-outline-primary category-btn flex-fill py-2 px-0 px-md-3 border-0"
+          data-category="target" onclick="selectCategory('target')">
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bullseye fa-lg" aria-hidden="true" style="font-size:1.0rem; padding:0.25rem 0;"></i>
+            <small class="text-muted mt-1"
+              style="font-weight:400; text-transform:none; font-size:0.7rem;">Targets</small>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP MODAL -->
+  <div class="modal fade" id="modalGroup" tabindex="-1" aria-labelledby="modalGroupLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content rounded-3">
+        <div class="modal-header border-0 px-4 pt-4">
+          <h2 class="modal-title section-heading h2" id="modalGroupLabel">Group Details</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-4 p-lg-5">
+
+          <div id="content_group_ISIL" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Rise and Fall (2013-2017)</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_ISIL_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_ISIL_1" class="mb-0">
+                      The year 2013 marked a definitive turning point with the declaration of the Caliphate, triggering
+                      an explosion of violence that redefined global terrorism. The group expanded rapidly, maintaining
+                      a relentless operational tempo for years. This period defined their dominance until 2017, when the
+                      loss of key territories finally broke their momentum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Focus on the Middle East</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_ISIL_2" class="mb-0">
+                      While their ideology inspired attacks worldwide, the physical heart of the organization remained
+                      deeply rooted in the Middle East and North Africa. Iraq served as their primary stronghold and
+                      center of gravity, holding the weight of a campaign designed to establish and defend a
+                      centralized, territorial state.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_ISIL_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactics and Targets</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_ISIL_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_ISIL_3" class="mb-0">
+                      To enforce their rule and fight opponents, ISIL utilized a brutal combination of massive bombings
+                      and hostage-taking. These tactics were deployed with dual intent: engaging military forces in
+                      direct, while targeting private citizens to instill absolute fear
+                      and compliance in the population (asymmetric combat).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Changing Priorities</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_ISIL_4" class="mb-0">
+                      As the conflict evolved, so did their strategic priorities. The organization constantly oscillated
+                      between acting as a militia fighting for territory against police and military forces, and
+                      reverting to insurgent terrorism against soft targets. This shift became particularly pronounced
+                      around 2018-2019 as their territorial control became weaker.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_ISIL_4" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">High Lethality</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_ISIL_5" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_ISIL_5" class="mb-0">
+                      The defining characteristic of ISIL's campaign was its uncompromising lethality. Operations were
+                      rarely designed merely to disrupt; they were intended to destroy. Mass-casualty events became a
+                      grim signature of the group, resulting in a disproportionately high fatality ratio compared to
+                      other insurgent movements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_group_taliban" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Long-Term Insurgency</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_taliban_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_taliban_1" class="mb-0">
+                      The Taliban insurgency represents one of the most sustained conflicts in modern history. The
+                      cumulative data reveals a relentless escalation over three decades, with a dramatic
+                      intensification after 2005. This surge marked their successful regrouping and the launch of a
+                      widespread campaign against coalition forces and the Afghan government.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Concentration in South Asia</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_taliban_2" class="mb-0">
+                      Unlike global terror networks, the Taliban operated as a localized insurgent force with deep roots
+                      in the region. The map highlights the extreme concentration of their operations within Afghanistan
+                      and the porous border regions of Pakistan, where they maintained safe havens and logistical
+                      support networks.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_taliban_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Guerrilla Tactics</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_taliban_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_taliban_3" class="mb-0">
+                      To counter superior conventional forces, the Taliban relied heavily on asymmetric warfare. The
+                      flow of tactics illustrates their primary methods: armed assaults on checkpoints and the
+                      widespread use of Improvised Explosive Devices (IEDs). These were strategically directed at Police
+                      and Military targets to erode state security infrastructure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Strategic Shifts</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_taliban_4" class="mb-0">
+                      The ranking chart reveals a tactical inconsistency over time, reflecting an opportunistic
+                      strategy. Rather than focusing on a single target type, the Taliban frequently shifted their
+                      priority between Civilians, Police, and Military forces, adapting their operations based on the
+                      vulnerability of targets and the political climate.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_taliban_4" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Casualty Analysis</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_taliban_5" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_taliban_5" class="mb-0">
+                      The human cost of this insurgency was devastating. While the data shows numerous small-scale
+                      skirmishes typical of guerrilla warfare, it also captures a significant number of high-fatality
+                      events. These mass-casualty incidents often resulted from coordinated large-scale assaults on
+                      military bases or urban centers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_group_SL" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">History of the Conflict</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_SL_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_SL_1" class="mb-0">
+                      The trajectory of the Shining Path (Sendero Luminoso) is captured by this sharp rise in activity
+                      during the 1980s, marking the onset of the "internal armed conflict" in Peru. This period of
+                      intense violence came to an abrupt plateau in the early 1990s, following the pivotal capture of
+                      their leader, Abimael Guzmán, which effectively decapitated the organization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Focus on Peru</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_SL_2" class="mb-0">
+                      Operating almost exclusively within Peru, the group's strategy of "encircling the cities from the
+                      countryside" is one the most common ways to describe their operations. 
+                      The violence was most intense in the impoverished Andean
+                      highlands of Ayacucho (their birthplace) and eventually spread to the capital Lima, as they
+                      attempted to bring the war to the center of political power.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_SL_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Sabotage and Assassination</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_SL_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_SL_3" class="mb-0">
+                      To paralyze the state, the Shining Path employed a dual tactic of economic sabotage and targeted
+                      killing. The data reveals a high volume of bombings directed at Utilities (such as power pylons) to
+                      plunge cities into darkness, alongside systematic assassinations of local police and government
+                      officials to create a power vacuum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Targeting Infrastructure</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_group_SL_4" class="mb-0">
+                      Throughout the peak of their insurgency in the 1980s and 90s, the group maintained 
+                      focus on destabilizing infrastructure. "Utilities" and "Government" targets remained consistent
+                      priorities, reflecting their doctrine that destroying the economic machinery of the state was a
+                      prerequisite for gaining power.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_group_SL_4" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Physical Toll</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_group_SL_5" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_group_SL_5" class="mb-0">
+                      The human cost reflects the brutality of their campaign. While acts of sabotage against
+                      infrastructure often resulted in lower direct casualties, many others were massacres of
+                      rural communities and targeted assassinations, creating a legacy of violence that claimed tens of
+                      thousands of lives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ATTACK MODAL -->
+  <div class="modal fade" id="modalAttack" tabindex="-1" aria-labelledby="modalAttackLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content rounded-3">
+        <div class="modal-header border-0 px-4 pt-4">
+          <h2 class="modal-title section-heading h2" id="modalAttackLabel">Attack Details</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-4 p-lg-5">
+          <!-- explosion -->
+          <div id="content_attack_explosion" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Lethality and Effectiveness Assessment</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_explosion_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_explosion_1" class="mb-0">The red area extending beyond the average visualizes a shockwave. 
+                      Unlike targeted strikes, explosives saturate the environment, driving metrics to a peak. 
+                      This tactic trades precision to maximize indiscriminate casualties and economic damage within the blast radius.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Evolution of Hostility</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_attack_explosion_2" class="mb-0">This radial timeline illustrates a spiral of escalation. 
+                    It tells the story of a threat that has evolved from low-frequency incidents into a systemic, high-volume global crisis.</p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_attack_explosion_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactical Resources</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_explosion_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_explosion_3" class="mb-0">The visualization narrates a definitive strategic shift. 
+                      The overwhelming density of the red field illustrates how explosives have eclipsed firearms as the primary vector.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- armed_assault -->
+          <div id="content_attack_armed_assault" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Lethality and Effectiveness Assessment</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_armed_assault_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_armed_assault_1" class="mb-0">The   geometry reveals a distinct tactical trade-off. The purple area projects a single spike towards lethality, 
+                      far exceeding the global benchmark while ignoring material damage. 
+                      It narrates the shift from property destruction to person-centric violence.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Evolution of Hostility</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_attack_armed_assault_2" class="mb-0">This radial timeline maps the heartbeat of global conflict. 
+                      Regardless of the metric viewed, the chart reveals a seismic shift in intensity.</p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_attack_armed_assault_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactical Resources</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_armed_assault_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_armed_assault_3" class="mb-0">This chart mirrors the intimacy of violence. 
+                      Unlike the remote detachment of explosives, the dominance of the black firearm icons reveals a strategy of direct confrontation.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- assassination -->
+          <div id="content_attack_assassination" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Lethality and Effectiveness Assessment</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_assassination_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_assassination_1" class="mb-0">Assassinations target specific individuals,
+                      typically political figures, officials, or community leaders. These attacks are characterized by
+                      their precision and intended symbolic impact.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Evolution of Hostility</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_attack_assassination_2" class="mb-0">This radial timeline maps the heartbeat of global conflict. 
+                      Regardless of the metric viewed, the chart reveals a seismic shift in intensity.</p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_attack_assassination_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactical Resources</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_assassination_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_assassination_3" class="mb-0">The Waffle Chart highlights the stark predominance of firearms in assassination scenarios. 
+                      This tactical hegemony stems from the operational necessity for discretion and surgical 
+                      precision—characteristics that make ballistic engagement preferable to the indiscriminate, high-visibility nature of explosives.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- hostage_taking -->
+          <div id="content_attack_hostage_taking" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Lethality and Effectiveness Assessment</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_hostage_taking_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_hostage_taking_1" class="mb-0">Hostage-taking incidents include kidnappings
+                      for ransom and barricade situations. These events create prolonged crises with significant
+                      psychological impact on victims and communities.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Evolution of Hostility</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_attack_hostage_taking_2" class="mb-0">This radial timeline maps the heartbeat of global conflict. 
+                      Regardless of the metric viewed, the chart reveals a seismic shift in intensity.</p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_attack_hostage_taking_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactical Resources</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_hostage_taking_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_hostage_taking_3" class="mb-0">This distribution visualizes the mechanics of abduction. 
+                      The combined dominance of firearms and melee weapons highlights a strategy of forced compliance.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- infrastructure_attack -->
+          <div id="content_attack_infrastructure_attack" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Lethality and Effectiveness Assessment</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_infrastructure_attack_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_infrastructure_attack_1" class="mb-0">Infrastructure attacks target
+                      essential services including power grids, water systems, and transportation networks. These
+                      attacks aim to disrupt daily life and undermine government capabilities.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Evolution of Hostility</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_attack_infrastructure_attack_2" class="mb-0">Energy infrastructure, particularly
+                      oil and gas facilities, represents high-value targets. Attacks on pipelines and refineries can
+                      have significant economic consequences.</p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_attack_infrastructure_attack_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Tactical Resources</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_attack_infrastructure_attack_3" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_attack_infrastructure_attack_3" class="mb-0">The visualization confirms a shift from lethal intent to material damage. 
+                      The overwhelming prevalence of incendiary devices illustrates a doctrine of capital destruction. 
+                      The chart tells the story of attacks designed to inflict maximum financial loss and operational downtime</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TARGET MODAL -->
+  <div class="modal fade" id="modalTarget" tabindex="-1" aria-labelledby="modalTargetLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content rounded-3">
+        <div class="modal-header border-0 px-4 pt-4">
+          <h2 class="modal-title section-heading h2" id="modalTargetLabel">Target Details</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            onclick="this.blur()"></button>
+        </div>
+        <div class="modal-body p-4 p-lg-5">
+          
+          <div id="content_target_military_police" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">World Target Profiling</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_target_military_police_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_target_military_police_1" class="mb-0">
+                      Military and police forces represent the most direct challenge to insurgent groups. Attacks on these targets are strategically designed to undermine state authority, demonstrate operational capability, and demoralize the security apparatus tasked with protecting the population.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">The Frontline of Conflict</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_target_military_police_2" class="mb-0">
+                      In active conflict zones, checkpoints, barracks, and patrols become daily targets. Beyond the symbolic victory, these operations often serve a practical purpose: seizing weapons, ammunition, and equipment to sustain the insurgency's logistical needs.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_target_military_police_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_target_government" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Challenging Legitimacy</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_target_government_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_target_government_1" class="mb-0">
+                      Government buildings, diplomats, and civil servants are prime targets for organizations seeking to erode public trust in the state. By striking the administrative core of a nation, terrorists aim to paralyze governance and prove that the state cannot protect even its own officials.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Political Assassinations</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_target_government_2" class="mb-0">
+                      Targeted killings of politicians and judges are calculated moves to disrupt the political process and create power vacuums. These high-profile attacks garner extensive media coverage, amplifying the group's message and intimidating those who remain in power.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_target_government_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_target_business" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Economic Sabotage</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_target_business_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_target_business_1" class="mb-0">
+                      Attacks on businesses, from local markets to multinational corporations, are designed to inflict economic damage. By disrupting commerce and creating an environment of risk, terrorists aim to deter investment, increase insurance costs, and weaken the national economy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Symbols of Globalization</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_target_business_2" class="mb-0">
+                      International brands and hotels often serve as proxies for Western influence or globalization. Striking these targets allows groups to project their ideological grievances onto a global stage, often impacting the tourism and hospitality sectors most severely.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_target_business_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_target_citizens" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">The Strategy of Fear</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_target_citizens_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_target_citizens_1" class="mb-0">
+                      Private citizens bear the heaviest burden of modern terrorism. Attacks on soft targets (public squares, schools, and residential areas) are cynically designed to maximize casualties and instill a pervasive sense of vulnerability across the entire population.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Sectarian Violence</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_target_citizens_2" class="mb-0">
+                      Religious gatherings and community festivals are frequently targeted to incite hate. By attacking specific ethnic or religious groups, terrorists aim to tear the social fabric, provoking retaliation and fueling cycles of communal violence.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_target_citizens_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div id="content_target_transportations" class="choice-content" style="display: none;">
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Disrupting Movement</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-8">
+                    <div id="plot_target_transportations_1" class="modal-canvas"><svg></svg></div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <p id="paragraph_target_transportations_1" class="mb-0">
+                      Transportation networks are the arteries of modern society. Attacks on trains, buses, and subways cause immediate, widespread disruption to daily life. These high-density targets ensure mass casualties and guarantee significant media attention.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-4 fade-scroll">
+              <div class="container">
+                <h5 class="text-center mb-4 section-heading">Aviation Security</h5>
+                <div class="row align-items-center g-4">
+                  <div class="col-12 col-xl-4 order-2 order-xl-1">
+                    <p id="paragraph_target_transportations_2" class="mb-0">
+                      Since the dawn of modern terrorism, aviation has been a coveted target due to its international visibility. While hijackings have decreased due to rigorous security, the threat has evolved toward complex plots involving explosives, driving constant innovation in screening technologies.
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-8 order-1 order-xl-2">
+                    <div id="plot_target_transportations_2" class="modal-canvas"><svg></svg></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROTATE DEVICE MODAL -->
+  <div class="modal fade" id="screenBlockModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
+    data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+      <div class="modal-content text-center">
+        <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+
+          <h1 class="display-1 text-warning mb-4">
+            <i class="bi bi-phone-vibrate"></i>
+          </h1>
+
+          <h2 id="blockerTitle">Please Rotate Your Device</h2>
+          <p class="lead" id="blockerMessage">
+            We don't support landscape mode on phones. Please rotate your phone to portrait.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/* choropleth_map.css */
+
+/* === Contenitore Mappa === */
+/* Aggiornato con il nuovo ID dell'HTML */
+#choropleth_map_chart_svg {
+    background-color: #f8f9fa; /* Sfondo grigio chiaro (allineato con Bootstrap bg-light) */
+    border-radius: 8px;
+    overflow: hidden; /* Assicura che la mappa non esca dai bordi arrotondati */
+    display: block;
+    margin: 0 auto;
+}
+
+/* === Titolo Mappa (Se presente dentro l'SVG) === */
+.map-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    fill: #333;
+    text-anchor: middle;
+}
+
+/* === Regioni (Province) === */
+.region {
+    cursor: pointer;
+    /* La transizione qui è FONDAMENTALE per evitare l'errore "unknown type: mouseover" in JS */
+    transition: fill 0.2s ease-out, stroke 0.2s ease-out;
+}
+
+/* Nota: Lo stile hover per lo stroke è gestito da D3 nel file JS 
+   per coordinare l'effetto .raise(), quindi non serve definirlo qui.
+*/
+
+/* === Etichette (Nomi Province) === */
+.region-label {
+    font-family: sans-serif;
+    font-size: 10px;      
+    font-weight: 600;     
+    fill: #212529;        /* Grigio scuro (Bootstrap text-dark) */
+    
+    /* Posizionamento */
+    text-anchor: middle;
+    dominant-baseline: central;
+    
+    /* IMPORTANTE: Disabilita l'interazione del mouse sul testo.
+       Permette al cursore di "attraversare" le lettere e attivare
+       l'evento hover sulla regione sottostante.
+    */
+    pointer-events: none; 
+    user-select: none; /* Impedisce la selezione del testo */
+}
+
+/* === Tooltip === */
+/* Aggiornato con il nuovo ID dell'HTML */
+#choropleth_map_chart_tooltip {
+    position: absolute;
+    display: none;        /* Nascosto di default, gestito da D3 */
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid #dee2e6;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #333;
+    
+    /* Ombra leggera per staccarlo dallo sfondo */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    /* Assicura che il tooltip stia sopra tutto */
+    z-index: 1000;
+    pointer-events: none; /* Il mouse non deve incastrarsi nel tooltip */
+    min-width: 120px;
+    text-align: center;
+}
+
+/* === Legenda === */
+/* Aggiornato con il nuovo ID dell'HTML */
+#choropleth_map_chart_legend {
+    margin-top: 10px;
+    font-family: sans-serif;
+    width: 100%;
+}

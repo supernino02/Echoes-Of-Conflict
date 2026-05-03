@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "features": [
+      {
+        "key": "success",
+        "label": "Success Rate"
+      },
+      {
+        "key": "nkill",
+        "label": "Avg Killed"
+      },
+      {
+        "key": "propvalue",
+        "label": "Avg Damage ($)"
+      },
+      {
+        "key": "nwound",
+        "label": "Avg Wounded"
+      }
+    ],
+    "global_max_values": {
+      "success_rate": 1,
+      "avg_kills": 4,
+      "avg_wounded": 5,
+      "avg_damage": 300000
+    },
+    "global_average": {
+      "success_rate": 0.879,
+      "avg_kills": 2.026,
+      "avg_wounded": 2.925,
+      "avg_damage": 183931
+    }
+  },
+  "data": [
+    {
+      "attack_type": "Bombing/Explosion",
+      "metrics": {
+        "success_rate": 0.868,
+        "avg_kills": 1.7136,
+        "avg_wounded": 4.363,
+        "avg_damage": 271926
+      }
+    },
+    {
+      "attack_type": "Armed Assault",
+      "metrics": {
+        "success_rate": 0.932,
+        "avg_kills": 3.467,
+        "avg_wounded": 2.014,
+        "avg_damage": 20450
+      }
+    },
+    {
+      "attack_type": "Assassination",
+      "metrics": {
+        "success_rate": 0.733,
+        "avg_kills": 1.288,
+        "avg_wounded": 0.804,
+        "avg_damage": 1299
+      }
+    },
+    {
+      "attack_type": "Hostage Taking (Kidnapping)",
+      "metrics": {
+        "success_rate": 0.97,
+        "avg_kills": 1.994,
+        "avg_wounded": 0.893,
+        "avg_damage": 6493
+      }
+    },
+    {
+      "attack_type": "Facility/Infrastructure Attack",
+      "metrics": {
+        "success_rate": 0.945,
+        "avg_kills": 0.291,
+        "avg_wounded": 0.355,
+        "avg_damage": 108469
+      }
+    }
+  ]
+}

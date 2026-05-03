@@ -1,0 +1,110 @@
+[
+  {
+    "region_txt": "Australasia & Oceania",
+    "Chemical": 3.4013605442176873,
+    "Explosives": 26.87074829931973,
+    "Firearms": 25.850340136054424,
+    "Incendiary": 39.1156462585034,
+    "Melee": 4.081632653061225,
+    "Other": 0.6802721088435374
+  },
+  {
+    "region_txt": "Central America & Caribbean",
+    "Chemical": 0.021324234993069624,
+    "Explosives": 33.67096705405694,
+    "Firearms": 60.838042435227635,
+    "Incendiary": 4.680669580978782,
+    "Melee": 0.6930376372747628,
+    "Other": 0.09595905746881331
+  },
+  {
+    "region_txt": "Central Asia",
+    "Chemical": 0.37453183520599254,
+    "Explosives": 48.12734082397004,
+    "Firearms": 44.19475655430712,
+    "Incendiary": 3.5580524344569286,
+    "Melee": 3.1835205992509366,
+    "Other": 0.5617977528089888
+  },
+  {
+    "region_txt": "East Asia",
+    "Chemical": 2.247191011235955,
+    "Explosives": 42.69662921348314,
+    "Firearms": 5.2434456928838955,
+    "Incendiary": 34.45692883895131,
+    "Melee": 11.610486891385769,
+    "Other": 3.7453183520599254
+  },
+  {
+    "region_txt": "Eastern Europe",
+    "Chemical": 0.2982107355864811,
+    "Explosives": 62.80318091451292,
+    "Firearms": 29.681908548707753,
+    "Incendiary": 4.671968190854871,
+    "Melee": 2.2266401590457257,
+    "Other": 0.31809145129224653
+  },
+  {
+    "region_txt": "Middle East & North Africa",
+    "Chemical": 0.15583927900863687,
+    "Explosives": 68.92790086368757,
+    "Firearms": 25.433721366879457,
+    "Incendiary": 2.641757416447615,
+    "Melee": 2.5516334960570783,
+    "Other": 0.2891475779196395
+  },
+  {
+    "region_txt": "North America",
+    "Chemical": 0.8632317237658483,
+    "Explosives": 43.1885621796601,
+    "Firearms": 22.36309684380901,
+    "Incendiary": 27.866199082816294,
+    "Melee": 3.0213110331804693,
+    "Other": 2.6975991367682766
+  },
+  {
+    "region_txt": "South America",
+    "Chemical": 0.14699231117141565,
+    "Explosives": 53.35255540479421,
+    "Firearms": 38.79466304839439,
+    "Incendiary": 6.722071460877431,
+    "Melee": 0.8028041610131162,
+    "Other": 0.18091361374943465
+  },
+  {
+    "region_txt": "South Asia",
+    "Chemical": 0.18385390844488514,
+    "Explosives": 54.94752933399438,
+    "Firearms": 36.6158486200628,
+    "Incendiary": 5.687076516278301,
+    "Melee": 2.3570484217484715,
+    "Other": 0.20864319947116178
+  },
+  {
+    "region_txt": "Southeast Asia",
+    "Chemical": 0.08088235294117647,
+    "Explosives": 41.81617647058823,
+    "Firearms": 49.80147058823529,
+    "Incendiary": 6.8088235294117645,
+    "Melee": 1.301470588235294,
+    "Other": 0.1911764705882353
+  },
+  {
+    "region_txt": "Sub-Saharan Africa",
+    "Chemical": 0.06400472650288021,
+    "Explosives": 37.551080695189796,
+    "Firearms": 52.36571316035645,
+    "Incendiary": 6.508788341292895,
+    "Melee": 3.2987051351484413,
+    "Other": 0.21170794150952685
+  },
+  {
+    "region_txt": "Western Europe",
+    "Chemical": 0.2789400278940028,
+    "Explosives": 53.47159056455036,
+    "Firearms": 22.582014432114487,
+    "Incendiary": 20.73252076890425,
+    "Melee": 2.468012855496938,
+    "Other": 0.4669213510399612
+  }
+]

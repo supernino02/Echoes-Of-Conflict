@@ -1,0 +1,83 @@
+/* Wrapper & SVG responsive */
+#proportional_symbol_map_container .chart-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#proportional_symbol_map_container svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Tooltip */
+#proportional_symbol_map_tooltip {
+  position: absolute;
+  padding: 8px 10px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #111827;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 9999;
+  transition: opacity 0.12s ease-in-out;
+}
+
+/* Bubbles */
+#proportional_symbol_map_container .bubble {
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out, r 0.3s ease-out;
+}
+
+#proportional_symbol_map_container .bubble.dimmed_t,
+#proportional_symbol_map_container .bubble.dimmed_l {
+  opacity: 0.2;
+}
+/* Legend */
+#proportional_symbol_map_legend .legend-item {
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+#proportional_symbol_map_legend .legend-item.active {
+  font-weight: 600;
+  transform: translateY(-1px);
+}
+
+/* Layout per SVG + size legend affiancati */
+#proportional_symbol_map_svg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap; /* così su schermi stretti la legend va sotto */
+}
+
+/* L'SVG della mappa occupa lo spazio principale */
+#proportional_symbol_map_svg > svg {
+  flex: 1 1 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contenitore della size legend (affianco alla mappa) */
+#proportional_symbol_map_svg .size-legend-wrapper {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Su schermi piccoli la legend va sotto il plot */
+@media (max-width: 768px) {
+  #proportional_symbol_map_svg {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Effetto dim sulle bolle */
+#proportional_symbol_map_container .bubble.dimmed_t,
+#proportional_symbol_map_container .bubble.dimmed_l {
+  opacity: 0.25;
+}
