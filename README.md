@@ -1,6 +1,6 @@
 # BUGBusters: Visualizing Conflict and Human Suffering through Data
 
-This repository contains the interactive data visualization project developed for the Data Visualization course at the University of Genoa. 
+**BUGBusters** is a student team from the University of Genoa, composed of Isabella Tagliafico, Luca Ninivaggi, and Flavio Barrara Stefani. This repository contains our interactive data visualization project developed for the university's Data Visualization course. 
 
 The website aims to raise awareness and provide intuitive insights into the **Global Terrorism Database (GTD)**. By using complex visual storytelling over a rich dataset of historical terrorist attacks, the goal is to make the raw data accessible, understandable, and deeply impactful. It uncovers trends regarding terrorist groups, targets, and methods used in attacks worldwide.
 
