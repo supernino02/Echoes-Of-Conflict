@@ -18,8 +18,6 @@ By clicking on specific category instances—either directly on the globe or wit
 
 ### Interface Overview
 
-*(Note: Rename your image files in the `readme_images` folder to match these links!)*
-
 **1. Base Navigation and Timeline**
 ![Main Globe Interface](./readme_images/base_globe_interface.png)
 
