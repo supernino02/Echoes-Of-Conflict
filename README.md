@@ -9,3 +9,25 @@ Both versions of the interactive single-page application are hosted on GitHub Pa
 - **[Preliminary Desktop Version](https://supernino02.github.io/Echoes-Of-Conflict/old_website.html)**: An earlier version of the project, designed natively for larger monitors, featuring a slightly different layout.
 
 See the dedicated READMEs inside the `website/` and `old_website/` directories for more technical details regarding directory structure, data pre-processing, and implementation specifics.
+
+## How to Explore the Data
+
+The interface features an interactive 3D globe that offers different visual perspectives based on the chosen category (Groups, Attacks, or Targets) from the bottom navigation bar. An interactive timeline slider allows users to watch how these global conflict trends evolve over time. 
+
+By clicking on specific category instances—either directly on the globe or within the auxiliary plots below it—users can open a detailed, data-driven modal containing in-depth explanations and specialized charts for that specific entity.
+
+### Interface Overview
+
+*(Note: Rename your image files in the `readme_images` folder to match these links!)*
+
+**1. Base Navigation and Timeline**
+![Main Globe Interface](./readme_images/base_globe_interface.png)
+
+**2. Visualizing Specific Categories (e.g., Terrorist Groups)**
+![Groups Distribution View](./readme_images/groups_distribution_view.png)
+
+**3. Tracking Trends Over Time (e.g., Attack Types)**
+![Attacks Choropleth View](./readme_images/attacks_choropleth_view.png)
+
+**4. In-Depth Detailed Explanations**
+![Detailed In-Depth Modal](./readme_images/detailed_explanation_modal.png)
